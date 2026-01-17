@@ -1,0 +1,3604 @@
+{
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "rawHeader": "1st Week (01.09.25/ 05.09.2025)",
+      "days": [
+        {
+          "day": "Monday",
+          "date": "2025-09-01",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-16:00",
+              "day": "Monday",
+              "date": "2025-09-01",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "White Coat Ceremony – Beyaz Önlük Giyme Töreni",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-09-02",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Tuesday",
+              "date": "2025-09-02",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Relationship between patients and doctors: “On being a doctor”",
+                  "instructor": "Ali Serdar FAK",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-09-02",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "History taking",
+                  "instructor": "Zekaver ODABAŞI",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-09-02",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Patient File Preparation",
+                  "instructor": "Gökhan TAZEGÜL",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Tuesday",
+              "date": "2025-09-02",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to the patient with cardiac signs and symptoms",
+                  "instructor": "Bülent MUTLU",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Tuesday",
+              "date": "2025-09-02",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to the patient with cardiac signs and symptoms",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-09-02",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Examination of the head and neck",
+                  "instructor": "Asu Fergün YILMAZ",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-09-03",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Wednesday",
+              "date": "2025-09-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to the patient with pulmonary symptoms and signs",
+                  "instructor": "Şehnaz OLGUN YILDIZELİ (Caner ÇINAR)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Wednesday",
+              "date": "2025-09-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Examination of the chest and respiratory system",
+                  "instructor": "Şehnaz OLGUN YILDIZELİ (Caner ÇINAR)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Wednesday",
+              "date": "2025-09-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Examination of the extremities and musculoskeletal system",
+                  "instructor": "Haner DİRESKENELİ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Wednesday",
+              "date": "2025-09-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Examination of the abdomen",
+                  "instructor": "Osman ÖZDOĞAN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Wednesday",
+              "date": "2025-09-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Examination of the cardiovascular system and measurement of blood pressure",
+                  "instructor": "Altuğ ÇİNÇİN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-09-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Examination of the cardiovascular system and measurement of blood pressure",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-09-04",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:00-09:30",
+              "day": "Thursday",
+              "date": "2025-09-04",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Tour of wards, departments",
+                  "instructor": "Büşra CAN",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "09:30-12:30",
+              "day": "Thursday",
+              "date": "2025-09-04",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Ali Serdar FAK",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:00",
+              "day": "Thursday",
+              "date": "2025-09-04",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Tour of wards, departments",
+                  "instructor": "Büşra CAN",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-17:00",
+              "day": "Thursday",
+              "date": "2025-09-04",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Hakkı ARIKAN",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-09-05",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Friday",
+              "date": "2025-09-05",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Dilek Gogas YAVUZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-17:00",
+              "day": "Friday",
+              "date": "2025-09-05",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Şehnaz OLGUN YILDIZELİ",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 2,
+      "rawHeader": "2nd Week  (08.09.25 / 12.09.25)",
+      "days": [
+        {
+          "day": "Monday",
+          "date": "2025-09-08",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Monday",
+              "date": "2025-09-08",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Asu Fergün YILMAZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Monday",
+              "date": "2025-09-08",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Asu Fergün YILMAZ",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-09-09",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Tuesday",
+              "date": "2025-09-09",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Bülent MUTLU",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-09-09",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Bülent MUTLU",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-09-10",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-09-10",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Özlen ATUĞ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-09-10",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Özlen ATUĞ",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-09-11",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Thursday",
+              "date": "2025-09-11",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Haner DİRESKENELİ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Thursday",
+              "date": "2025-09-11",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Haner DİRESKENELİ",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-09-12",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Friday",
+              "date": "2025-09-12",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Berrin CEYHAN",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-17:00",
+              "day": "Friday",
+              "date": "2025-09-12",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bed-side",
+                  "instructor": "Berrin CEYHAN",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 3,
+      "rawHeader": "3rd Week (15.09.25/19.09.2025)",
+      "days": [
+        {
+          "day": "Monday",
+          "date": "2025-09-15",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Monday",
+              "date": "2025-09-15",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with cardiometabolic risk factors",
+                  "instructor": "Ahmet Anıl ŞAHİN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Monday",
+              "date": "2025-09-15",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with chronic chest pain",
+                  "instructor": "Halil ATAŞ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-09-15",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with chronic chest pain",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Monday",
+              "date": "2025-09-15",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with acute chest pain",
+                  "instructor": "Halil ATAŞ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Monday",
+              "date": "2025-09-15",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with acute chest pain",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Monday",
+              "date": "2025-09-15",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with pericardial disease",
+                  "instructor": "Altuğ ÇİNÇİN",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-09-16",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-09-16",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with heart failure",
+                  "instructor": "Nurten SAYAR",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-09-16",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and counseling session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-09-17",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-09-17",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "",
+                  "instructor": "Bülent MUTLU",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-09-17",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "",
+                  "instructor": "Beste ÖZBEN",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-09-18",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Thursday",
+              "date": "2025-09-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with tachyarrhythmias and bradyarrhythmias",
+                  "instructor": "Emre GÜREL",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Thursday",
+              "date": "2025-09-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with tachyarrhythmias and bradyarrhythmias",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Thursday",
+              "date": "2025-09-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with presyncope/syncope",
+                  "instructor": "Emre GÜREL",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Thursday",
+              "date": "2025-09-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with valvular heart diseases",
+                  "instructor": "Nurten SAYAR",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Thursday",
+              "date": "2025-09-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with valvular heart diseases",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Thursday",
+              "date": "2025-09-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with valvular heart diseases",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-09-19",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-12:00",
+              "day": "Friday",
+              "date": "2025-09-19",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Multidisciplinary learning session",
+                  "instructor": "Ahmet Anıl ŞAHİN, Cardiology",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:00-15:00",
+              "day": "Friday",
+              "date": "2025-09-19",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Multidisciplinary learning session",
+                  "instructor": "Beste ÖZBEN SADIÇ, Cardiology",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:00-16:00",
+              "day": "Friday",
+              "date": "2025-09-19",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "ENDOCARDITIS",
+                  "instructor": "Buket ERTÜRK ŞENGEL, Infectious Diseases",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "16:00-17:00",
+              "day": "Friday",
+              "date": "2025-09-19",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "",
+                  "instructor": "Koray AK (Elif  DEMİRBAŞI), Cardiovascular Surgery",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 4,
+      "rawHeader": "4th Week (22.09.25/26.09.2025)",
+      "days": [
+        {
+          "day": "Monday",
+          "date": "2025-09-22",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Monday",
+              "date": "2025-09-22",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to the patients with Congenital Heart Dis. in Adulthood",
+                  "instructor": "Emre GÜREL",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Monday",
+              "date": "2025-09-22",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Pulmonary Hypertension",
+                  "instructor": "Halil ATAŞ (Cardiology)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-09-22",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Pulmonary Hypertension",
+                  "instructor": "Derya KOCAKAYA (Chest Medicine)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Monday",
+              "date": "2025-09-22",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with systemic diseases affecting the heart",
+                  "instructor": "Beste ÖZBEN SADIÇ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Monday",
+              "date": "2025-09-22",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with systemic diseases affecting the heart",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Monday",
+              "date": "2025-09-22",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-09-23",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Tuesday",
+              "date": "2025-09-23",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to patients with cardiac emergencies",
+                  "instructor": "Beste ÖZBEN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-09-23",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to patients with cardiac emergencies",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-09-23",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-09-23",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and counseling session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-09-24",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-09-24",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "GROUP 2B",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-09-24",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "GROUP 2A",
+                  "instructor": "Bülent MUTLU",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-09-25",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Thursday",
+              "date": "2025-09-25",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "GROUP 2A",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Thursday",
+              "date": "2025-09-25",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "",
+                  "instructor": "Halil ATAŞ",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-09-26",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Friday",
+              "date": "2025-09-26",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Patient File Discussion",
+                  "instructor": "Ali Serdar FAK",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-17:00",
+              "day": "Friday",
+              "date": "2025-09-26",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Patient File Discussion",
+                  "instructor": "Nazım DEMİRCAN",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 5,
+      "rawHeader": "5th Week (29.09.25/03.10.2025)",
+      "days": [
+        {
+          "day": "Monday",
+          "date": "2025-09-29",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Monday",
+              "date": "2025-09-29",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Water and Electrolyte Disorders",
+                  "instructor": "Ebru AŞICIOĞLU",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Monday",
+              "date": "2025-09-29",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Water and Electrolyte Disorders",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-09-29",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Acid-Base Disorders",
+                  "instructor": "Hakkı ARIKAN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Monday",
+              "date": "2025-09-29",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Chronic Kidney Failure",
+                  "instructor": "Mehmet KOÇ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Monday",
+              "date": "2025-09-29",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Chronic Kidney Failure",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Monday",
+              "date": "2025-09-29",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Glomerulonephritis",
+                  "instructor": "Arzu VELİOĞLU",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "16:30-17:30",
+              "day": "Monday",
+              "date": "2025-09-29",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Glomerulonephritis",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-09-30",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Tuesday",
+              "date": "2025-09-30",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Acute Kidney Injury",
+                  "instructor": "Serhan TUĞLULAR",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-09-30",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Acute Kidney Injury",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-09-30",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-09-30",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and counseling session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-10-01",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Wednesday",
+              "date": "2025-10-01",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Mehmet KOÇ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-10-01",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Diagnostic procedures",
+                  "instructor": "Mehmet KOÇ, Nephrology",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-15:30",
+              "day": "Wednesday",
+              "date": "2025-10-01",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Serhan TUĞLULAR",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-10-01",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-10-02",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Thursday",
+              "date": "2025-10-02",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Serhan TUĞLULAR",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Thursday",
+              "date": "2025-10-02",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "On the job Learning Session",
+                  "instructor": "Hülya KARADAĞ (PD)",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-15:30",
+              "day": "Thursday",
+              "date": "2025-10-02",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "",
+                  "instructor": "Serhan TUĞLULAR",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Thursday",
+              "date": "2025-10-02",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "On the job Learning Session",
+                  "instructor": "Hülya KARADAĞ (PD)",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-10-03",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Friday",
+              "date": "2025-10-03",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial /Bedside",
+                  "instructor": "Serhan TUĞLULAR",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Friday",
+              "date": "2025-10-03",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Multidisciplinary learning session",
+                  "instructor": "Serhan TUĞLULAR, Nephrology",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:00",
+              "day": "Friday",
+              "date": "2025-10-03",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial /Bedside",
+                  "instructor": "Serhan TUĞLULAR",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "16:00-17:00",
+              "day": "Friday",
+              "date": "2025-10-03",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 6,
+      "rawHeader": "6th Week (06.10.25/10.10.2025)",
+      "days": [
+        {
+          "day": "Monday",
+          "date": "2025-10-06",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Monday",
+              "date": "2025-10-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Acute diarrhea and food poisoning",
+                  "instructor": "Uluhan SİLİ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Monday",
+              "date": "2025-10-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Acute diarrhea and food poisoning",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-10-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Intestinal/Blood and Tissue Parasites",
+                  "instructor": "Dilek YAĞCI ÇAĞLAYIK",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Monday",
+              "date": "2025-10-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Sepsis",
+                  "instructor": "Lütfiye MÜLAZIMOĞLU",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Monday",
+              "date": "2025-10-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "FUO",
+                  "instructor": "Zekaver ODABAŞI",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Monday",
+              "date": "2025-10-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Upper Respiratory Tract Infections and COVID-19",
+                  "instructor": "Lütfiye MÜLAZIMOĞLU",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-10-07",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Tuesday",
+              "date": "2025-10-07",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Sexually Transmitted Diseases",
+                  "instructor": "Lütfiye MÜLAZIMOĞLU",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-10-07",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to adult dysphagia-surgical evaluation and treatment",
+                  "instructor": "Tunç LAÇİN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-10-07",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to adult dysphagia-surgical evaluation and treatment",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-10-07",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and counseling session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-10-08",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Wednesday",
+              "date": "2025-10-08",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Enteric fever and brucellosis",
+                  "instructor": "Elif T. TİGEN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Wednesday",
+              "date": "2025-10-08",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Urinary Tract Infections",
+                  "instructor": "Elif T. TİGEN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Wednesday",
+              "date": "2025-10-08",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Meningitis-Meningoencefalitis",
+                  "instructor": "Dilek YAĞCI ÇAĞLAYIK",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Wednesday",
+              "date": "2025-10-08",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to and management of diabetic patients",
+                  "instructor": "Özlem ÜSTAY",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Wednesday",
+              "date": "2025-10-08",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Treatment choices for diabetic patients - Oral anti-diabetics",
+                  "instructor": "Özlem ÜSTAY",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-10-08",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Diabetic emergencies",
+                  "instructor": "Özlem ÜSTAY",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-10-09",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Thursday",
+              "date": "2025-10-09",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Pituitary disorders",
+                  "instructor": "Özlem ÜSTAY",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Thursday",
+              "date": "2025-10-09",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to thyroid nodules",
+                  "instructor": "Hülya GÖZÜ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Thursday",
+              "date": "2025-10-09",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Hypothyroidism",
+                  "instructor": "Hülya GÖZÜ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Thursday",
+              "date": "2025-10-09",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Hyperthyroidism",
+                  "instructor": "Eren İMRE",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-16:30",
+              "day": "Thursday",
+              "date": "2025-10-09",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Diagnostic procedures",
+                  "instructor": "Eren İMRE",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-10-10",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Friday",
+              "date": "2025-10-10",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Dilek GOGAS YAVUZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Friday",
+              "date": "2025-10-10",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:00",
+              "day": "Friday",
+              "date": "2025-10-10",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Dilek GOGAS YAVUZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "16:00-17:00",
+              "day": "Friday",
+              "date": "2025-10-10",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "date": "2025-10-13",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-11:00",
+              "day": "Monday",
+              "date": "2025-10-13",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "On-the-job learning and assessment session",
+                  "instructor": "Dilek Gogas YAVUZ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-10-13",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Management of Diabetes and Thyroid Disorders in Pregnancy",
+                  "instructor": "Dilek Gogas YAVUZ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Monday",
+              "date": "2025-10-13",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Multidisciplinary learning session",
+                  "instructor": "Burcu ATEŞ, Dietitian",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-10-14",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Tuesday",
+              "date": "2025-10-14",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-10-14",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Differential diagnosis of metabolic bone diseases",
+                  "instructor": "Dilek GOGAS YAVUZ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-10-14",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Differential diagnosis of metabolic bone diseases",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Tuesday",
+              "date": "2025-10-14",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and Counseling Session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-10-15",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-10-15",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bedside – Outpatient Case Discussion",
+                  "instructor": "Ali Serdar FAK",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-10-15",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Bedside – Outpatient Case Discussion",
+                  "instructor": "Ali Serdar FAK",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-10-16",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-12:00",
+              "day": "Thursday",
+              "date": "2025-10-16",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Thursday",
+              "date": "2025-10-16",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Endocrine Emergencies",
+                  "instructor": "Hülya GÖZÜ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Thursday",
+              "date": "2025-10-16",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Endocrine Emergencies",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Thursday",
+              "date": "2025-10-16",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-10-17",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:00-11:00",
+              "day": "Friday",
+              "date": "2025-10-17",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Group 2B",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Friday",
+              "date": "2025-10-17",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:00",
+              "day": "Friday",
+              "date": "2025-10-17",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Group 2A",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "16:00-17:00",
+              "day": "Friday",
+              "date": "2025-10-17",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "date": "2025-10-20",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Monday",
+              "date": "2025-10-20",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Introduction to oncology and general principles",
+                  "instructor": "Nazım DEMİRCAN (Osman KÖSTEK)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Monday",
+              "date": "2025-10-20",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Oncologic emergencies",
+                  "instructor": "Ezgi ÇOBAN (Murat SARI)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-10-20",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Vasculitis",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Monday",
+              "date": "2025-10-20",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Vasculitis",
+                  "instructor": "Fatma ALİBAZ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Monday",
+              "date": "2025-10-20",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Behçet‘s disease/ FMF",
+                  "instructor": "Haner DİRESKENELİ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Monday",
+              "date": "2025-10-20",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Behçet‘s disease/ FMF",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-10-21",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Tuesday",
+              "date": "2025-10-21",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "SLE/CTD",
+                  "instructor": "Haner DİRESKENELİ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-10-21",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "SLE/CTD",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-10-21",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Tuesday",
+              "date": "2025-10-21",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and Counseling Session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-10-22",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:00-10:30",
+              "day": "Wednesday",
+              "date": "2025-10-22",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "On-the-job learning and assessment Session",
+                  "instructor": "Oncology Outpatient Clinics",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "10:30-12:00",
+              "day": "Wednesday",
+              "date": "2025-10-22",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "On-the-job learning and assessment Session",
+                  "instructor": "Oncology Outpatient Clinics",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-10-22",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Multidisciplinary learning session (Panel)",
+                  "instructor": "Turgay ÇELİKEL (Caner ÇINAR), Chest Medicine",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-10-23",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Thursday",
+              "date": "2025-10-23",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial (Bedside)",
+                  "instructor": "Group 2A",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Thursday",
+              "date": "2025-10-23",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "",
+                  "instructor": "Fatma ALİBAZ",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-10-24",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Friday",
+              "date": "2025-10-24",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial (Bedside)",
+                  "instructor": "Group 2B",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-17:00",
+              "day": "Friday",
+              "date": "2025-10-24",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Fatma ALİBAZ (Haner DİRESKENELİ)",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "weekNumber": 9,
+      "rawHeader": "9th Week (27.10.2025 / 31.10.2025)",
+      "days": [
+        {
+          "day": "Monday",
+          "date": "2025-10-27",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Monday",
+              "date": "2025-10-27",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Patient file discussion",
+                  "instructor": "Özlen ATUĞ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Monday",
+              "date": "2025-10-27",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Patient file discussion",
+                  "instructor": "Murat TUĞCU",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-10-30",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Thursday",
+              "date": "2025-10-30",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Patient file discussion",
+                  "instructor": "Emre ÇAPAR",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Thursday",
+              "date": "2025-10-30",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Patient file discussion",
+                  "instructor": "Hülya GÖZÜ",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-10-31",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Friday",
+              "date": "2025-10-31",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Patient file discussion",
+                  "instructor": "Neşe İMERYÜZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:00",
+              "day": "Friday",
+              "date": "2025-10-31",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Patient file discussion",
+                  "instructor": "Ali Serdar FAK",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "date": "2025-11-03",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Monday",
+              "date": "2025-11-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Asthma",
+                  "instructor": "Zeynep MERCANCI (Caner ÇINAR)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Monday",
+              "date": "2025-11-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Interstitial Lung Disease",
+                  "instructor": "Emel ERYÜKSEL (Derya KOCAKAYA)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-11-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Management of Tbc",
+                  "instructor": "Emel ERYÜKSEL (Derya KOCAKAYA)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Monday",
+              "date": "2025-11-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Chest Radiology",
+                  "instructor": "Turgay ÇELİKEL (Şehnaz Olgun YILDIZELİ)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Monday",
+              "date": "2025-11-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "COPD",
+                  "instructor": "Turgay ÇELİKEL (Şehnaz Olgun YILDIZELİ)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Monday",
+              "date": "2025-11-03",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Pulmonary embolism",
+                  "instructor": "Umut Sabri KASAPOĞLU (Derya KOCAKAYA)",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-11-04",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-11-04",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Diagnostic procedures",
+                  "instructor": "Turgay ÇELİKEL (Şehnaz Olgun YILDIZELİ), Chest Medicine",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-11-04",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-11-04",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and counseling session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-11-05",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Wednesday",
+              "date": "2025-11-05",
+              "location": "Pendik",
+              "groups": {
+                "2B": {
+                  "topic": "",
+                  "instructor": "Group 2B",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-11-05",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-15:30",
+              "day": "Wednesday",
+              "date": "2025-11-05",
+              "location": "Pendik",
+              "groups": {
+                "2A": {
+                  "topic": "",
+                  "instructor": "Group 2A",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-11-05",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-11-06",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Thursday",
+              "date": "2025-11-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Pneumonia",
+                  "instructor": "Erdem YALÇINKAYA (Sait KARAKURT)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Thursday",
+              "date": "2025-11-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Respiratory Failure",
+                  "instructor": "Hüseyin ARIKAN (Erdem YALÇINKAYA)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Thursday",
+              "date": "2025-11-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Management of Pleural effusion",
+                  "instructor": "Berrin CEYHAN (Hüseyin ARIKAN)",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-15:30",
+              "day": "Thursday",
+              "date": "2025-11-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Diagnostic procedures",
+                  "instructor": "Chest Medicine",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Thursday",
+              "date": "2025-11-06",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Reflection session/Chest Medicine",
+                  "instructor": "Sait KARAKURT (Şehnaz OLGUN YILDIZELİ)",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-11-07",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Friday",
+              "date": "2025-11-07",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/Bedside",
+                  "instructor": "Erdem YALÇINKAYA",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Friday",
+              "date": "2025-11-07",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preperation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:00",
+              "day": "Friday",
+              "date": "2025-11-07",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "",
+                  "instructor": "Zeynep MERCANCI",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "16:00-17:00",
+              "day": "Friday",
+              "date": "2025-11-07",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "date": "2025-11-10",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Monday",
+              "date": "2025-11-10",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to jaundice",
+                  "instructor": "Coşkun Özer DEMİRTAŞ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Monday",
+              "date": "2025-11-10",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Gastrointestinal hemorrhage",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-11-10",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Dyspepsia and peptic ulcer",
+                  "instructor": "Yeşim ALAHDAB",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Monday",
+              "date": "2025-11-10",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Abdominal pain and constipation",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Monday",
+              "date": "2025-11-10",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Chronic diarrhea",
+                  "instructor": "Haluk Tarık KANİ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Monday",
+              "date": "2025-11-10",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Chronic diarrhea",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-11-11",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Tuesday",
+              "date": "2025-11-11",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Chronic hepatitis",
+                  "instructor": "Osman ÖZDOĞAN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-11-11",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Complications of cirrhosis",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-11-11",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-11-11",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and counseling session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-11-12",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Wednesday",
+              "date": "2025-11-12",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Diagnostic procedures",
+                  "instructor": "Önder ŞİRİKÇİ, Biochemistry",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-11-12",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-15:00",
+              "day": "Wednesday",
+              "date": "2025-11-12",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Multidisciplinary learning session",
+                  "instructor": "Osman ÖZDOĞAN, Gastroenterology",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:00-16:30",
+              "day": "Wednesday",
+              "date": "2025-11-12",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Multidisciplinary learning session",
+                  "instructor": "Tarık KANİ, Gastroenterology",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-11-13",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Thursday",
+              "date": "2025-11-13",
+              "location": "Pendik",
+              "groups": {
+                "2A": {
+                  "topic": "",
+                  "instructor": "Group 2A",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Thursday",
+              "date": "2025-11-13",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-15:30",
+              "day": "Thursday",
+              "date": "2025-11-13",
+              "location": "Pendik",
+              "groups": {
+                "2B": {
+                  "topic": "",
+                  "instructor": "Group 2B",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Thursday",
+              "date": "2025-11-13",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-11-14",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Friday",
+              "date": "2025-11-14",
+              "location": "Pendik",
+              "groups": {
+                "2B": {
+                  "topic": "",
+                  "instructor": "Group 2B",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Friday",
+              "date": "2025-11-14",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:00",
+              "day": "Friday",
+              "date": "2025-11-14",
+              "location": "Pendik",
+              "groups": {
+                "2A": {
+                  "topic": "",
+                  "instructor": "Group 2A",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "16:00-17:00",
+              "day": "Friday",
+              "date": "2025-11-14",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "date": "2025-11-17",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Monday",
+              "date": "2025-11-17",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to the Patient with Anemia",
+                  "instructor": "Tayfur TOPTAŞ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Monday",
+              "date": "2025-11-17",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to the Patient with Lymphadenopathy (LAP)",
+                  "instructor": "Fergün YILMAZ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Monday",
+              "date": "2025-11-17",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Management of Bleeding Disorders",
+                  "instructor": "Tayfur TOPTAŞ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-14:30",
+              "day": "Monday",
+              "date": "2025-11-17",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Management of Bleeding Disorders",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:30-15:30",
+              "day": "Monday",
+              "date": "2025-11-17",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to the patient with pancytopenia",
+                  "instructor": "Işık ATAGÜNDÜZ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "15:30-16:30",
+              "day": "Monday",
+              "date": "2025-11-17",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to pts with thrombocytosis and polycythemia",
+                  "instructor": "Işık ATAGÜNDÜZ",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-11-18",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:00-10:00",
+              "day": "Tuesday",
+              "date": "2025-11-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Approach to the Patient with Splenomegaly",
+                  "instructor": "Fergün YILMAZ",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "10:00-11:00",
+              "day": "Tuesday",
+              "date": "2025-11-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Transfusion: Indication, complication and practice",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "11:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-11-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Transfusion: Indication, complication and practice",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-11-18",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and counseling session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-11-19",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Wednesday",
+              "date": "2025-11-19",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/ Bedside",
+                  "instructor": "Işık ATAGÜNDÜZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-11-19",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:00",
+              "day": "Wednesday",
+              "date": "2025-11-19",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/ Bedside",
+                  "instructor": "Işık ATAGÜNDÜZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "16:00-17:00",
+              "day": "Wednesday",
+              "date": "2025-11-19",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-11-20",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Thursday",
+              "date": "2025-11-20",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial (Bedside)",
+                  "instructor": "Işık ATAGÜNDÜZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "11:30-12:30",
+              "day": "Thursday",
+              "date": "2025-11-20",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:00",
+              "day": "Thursday",
+              "date": "2025-11-20",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Clinical Tutorial/ Bedside",
+                  "instructor": "Işık ATAGÜNDÜZ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "16:00-17:00",
+              "day": "Thursday",
+              "date": "2025-11-20",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time for patient file preparation",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-11-21",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-11:30",
+              "day": "Friday",
+              "date": "2025-11-21",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Diagnostic procedures",
+                  "instructor": "Tayfur TOPTAŞ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-16:30",
+              "day": "Friday",
+              "date": "2025-11-21",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "date": "2025-11-24",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Monday",
+              "date": "2025-11-24",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Inpatient case discussion and interactive differential diagnosis",
+                  "instructor": "Halil ATAŞ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Monday",
+              "date": "2025-11-24",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Inpatient case discussion and interactive differential diagnosis",
+                  "instructor": "Yeşim ALAHDAB",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-11-25",
+          "location": "Başıbüyük",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Tuesday",
+              "date": "2025-11-25",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Free study time",
+                  "instructor": "",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Tuesday",
+              "date": "2025-11-25",
+              "location": "Başıbüyük",
+              "groups": {
+                "all": {
+                  "topic": "Professionalism and counseling session",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-11-26",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Wednesday",
+              "date": "2025-11-26",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Inpatient case discussion and interactive differential diagnosis",
+                  "instructor": "Uluhan SİLİ",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Wednesday",
+              "date": "2025-11-26",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Inpatient case discussion and interactive differential diagnosis",
+                  "instructor": "Murat TUĞCU",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-11-27",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Thursday",
+              "date": "2025-11-27",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Inpatient case discussion and interactive differential diagnosis",
+                  "instructor": "Dilek YAĞCI ÇAĞLAYIK",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "13:30-16:30",
+              "day": "Thursday",
+              "date": "2025-11-27",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Inpatient case discussion and interactive differential diagnosis",
+                  "instructor": "Lütfiye MÜLAZIMOĞLU",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-11-28",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:30-12:30",
+              "day": "Friday",
+              "date": "2025-11-28",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Inpatient case discussion and interactive differential diagnosis",
+                  "instructor": "Elif TİGEN",
+                  "courseType": "practice"
+                }
+              }
+            },
+            {
+              "time": "14:00-17:00",
+              "day": "Friday",
+              "date": "2025-11-28",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Inpatient case discussion and interactive differential diagnosis",
+                  "instructor": "Aida SHİKHALİYEVA",
+                  "courseType": "practice"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Monday",
+          "date": "2025-12-01",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:00-12:00",
+              "day": "Monday",
+              "date": "2025-12-01",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "ASSESSMENT",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-17:00",
+              "day": "Monday",
+              "date": "2025-12-01",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "date": "2025-12-02",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:00-12:00",
+              "day": "Tuesday",
+              "date": "2025-12-02",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "PROGRAM EVALUATION",
+                  "instructor": "Mustafa ERDOĞAN, Büşra CAN",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-17:00",
+              "day": "Tuesday",
+              "date": "2025-12-02",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "Free study time",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Wednesday",
+          "date": "2025-12-03",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:00-12:00",
+              "day": "Wednesday",
+              "date": "2025-12-03",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "ASSESSMENT",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-17:00",
+              "day": "Wednesday",
+              "date": "2025-12-03",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "ASSESSMENT",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Thursday",
+          "date": "2025-12-04",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:00-12:00",
+              "day": "Thursday",
+              "date": "2025-12-04",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "ASSESSMENT",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "13:30-17:00",
+              "day": "Thursday",
+              "date": "2025-12-04",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "ASSESSMENT",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "day": "Friday",
+          "date": "2025-12-05",
+          "location": "Pendik",
+          "sessions": [
+            {
+              "time": "09:00-12:00",
+              "day": "Friday",
+              "date": "2025-12-05",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "ASSESSMENT",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            },
+            {
+              "time": "14:00-17:00",
+              "day": "Friday",
+              "date": "2025-12-05",
+              "location": "Pendik",
+              "groups": {
+                "all": {
+                  "topic": "ASSESSMENT",
+                  "instructor": "",
+                  "courseType": "lecture"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sourceFile": "group2_v3_29agu25.xlsx"
+}

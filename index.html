@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Schedule - Marmara University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- SheetJS for Excel import -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <div class="logo-text">
+                    <h1>Course Schedule</h1>
+                    <span class="subtitle">Marmara University School of Medicine - Term 4</span>
+                </div>
+            </div>
+            <div class="header-actions">
+                <!-- Admin only buttons -->
+                <button id="settingsBtn" class="btn btn-secondary admin-only">
+                    <span class="btn-icon">⚙️</span> Settings
+                </button>
+                <button id="blockManagerBtn" class="btn btn-secondary admin-only">
+                    <span class="btn-icon">📦</span> Block Manager
+                </button>
+                <button id="validateBtn" class="btn btn-validate admin-only">
+                    <span class="btn-icon">✓</span> Validate
+                </button>
+                <!-- Public buttons -->
+                <button id="exportPdfBtn" class="btn btn-export">
+                    <span class="btn-icon">📄</span> Export PDF
+                </button>
+                <button id="instructorViewBtn" class="btn btn-secondary">
+                    <span class="btn-icon">👤</span> My Schedule
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- Admin Mode Indicator -->
+        <div id="adminBanner" class="admin-banner admin-only">
+            <span>🔐 Admin Mode</span>
+            <div class="admin-actions">
+                <button id="importDataBtn" class="btn btn-sm btn-primary">📊 Import Excel</button>
+                <button id="exportDataBtn" class="btn btn-sm btn-secondary">💾 Export Data</button>
+            </div>
+        </div>
+
+        <!-- Alerts Panel -->
+        <div id="alertsPanel" class="alerts-panel hidden">
+            <div class="alerts-header">
+                <span class="alerts-icon">⚠️</span>
+                <h3>Notifications</h3>
+                <button id="closeAlerts" class="close-btn">×</button>
+            </div>
+            <div id="alertsList" class="alerts-list"></div>
+        </div>
+
+        <!-- Settings Info Bar (Admin) -->
+        <div class="settings-bar admin-only">
+            <div class="settings-info">
+                <span class="settings-label">Semester Start:</span>
+                <span id="startDateDisplay" class="settings-value">-</span>
+            </div>
+            <div class="settings-info">
+                <span class="settings-label">Total Weeks:</span>
+                <span id="totalWeeksDisplay" class="settings-value">14</span>
+            </div>
+            <button id="changeStartDate" class="btn btn-sm btn-primary">Change Date</button>
+        </div>
+
+        <!-- Block Panel (Admin - Draggable) -->
+        <div class="block-panel admin-only">
+            <div class="block-panel-header">
+                <h3>📦 Block Order (Drag to Reorder)</h3>
+                <span class="block-help">Reordering blocks reassigns session dates</span>
+            </div>
+            <div id="blockList" class="block-list sortable"></div>
+        </div>
+
+        <!-- Filters -->
+        <div class="filters-bar">
+            <div class="filter-group">
+                <label for="weekFilter">Week:</label>
+                <select id="weekFilter">
+                    <option value="all">All Weeks</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="blockFilter">Block:</label>
+                <select id="blockFilter">
+                    <option value="all">All</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="locationFilter">Location:</label>
+                <select id="locationFilter">
+                    <option value="all">All</option>
+                    <option value="Pendik">Pendik</option>
+                    <option value="Başıbüyük">Başıbüyük</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="instructorSearch">Instructor:</label>
+                <input type="text" id="instructorSearch" placeholder="Search name...">
+            </div>
+            <button id="clearFilters" class="btn btn-sm btn-secondary">Clear</button>
+        </div>
+
+        <!-- Schedule Container -->
+        <div id="scheduleContainer" class="schedule-container"></div>
+
+        <!-- Instructor View Container -->
+        <div id="instructorViewContainer" class="instructor-view-container hidden">
+            <div class="instructor-view-header">
+                <h2>Instructor Schedule</h2>
+                <button id="closeInstructorView" class="btn btn-secondary">← Back</button>
+            </div>
+            <input type="text" id="instructorViewSearch" placeholder="Enter your name..."
+                class="instructor-view-search">
+            <div id="instructorScheduleList" class="instructor-schedule-list"></div>
+        </div>
+    </main>
+
+    <!-- Settings Modal (Admin) -->
+    <div id="settingsModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Schedule Settings</h3>
+                <button class="close-btn" onclick="closeSettingsModal()">×</button>
+            </div>
+            <form id="settingsForm">
+                <div class="form-group">
+                    <label for="semesterStartDate">Week 1 Start Date (Monday):</label>
+                    <input type="date" id="semesterStartDate" required>
+                </div>
+                <div class="form-group">
+                    <label for="totalWeeksInput">Total Weeks:</label>
+                    <input type="number" id="totalWeeksInput" value="14" min="1" max="20">
+                </div>
+                <p class="form-help">Changing the start date recalculates all session dates.</p>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeSettingsModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Block Manager Modal (Admin) -->
+    <div id="blockManagerModal" class="modal hidden">
+        <div class="modal-content modal-xl">
+            <div class="modal-header">
+                <h3>📦 Block Content Manager</h3>
+                <button class="close-btn" onclick="closeBlockManager()">×</button>
+            </div>
+            <div class="block-manager-body">
+                <div class="block-manager-sidebar">
+                    <h4>Blocks</h4>
+                    <div id="blockManagerList" class="block-manager-list"></div>
+                    <button class="btn btn-sm btn-primary" onclick="addNewBlock()">+ Add Block</button>
+                </div>
+                <div class="block-manager-content">
+                    <div id="blockContentHeader" class="block-content-header">
+                        <h4>Select a block to view sessions</h4>
+                    </div>
+                    <div id="blockSessionsList" class="block-sessions-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Session Modal (Admin) -->
+    <div id="editModal" class="modal hidden">
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h3>Edit Session</h3>
+                <button class="close-btn" onclick="closeModal()">×</button>
+            </div>
+            <form id="editForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="editTime">Time:</label>
+                        <select id="editTime" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="editType">Type:</label>
+                        <select id="editType">
+                            <option value="lecture">Theoretical</option>
+                            <option value="practice">Practical</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Lecture/Subject:</label>
+                    <div class="multi-select-container">
+                        <div id="selectedCourse" class="selected-item-display"></div>
+                        <input type="text" id="courseSearchInput" placeholder="Type to search courses..."
+                            class="search-input">
+                        <div id="courseDropdown" class="dropdown-list hidden"></div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Lecturers:</label>
+                    <div class="multi-select-container">
+                        <div id="selectedInstructors" class="selected-instructors"></div>
+                        <input type="text" id="instructorSearchInput" placeholder="Type to search instructors..."
+                            class="search-input">
+                        <div id="instructorDropdown" class="dropdown-list hidden"></div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="editLocation">Location:</label>
+                        <select id="editLocation">
+                            <option value="Pendik">Pendik</option>
+                            <option value="Başıbüyük">Başıbüyük</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="editSubgroup">Subgroup:</label>
+                        <select id="editSubgroup">
+                            <option value="all">All Groups</option>
+                            <option value="A">Group A</option>
+                            <option value="B">Group B</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn btn-danger" onclick="deleteSession()">Delete</button>
+                    <div style="flex:1"></div>
+                    <button type="button" class="btn btn-secondary" onclick="closeModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Session Modal (Admin) -->
+    <div id="addSessionModal" class="modal hidden">
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h3>Add New Session</h3>
+                <button class="close-btn" onclick="closeAddModal()">×</button>
+            </div>
+            <form id="addSessionForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="addBlock">Block:</label>
+                        <select id="addBlock" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="addDayOfWeek">Day:</label>
+                        <select id="addDayOfWeek" required>
+                            <option value="0">Monday</option>
+                            <option value="1">Tuesday</option>
+                            <option value="2">Wednesday</option>
+                            <option value="3">Thursday</option>
+                            <option value="4">Friday</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="addTime">Time:</label>
+                        <select id="addTime" required></select>
+                    </div>
+                    <div class="form-group">
+                        <label for="addLocation">Location:</label>
+                        <select id="addLocation">
+                            <option value="Pendik">Pendik</option>
+                            <option value="Başıbüyük">Başıbüyük</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Lecture/Subject:</label>
+                    <div class="multi-select-container">
+                        <div id="addSelectedCourse" class="selected-item-display"></div>
+                        <input type="text" id="addCourseSearchInput" placeholder="Type to search courses..."
+                            class="search-input">
+                        <div id="addCourseDropdown" class="dropdown-list hidden"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Lecturers:</label>
+                    <div class="multi-select-container">
+                        <div id="addSelectedInstructors" class="selected-instructors"></div>
+                        <input type="text" id="addInstructorSearchInput" placeholder="Type to search instructors..."
+                            class="search-input">
+                        <div id="addInstructorDropdown" class="dropdown-list hidden"></div>
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-secondary" onclick="closeAddModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Add</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Import Modal (Admin) -->
+    <div id="importModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>📊 Import Data from Excel</h3>
+                <button class="close-btn" onclick="closeImportModal()">×</button>
+            </div>
+            <div class="import-tabs">
+                <button class="tab-btn active" data-tab="instructors">Instructors</button>
+                <button class="tab-btn" data-tab="courses">Courses</button>
+            </div>
+            <div id="importInstructorsTab" class="import-tab-content">
+                <div class="form-group" style="padding: 1rem;">
+                    <label>Excel Format for Instructors:</label>
+                    <div class="format-example">
+                        <table class="example-table">
+                            <tr>
+                                <th>Name</th>
+                                <th>Title</th>
+                                <th>Department</th>
+                            </tr>
+                            <tr>
+                                <td>Ali Vefa</td>
+                                <td>Prof. Dr.</td>
+                                <td>Cardiology</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <input type="file" id="instructorFileInput" accept=".xlsx,.xls" class="file-input">
+                </div>
+            </div>
+            <div id="importCoursesTab" class="import-tab-content hidden">
+                <div class="form-group" style="padding: 1rem;">
+                    <label>Excel Format for Courses:</label>
+                    <div class="format-example">
+                        <table class="example-table">
+                            <tr>
+                                <th>Name</th>
+                                <th>Block</th>
+                            </tr>
+                            <tr>
+                                <td>Heart Failure</td>
+                                <td>kardiyo_1</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <input type="file" id="courseFileInput" accept=".xlsx,.xls" class="file-input">
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeImportModal()">Cancel</button>
+                <button type="button" class="btn btn-primary" onclick="processImport()">Import</button>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p>Last Updated: <span id="lastUpdate"></span></p>
+        </div>
+        <div class="footer-right admin-only">
+            <button id="addSessionBtn" class="btn btn-primary">+ Add Session</button>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,3323 @@
+{
+  "sessions": [
+    {
+      "id": "s0001",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-16:00",
+      "courseId": "c001",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0002",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-10:00",
+      "courseId": "c002",
+      "instructorIds": [
+        "ali_serdar_fak"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0003",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "10:00-11:00",
+      "courseId": "c003",
+      "instructorIds": [
+        "zekaver_odabasi"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0004",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c004",
+      "instructorIds": [
+        "gokhan_tazegul"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0005",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-14:30",
+      "courseId": "c005",
+      "instructorIds": [
+        "bulent_mutlu"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0006",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "14:30-15:30",
+      "courseId": "c005",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0007",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "15:30-16:30",
+      "courseId": "c006",
+      "instructorIds": [
+        "asu_fergun_yilmaz"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0008",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:00-10:00",
+      "courseId": "c007",
+      "instructorIds": [
+        "sehnaz_olgun_yildizeli"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0009",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "10:00-11:00",
+      "courseId": "c008",
+      "instructorIds": [
+        "sehnaz_olgun_yildizeli"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0010",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "11:00-12:00",
+      "courseId": "c009",
+      "instructorIds": [
+        "rafi_haner_direskeneli"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0011",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-14:30",
+      "courseId": "c010",
+      "instructorIds": [
+        "Osman ÖZDOĞAN"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0012",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "14:30-15:30",
+      "courseId": "c011",
+      "instructorIds": [
+        "altug_cincin"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0013",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "15:30-16:30",
+      "courseId": "c011",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0014",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:00-09:30",
+      "courseId": "c012",
+      "instructorIds": [
+        "busra_can"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0015",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-12:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "ali_serdar_fak"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0016",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-14:00",
+      "courseId": "c012",
+      "instructorIds": [
+        "busra_can"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0017",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "14:00-17:00",
+      "courseId": "c013",
+      "instructorIds": [
+        "i_hakki_arikan"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0018",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-12:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "Dilek Gogas YAVUZ"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0019",
+      "blockId": "semiyoloji_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-17:00",
+      "courseId": "c013",
+      "instructorIds": [
+        "sehnaz_olgun_yildizeli"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0020",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:30-12:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "asu_fergun_yilmaz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0021",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-16:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "asu_fergun_yilmaz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0022",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:30-12:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "bulent_mutlu"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0023",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "bulent_mutlu"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0024",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-12:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "ozlen_atug"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0025",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-16:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "ozlen_atug"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0026",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-12:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "rafi_haner_direskeneli"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0027",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-16:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "rafi_haner_direskeneli"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0028",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-12:30",
+      "courseId": "c013",
+      "instructorIds": [
+        "berrin_ceyhan"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0029",
+      "blockId": "semiyoloji_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-17:00",
+      "courseId": "c013",
+      "instructorIds": [
+        "berrin_ceyhan"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0030",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-10:00",
+      "courseId": "c014",
+      "instructorIds": [
+        "Ahmet Anıl ŞAHİN"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0031",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "10:00-11:00",
+      "courseId": "c015",
+      "instructorIds": [
+        "halil_atas"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0032",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c015",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0033",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-14:30",
+      "courseId": "c016",
+      "instructorIds": [
+        "halil_atas"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0034",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "14:30-15:30",
+      "courseId": "c016",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0035",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "15:30-16:30",
+      "courseId": "c017",
+      "instructorIds": [
+        "altug_cincin"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0036",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-12:00",
+      "courseId": "c018",
+      "instructorIds": [
+        "nurten_sayar"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0037",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0038",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-12:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "bulent_mutlu"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0039",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-16:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "beste_ozben"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0040",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:00-10:00",
+      "courseId": "c021",
+      "instructorIds": [
+        "emre_gurel"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0041",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "10:00-11:00",
+      "courseId": "c021",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0042",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "11:00-12:00",
+      "courseId": "c022",
+      "instructorIds": [
+        "emre_gurel"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0043",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-14:30",
+      "courseId": "c023",
+      "instructorIds": [
+        "nurten_sayar"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0044",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "14:30-15:30",
+      "courseId": "c023",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0045",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "15:30-16:30",
+      "courseId": "c023",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0046",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:00-12:00",
+      "courseId": "c024",
+      "instructorIds": [
+        "Ahmet Anıl ŞAHİN, Cardiology"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0047",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-15:00",
+      "courseId": "c024",
+      "instructorIds": [
+        "beste_ozben"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0048",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "15:00-16:00",
+      "courseId": "c025",
+      "instructorIds": [
+        "buket_erturk_sengel"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0049",
+      "blockId": "kardiyo_1",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "16:00-17:00",
+      "courseId": "c020",
+      "instructorIds": [
+        "Koray AK (Elif  DEMİRBAŞI), Ca"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0050",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-10:00",
+      "courseId": "c026",
+      "instructorIds": [
+        "emre_gurel"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0051",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "10:00-11:00",
+      "courseId": "c027",
+      "instructorIds": [
+        "halil_atas"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0052",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c027",
+      "instructorIds": [
+        "derya_kocakaya"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0053",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-14:30",
+      "courseId": "c028",
+      "instructorIds": [
+        "beste_ozben"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0054",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "14:30-15:30",
+      "courseId": "c028",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0055",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "15:30-16:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0056",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-10:00",
+      "courseId": "c030",
+      "instructorIds": [
+        "beste_ozben"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0057",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "10:00-11:00",
+      "courseId": "c030",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0058",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0059",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0060",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-12:30",
+      "courseId": "c031",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0061",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-16:30",
+      "courseId": "c032",
+      "instructorIds": [
+        "bulent_mutlu"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0062",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-12:30",
+      "courseId": "c032",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0063",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-16:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "halil_atas"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0064",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-12:30",
+      "courseId": "c033",
+      "instructorIds": [
+        "ali_serdar_fak"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0065",
+      "blockId": "kardiyo_2",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-17:00",
+      "courseId": "c033",
+      "instructorIds": [
+        "nazim_demircan"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0066",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-10:00",
+      "courseId": "c034",
+      "instructorIds": [
+        "ebru_asicioglu"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0067",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "10:00-11:00",
+      "courseId": "c034",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0068",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c035",
+      "instructorIds": [
+        "i_hakki_arikan"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0069",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-14:30",
+      "courseId": "c036",
+      "instructorIds": [
+        "mehmet_koc"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0070",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "14:30-15:30",
+      "courseId": "c036",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0071",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "15:30-16:30",
+      "courseId": "c037",
+      "instructorIds": [
+        "arzu_velioglu"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0072",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "16:30-17:30",
+      "courseId": "c037",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0073",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-10:00",
+      "courseId": "c038",
+      "instructorIds": [
+        "zubeyde_serhan_tuglular"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0074",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "10:00-11:00",
+      "courseId": "c038",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0075",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0076",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0077",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-11:30",
+      "courseId": "c039",
+      "instructorIds": [
+        "mehmet_koc"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0078",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "11:30-12:30",
+      "courseId": "c040",
+      "instructorIds": [
+        "mehmet_koc"
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0079",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-15:30",
+      "courseId": "c039",
+      "instructorIds": [
+        "zubeyde_serhan_tuglular"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0080",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "15:30-16:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0081",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-11:30",
+      "courseId": "c039",
+      "instructorIds": [
+        "zubeyde_serhan_tuglular"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0082",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "11:30-12:30",
+      "courseId": "c041",
+      "instructorIds": [
+        "hulya_karadag"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0083",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-15:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "zubeyde_serhan_tuglular"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0084",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "15:30-16:30",
+      "courseId": "c041",
+      "instructorIds": [
+        "hulya_karadag"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0085",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-11:30",
+      "courseId": "c042",
+      "instructorIds": [
+        "zubeyde_serhan_tuglular"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0086",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "11:30-12:30",
+      "courseId": "c024",
+      "instructorIds": [
+        "zubeyde_serhan_tuglular"
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0087",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-16:00",
+      "courseId": "c042",
+      "instructorIds": [
+        "zubeyde_serhan_tuglular"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0088",
+      "blockId": "gogus",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "16:00-17:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0089",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-10:00",
+      "courseId": "c043",
+      "instructorIds": [
+        "uluhan_sili"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0090",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "10:00-11:00",
+      "courseId": "c043",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0091",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c044",
+      "instructorIds": [
+        "dilek_yagci_caglayik"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0092",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-14:30",
+      "courseId": "c045",
+      "instructorIds": [
+        "lutfiye_mulazimoglu"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0093",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "14:30-15:30",
+      "courseId": "c046",
+      "instructorIds": [
+        "zekaver_odabasi"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0094",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "15:30-16:30",
+      "courseId": "c047",
+      "instructorIds": [
+        "lutfiye_mulazimoglu"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0095",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-10:00",
+      "courseId": "c048",
+      "instructorIds": [
+        "lutfiye_mulazimoglu"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0096",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "10:00-11:00",
+      "courseId": "c049",
+      "instructorIds": [
+        "Tunç LAÇİN"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0097",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c049",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0098",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0099",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:00-10:00",
+      "courseId": "c050",
+      "instructorIds": [
+        "Elif T. TİGEN"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0100",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "10:00-11:00",
+      "courseId": "c051",
+      "instructorIds": [
+        "Elif T. TİGEN"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0101",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "11:00-12:00",
+      "courseId": "c052",
+      "instructorIds": [
+        "dilek_yagci_caglayik"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0102",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-14:30",
+      "courseId": "c053",
+      "instructorIds": [
+        "ozlem_ustay"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0103",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "14:30-15:30",
+      "courseId": "c054",
+      "instructorIds": [
+        "ozlem_ustay"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0104",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "15:30-16:30",
+      "courseId": "c055",
+      "instructorIds": [
+        "ozlem_ustay"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0105",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:00-10:00",
+      "courseId": "c056",
+      "instructorIds": [
+        "ozlem_ustay"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0106",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "10:00-11:00",
+      "courseId": "c057",
+      "instructorIds": [
+        "Hülya GÖZÜ"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0107",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "11:00-12:00",
+      "courseId": "c058",
+      "instructorIds": [
+        "Hülya GÖZÜ"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0108",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-14:30",
+      "courseId": "c059",
+      "instructorIds": [
+        "eren_imre"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0109",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "14:30-16:30",
+      "courseId": "c040",
+      "instructorIds": [
+        "eren_imre"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0110",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-11:30",
+      "courseId": "c039",
+      "instructorIds": [
+        "Dilek GOGAS YAVUZ"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0111",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "11:30-12:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0112",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-16:00",
+      "courseId": "c039",
+      "instructorIds": [
+        "Dilek GOGAS YAVUZ"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0113",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "16:00-17:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0114",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-11:00",
+      "courseId": "c060",
+      "instructorIds": [
+        "Dilek Gogas YAVUZ"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0115",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c061",
+      "instructorIds": [
+        "Dilek Gogas YAVUZ"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0116",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-16:30",
+      "courseId": "c024",
+      "instructorIds": [
+        "Burcu ATEŞ, Dietitian"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0117",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-10:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0118",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "10:00-11:00",
+      "courseId": "c062",
+      "instructorIds": [
+        "Dilek GOGAS YAVUZ"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0119",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c062",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0120",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-14:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0121",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-12:30",
+      "courseId": "c063",
+      "instructorIds": [
+        "ali_serdar_fak"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0122",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-16:30",
+      "courseId": "c063",
+      "instructorIds": [
+        "ali_serdar_fak"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0123",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:00-12:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0124",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-14:30",
+      "courseId": "c064",
+      "instructorIds": [
+        "Hülya GÖZÜ"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0125",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "14:30-15:30",
+      "courseId": "c064",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0126",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "15:30-16:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0127",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:00-11:00",
+      "courseId": "c039",
+      "instructorIds": [
+        "Group 2B"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0128",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "11:00-12:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0129",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-16:00",
+      "courseId": "c039",
+      "instructorIds": [
+        "Group 2A"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0130",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "16:00-17:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0131",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-10:00",
+      "courseId": "c065",
+      "instructorIds": [
+        "osman_kostek"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0132",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "10:00-11:00",
+      "courseId": "c066",
+      "instructorIds": [
+        "murat_sari"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0133",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c067",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0134",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-14:30",
+      "courseId": "c067",
+      "instructorIds": [
+        "fatma_alibaz"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0135",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "14:30-15:30",
+      "courseId": "c068",
+      "instructorIds": [
+        "rafi_haner_direskeneli"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0136",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "15:30-16:30",
+      "courseId": "c068",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0137",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-10:00",
+      "courseId": "c069",
+      "instructorIds": [
+        "rafi_haner_direskeneli"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0138",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "10:00-11:00",
+      "courseId": "c069",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0139",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0140",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-14:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0141",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:00-10:30",
+      "courseId": "c060",
+      "instructorIds": [
+        "Oncology Outpatient Clinics"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0142",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "10:30-12:00",
+      "courseId": "c060",
+      "instructorIds": [
+        "Oncology Outpatient Clinics"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0143",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-16:30",
+      "courseId": "c070",
+      "instructorIds": [
+        "turgay_celikel"
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0144",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-12:30",
+      "courseId": "c071",
+      "instructorIds": [
+        "Group 2A"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0145",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-16:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "fatma_alibaz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0146",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-12:30",
+      "courseId": "c071",
+      "instructorIds": [
+        "Group 2B"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0147",
+      "blockId": "gastro",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-17:00",
+      "courseId": "c039",
+      "instructorIds": [
+        "fatma_alibaz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0148",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:30-12:30",
+      "courseId": "c033",
+      "instructorIds": [
+        "ozlen_atug"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0149",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-16:30",
+      "courseId": "c033",
+      "instructorIds": [
+        "murat_tugcu"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0150",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-12:30",
+      "courseId": "c033",
+      "instructorIds": [
+        "emre_capar"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0151",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-16:30",
+      "courseId": "c033",
+      "instructorIds": [
+        "Hülya GÖZÜ"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0152",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-12:30",
+      "courseId": "c033",
+      "instructorIds": [
+        "nese_imeryuz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0153",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-16:00",
+      "courseId": "c033",
+      "instructorIds": [
+        "ali_serdar_fak"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0154",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-10:00",
+      "courseId": "c072",
+      "instructorIds": [
+        "caner_cinar"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0155",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "10:00-11:00",
+      "courseId": "c073",
+      "instructorIds": [
+        "emel_eryuksel"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0156",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c074",
+      "instructorIds": [
+        "emel_eryuksel"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0157",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-14:30",
+      "courseId": "c075",
+      "instructorIds": [
+        "sehnaz_olgun_yildizeli"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0158",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "14:30-15:30",
+      "courseId": "c076",
+      "instructorIds": [
+        "sehnaz_olgun_yildizeli"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0159",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "15:30-16:30",
+      "courseId": "c077",
+      "instructorIds": [
+        "derya_kocakaya"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0160",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-11:00",
+      "courseId": "c040",
+      "instructorIds": [
+        "sehnaz_olgun_yildizeli"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0161",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0162",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0163",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-11:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "Group 2B"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0164",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "11:30-12:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0165",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-15:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "Group 2A"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0166",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "15:30-16:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0167",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:00-10:00",
+      "courseId": "c078",
+      "instructorIds": [
+        "sait_karakurt"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0168",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "10:00-11:00",
+      "courseId": "c079",
+      "instructorIds": [
+        "erdem_yalcinkaya"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0169",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "11:00-12:00",
+      "courseId": "c080",
+      "instructorIds": [
+        "berrin_ceyhan"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0170",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-15:30",
+      "courseId": "c040",
+      "instructorIds": [
+        "Chest Medicine"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0171",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "15:30-16:30",
+      "courseId": "c081",
+      "instructorIds": [
+        "sait_karakurt"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0172",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-11:30",
+      "courseId": "c039",
+      "instructorIds": [
+        "erdem_yalcinkaya"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0173",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "11:30-12:30",
+      "courseId": "c082",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0174",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-16:00",
+      "courseId": "c020",
+      "instructorIds": [
+        "zeynep_mercanci"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0175",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "16:00-17:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0176",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-10:00",
+      "courseId": "c083",
+      "instructorIds": [
+        "coskun_ozer_demirtas"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0177",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "10:00-11:00",
+      "courseId": "c084",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0178",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c085",
+      "instructorIds": [
+        "yesim_alahdab"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0179",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-14:30",
+      "courseId": "c086",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0180",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "14:30-15:30",
+      "courseId": "c087",
+      "instructorIds": [
+        "haluk_tarik_kani"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0181",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "15:30-16:30",
+      "courseId": "c087",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0182",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-10:00",
+      "courseId": "c088",
+      "instructorIds": [
+        "Osman ÖZDOĞAN"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0183",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "10:00-11:00",
+      "courseId": "c089",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0184",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0185",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0186",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-11:30",
+      "courseId": "c040",
+      "instructorIds": [
+        "Önder ŞİRİKÇİ, Biochemistry"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0187",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "11:30-12:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0188",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-15:00",
+      "courseId": "c024",
+      "instructorIds": [
+        "Osman ÖZDOĞAN, Gastroenterolog"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0189",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "15:00-16:30",
+      "courseId": "c024",
+      "instructorIds": [
+        "haluk_tarik_kani"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0190",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-11:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "Group 2A"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0191",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "11:30-12:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0192",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-15:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "Group 2B"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0193",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "15:30-16:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0194",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-11:30",
+      "courseId": "c020",
+      "instructorIds": [
+        "Group 2B"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0195",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "11:30-12:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0196",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-16:00",
+      "courseId": "c020",
+      "instructorIds": [
+        "Group 2A"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0197",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "16:00-17:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0198",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-10:00",
+      "courseId": "c090",
+      "instructorIds": [
+        "tayfur_toptas"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0199",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "10:00-11:00",
+      "courseId": "c091",
+      "instructorIds": [
+        "asu_fergun_yilmaz"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0200",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "11:00-12:00",
+      "courseId": "c092",
+      "instructorIds": [
+        "tayfur_toptas"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0201",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-14:30",
+      "courseId": "c092",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0202",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "14:30-15:30",
+      "courseId": "c093",
+      "instructorIds": [
+        "isik_atagunduz"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0203",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "15:30-16:30",
+      "courseId": "c094",
+      "instructorIds": [
+        "isik_atagunduz"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0204",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-10:00",
+      "courseId": "c095",
+      "instructorIds": [
+        "asu_fergun_yilmaz"
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0205",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "10:00-11:00",
+      "courseId": "c096",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0206",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "11:00-12:00",
+      "courseId": "c096",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0207",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0208",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-11:30",
+      "courseId": "c097",
+      "instructorIds": [
+        "isik_atagunduz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0209",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "11:30-12:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0210",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "14:00-16:00",
+      "courseId": "c097",
+      "instructorIds": [
+        "isik_atagunduz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0211",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "16:00-17:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0212",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-11:30",
+      "courseId": "c071",
+      "instructorIds": [
+        "isik_atagunduz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0213",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "11:30-12:30",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0214",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "14:00-16:00",
+      "courseId": "c097",
+      "instructorIds": [
+        "isik_atagunduz"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0215",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "16:00-17:00",
+      "courseId": "c029",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0216",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-11:30",
+      "courseId": "c040",
+      "instructorIds": [
+        "tayfur_toptas"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0217",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-16:30",
+      "courseId": "c098",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0218",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:30-12:30",
+      "courseId": "c099",
+      "instructorIds": [
+        "halil_atas"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0219",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-16:30",
+      "courseId": "c099",
+      "instructorIds": [
+        "yesim_alahdab"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0220",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:30-12:30",
+      "courseId": "c098",
+      "instructorIds": [
+        ""
+      ],
+      "type": "practice",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0221",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-16:30",
+      "courseId": "c019",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Başıbüyük",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0222",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:30-12:30",
+      "courseId": "c099",
+      "instructorIds": [
+        "uluhan_sili"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0223",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-16:30",
+      "courseId": "c099",
+      "instructorIds": [
+        "murat_tugcu"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0224",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:30-12:30",
+      "courseId": "c099",
+      "instructorIds": [
+        "dilek_yagci_caglayik"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0225",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-16:30",
+      "courseId": "c099",
+      "instructorIds": [
+        "lutfiye_mulazimoglu"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0226",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:30-12:30",
+      "courseId": "c099",
+      "instructorIds": [
+        "elif_tigen"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0227",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-17:00",
+      "courseId": "c099",
+      "instructorIds": [
+        "aida_shikhaliyeva"
+      ],
+      "type": "practice",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0228",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "09:00-12:00",
+      "courseId": "c100",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0229",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 0,
+      "time": "13:30-17:00",
+      "courseId": "c098",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0230",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "09:00-12:00",
+      "courseId": "c101",
+      "instructorIds": [
+        "mustafa_erdogan",
+        "busra_can"
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0231",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 1,
+      "time": "13:30-17:00",
+      "courseId": "c098",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0232",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "09:00-12:00",
+      "courseId": "c100",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0233",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 2,
+      "time": "13:30-17:00",
+      "courseId": "c100",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0234",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "09:00-12:00",
+      "courseId": "c100",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0235",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 3,
+      "time": "13:30-17:00",
+      "courseId": "c100",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0236",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "09:00-12:00",
+      "courseId": "c100",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    },
+    {
+      "id": "s0237",
+      "blockId": "enf_endokrin",
+      "weekOfBlock": 1,
+      "dayOfWeek": 4,
+      "time": "14:00-17:00",
+      "courseId": "c100",
+      "instructorIds": [
+        ""
+      ],
+      "type": "lecture",
+      "location": "Pendik",
+      "subgroup": "all"
+    }
+  ]
+}

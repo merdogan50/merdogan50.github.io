@@ -1,0 +1,36 @@
+{
+    "semester": "Term 4",
+    "academicYear": "2025-2026",
+    "startDate": "2025-09-01",
+    "totalWeeks": 14,
+    "weekDays": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+    ],
+    "locations": [
+        "Pendik",
+        "Başıbüyük"
+    ],
+    "sessionTimes": [
+        "08:30-09:30",
+        "09:00-10:00",
+        "09:30-10:30",
+        "10:00-11:00",
+        "10:30-11:30",
+        "11:00-12:00",
+        "13:00-14:00",
+        "13:30-14:30",
+        "14:00-15:00",
+        "14:30-15:30",
+        "15:00-16:00",
+        "15:30-16:30",
+        "16:00-17:00"
+    ],
+    "courseTypes": [
+        "lecture",
+        "practice"
+    ]
+}

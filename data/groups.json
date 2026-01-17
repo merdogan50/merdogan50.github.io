@@ -1,0 +1,44 @@
+{
+    "groups": [
+        {
+            "id": "group_3",
+            "name": "Group 3",
+            "subgroups": [
+                {
+                    "id": "3A",
+                    "name": "Group 3A"
+                },
+                {
+                    "id": "3B",
+                    "name": "Group 3B"
+                }
+            ]
+        },
+        {
+            "id": "group_4",
+            "name": "Group 4",
+            "subgroups": [
+                {
+                    "id": "4A",
+                    "name": "Group 4A"
+                },
+                {
+                    "id": "4B",
+                    "name": "Group 4B"
+                }
+            ]
+        }
+    ],
+    "sharedWeeks": [
+        1,
+        2
+    ],
+    "parallelGroups": [
+        [
+            "group_3",
+            "group_4"
+        ]
+    ],
+    "academicYear": "2025-2026",
+    "semester": "Dönem 4"
+}

@@ -1,0 +1,662 @@
+{
+  "instructors": [
+    {
+      "id": "ali_serdar_fak",
+      "name": "Ali Serdar FAK",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "alper_kepez",
+      "name": "Alper KEPEZ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "altug_cincin",
+      "name": "Altuğ ÇİNÇİN",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "arzu_velioglu",
+      "name": "Arzu VELİOĞLU",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "asli_tufan_cincin",
+      "name": "Aslı TUFAN ÇİNÇİN",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "berrin_ceyhan",
+      "name": "Berrin CEYHAN",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "beste_ozben",
+      "name": "Beste ÖZBEN",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "bulent_mutlu",
+      "name": "Bülent MUTLU",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "dilek_yavuz",
+      "name": "Dilek YAVUZ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "ebru_asicioglu",
+      "name": "Ebru AŞICIOĞLU",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "elif_tigen",
+      "name": "Elif TİGEN",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "emel_eryuksel",
+      "name": "Emel ERYÜKSEL",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "emre_gurel",
+      "name": "Emre GÜREL",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "fatma_alibaz",
+      "name": "Fatma ALİBAZ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "guzide_nevsun_inanc",
+      "name": "Güzide Nevsun İNANÇ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "halil_atas",
+      "name": "Halil ATAŞ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "hulya_iliksu_gozu",
+      "name": "Hülya ILIKSU GÖZÜ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "isik_atagunduz",
+      "name": "Işık ATAGÜNDÜZ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "i_hakki_arikan",
+      "name": "İ. Hakkı ARIKAN",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "ibrahim_vedat_bayoglu",
+      "name": "İbrahim Vedat BAYOĞLU",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "lutfiye_mulazimoglu",
+      "name": "Lütfiye MÜLAZIMOĞLU",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "mehmet_koc",
+      "name": "Mehmet KOÇ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "nese_imeryuz",
+      "name": "Neşe İMERYÜZ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "nurten_sayar",
+      "name": "Nurten SAYAR",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "osman_cavit_ozdogan",
+      "name": "Osman Cavit ÖZDOĞAN",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "ozlem_ustay",
+      "name": "Özlem ÜSTAY",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "ozlen_atug",
+      "name": "Özlen ATUĞ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "pamir_atagunduz",
+      "name": "Pamir ATAGÜNDÜZ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "rafi_haner_direskeneli",
+      "name": "Rafi Haner DİRESKENELİ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "sait_karakurt",
+      "name": "Sait KARAKURT",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "sehnaz_olgun_yildizeli",
+      "name": "Şehnaz OLGUN YILDIZELİ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "tayfur_toptas",
+      "name": "Tayfur TOPTAŞ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "turgay_celikel",
+      "name": "Turgay ÇELİKEL",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "uluhan_sili",
+      "name": "Uluhan SİLİ",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "yesim_alahdab",
+      "name": "Yeşim ALAHDAB",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "zekaver_odabasi",
+      "name": "Zekaver ODABAŞI",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "zubeyde_serhan_tuglular",
+      "name": "Zübeyde Serhan TUĞLULAR",
+      "title": "Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "asu_fergun_yilmaz",
+      "name": "Asu Fergün YILMAZ",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "buket_erturk_sengel",
+      "name": "Buket ERTÜRK ŞENGEL",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "coskun_ozer_demirtas",
+      "name": "Coşkun Özer DEMİRTAŞ",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "derya_kocakaya",
+      "name": "Derya KOCAKAYA",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "dilek_barutcu_atas",
+      "name": "Dilek BARUTÇU ATAŞ",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "dilek_yagci_caglayik",
+      "name": "Dilek YAĞCI ÇAĞLAYIK",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "eren_imre",
+      "name": "Eren İMRE",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "gokhan_tazegul",
+      "name": "Gökhan TAZEGÜL",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "haluk_tarik_kani",
+      "name": "Haluk Tarık KANİ",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "murat_sari",
+      "name": "Murat SARI",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "murat_tugcu",
+      "name": "Murat TUĞCU",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "mustafa_erdogan",
+      "name": "Mustafa ERDOĞAN",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "osman_kostek",
+      "name": "Osman KÖSTEK",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "umut_sabri_kasapoglu",
+      "name": "Umut Sabri KASAPOĞLU",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "zekeriya_dogan",
+      "name": "Zekeriya DOĞAN",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "nazim_demircan",
+      "name": "Nazım DEMİRCAN",
+      "title": "Assoc. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "busra_can",
+      "name": "Büşra CAN",
+      "title": "Assist. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "caner_cinar",
+      "name": "Caner ÇINAR",
+      "title": "Assist. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "erdem_yalcinkaya",
+      "name": "Erdem YALÇINKAYA",
+      "title": "Assist. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "ezgi_coban",
+      "name": "Ezgi ÇOBAN",
+      "title": "Assist. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "huseyin_arikan",
+      "name": "Hüseyin ARIKAN",
+      "title": "Assist. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "zeynep_mercanci",
+      "name": "Zeynep MERCANCI",
+      "title": "Assist. Prof. Dr.",
+      "department": null,
+      "unavailable": []
+    },
+    {
+      "id": "abdussamet_celebi",
+      "name": "Abdüssamet ÇELEBİ",
+      "title": "Dr.",
+      "department": "Medical Oncology",
+      "unavailable": []
+    },
+    {
+      "id": "abidin_gundogdu",
+      "name": "Abidin GÜNDOĞDU",
+      "title": "Dr.",
+      "department": "Internal Medicine",
+      "unavailable": []
+    },
+    {
+      "id": "aida_shikhaliyeva",
+      "name": "Aida SHİKHALİYEVA",
+      "title": "Dr.",
+      "department": "Rheumatology",
+      "unavailable": []
+    },
+    {
+      "id": "akin_isik",
+      "name": "Akın IŞIK",
+      "title": "Dr.",
+      "department": "Rheumatology",
+      "unavailable": []
+    },
+    {
+      "id": "ali_kaan_guren",
+      "name": "Ali Kaan GÜREN",
+      "title": "Dr.",
+      "department": "Medical Oncology",
+      "unavailable": []
+    },
+    {
+      "id": "arda_bayar",
+      "name": "Arda BAYAR",
+      "title": "Dr.",
+      "department": "Hematology",
+      "unavailable": []
+    },
+    {
+      "id": "asli_karatas",
+      "name": "Aslı KARATAŞ",
+      "title": "Dr.",
+      "department": "Endocrinology",
+      "unavailable": []
+    },
+    {
+      "id": "ayhan_kol",
+      "name": "Ayhan KOL",
+      "title": "Dr.",
+      "department": "Cardiology",
+      "unavailable": []
+    },
+    {
+      "id": "aysegul_avcu",
+      "name": "Ayşegül AVCU",
+      "title": "Dr.",
+      "department": "Rheumatology",
+      "unavailable": []
+    },
+    {
+      "id": "bilge_ada_ozcan",
+      "name": "Bilge Ada ÖZCAN",
+      "title": "Dr.",
+      "department": "Internal Medicine",
+      "unavailable": []
+    },
+    {
+      "id": "burak_pacaci",
+      "name": "Burak PAÇACI",
+      "title": "Dr.",
+      "department": "Medical Oncology",
+      "unavailable": []
+    },
+    {
+      "id": "bulent_demirelli",
+      "name": "Bülent DEMİRELLİ",
+      "title": "Dr.",
+      "department": "Nephrology",
+      "unavailable": []
+    },
+    {
+      "id": "cansu_uzunkonak",
+      "name": "Cansu UZUNKONAK",
+      "title": "Dr.",
+      "department": "Nephrology",
+      "unavailable": []
+    },
+    {
+      "id": "cansu_yildiz",
+      "name": "Cansu YILDIZ",
+      "title": "Dr.",
+      "department": "Pulmonary Medicine",
+      "unavailable": []
+    },
+    {
+      "id": "ceren_uzunoglu_guren",
+      "name": "Ceren UZUNOĞLU GÜREN",
+      "title": "Dr.",
+      "department": "Hematology",
+      "unavailable": []
+    },
+    {
+      "id": "emre_capar",
+      "name": "Emre ÇAPAR",
+      "title": "Dr.",
+      "department": "Internal Medicine",
+      "unavailable": []
+    },
+    {
+      "id": "erkam_kocaaslan",
+      "name": "Erkam KOCAASLAN",
+      "title": "Dr.",
+      "department": "Medical Oncology",
+      "unavailable": []
+    },
+    {
+      "id": "esra_dicle_kaya",
+      "name": "Esra Dicle KAYA",
+      "title": "Dr.",
+      "department": "Geriatrics",
+      "unavailable": []
+    },
+    {
+      "id": "fadime_yilmaz",
+      "name": "Fadime YILMAZ",
+      "title": "Dr.",
+      "department": "Internal Medicine",
+      "unavailable": []
+    },
+    {
+      "id": "fatma_arikan",
+      "name": "Fatma ARIKAN",
+      "title": "Dr.",
+      "department": "Hematology",
+      "unavailable": []
+    },
+    {
+      "id": "fatma_temiz",
+      "name": "Fatma TEMİZ",
+      "title": "Dr.",
+      "department": "Hematology",
+      "unavailable": []
+    },
+    {
+      "id": "harun_coban",
+      "name": "Harun ÇOBAN",
+      "title": "Dr.",
+      "department": "Nephrology",
+      "unavailable": []
+    },
+    {
+      "id": "hazal_salva",
+      "name": "Hazal ŞALVA",
+      "title": "Dr.",
+      "department": "Endocrinology",
+      "unavailable": []
+    },
+    {
+      "id": "hulya_karadag",
+      "name": "Hülya KARADAĞ",
+      "title": "Dr.",
+      "department": "Nephrology",
+      "unavailable": []
+    },
+    {
+      "id": "murat_demirci",
+      "name": "Murat DEMİRCİ",
+      "title": "Dr.",
+      "department": "Cardiology",
+      "unavailable": []
+    },
+    {
+      "id": "mustafa_alperen_tunc",
+      "name": "Mustafa Alperen TUNÇ",
+      "title": "Dr.",
+      "department": "Medical Oncology",
+      "unavailable": []
+    },
+    {
+      "id": "pinar_erel",
+      "name": "Pınar EREL",
+      "title": "Dr.",
+      "department": "Medical Oncology",
+      "unavailable": []
+    },
+    {
+      "id": "rana_berru_ozince",
+      "name": "Rana Berru ÖZİNCE",
+      "title": "Dr.",
+      "department": "Hematology",
+      "unavailable": []
+    },
+    {
+      "id": "semih_ozerol",
+      "name": "Semih ÖZEROL",
+      "title": "Dr.",
+      "department": "Hematology",
+      "unavailable": []
+    },
+    {
+      "id": "sibel_zarali",
+      "name": "Sibel ZARALI",
+      "title": "Dr.",
+      "department": "Rheumatology",
+      "unavailable": []
+    },
+    {
+      "id": "yasin_yildiz",
+      "name": "Yasin YILDIZ",
+      "title": "Dr.",
+      "department": "Geriatrics",
+      "unavailable": []
+    },
+    {
+      "id": "yagmur_goksoy_solak",
+      "name": "Yağmur Göksoy SOLAK",
+      "title": "Dr.",
+      "department": "Endocrinology",
+      "unavailable": []
+    },
+    {
+      "id": "yesim_agyol",
+      "name": "Yeşim AĞYOL",
+      "title": "Dr.",
+      "department": "Medical Oncology",
+      "unavailable": []
+    },
+    {
+      "id": "zeynep_rumeysa_besisik_yilmaz",
+      "name": "Zeynep Rümeysa BEŞIŞIK YILMAZ",
+      "title": "Dr.",
+      "department": "Geriatrics",
+      "unavailable": []
+    },
+    {
+      "id": "umit_ozturk",
+      "name": "Ümit ÖZTÜRK",
+      "title": "Dr.",
+      "department": "Cardiology",
+      "unavailable": []
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "constraints": [
+    {
+      "type": "instructor_unavailable",
+      "instructorId": "example_instructor",
+      "dates": [
+        "2026-03-15"
+      ],
+      "reason": "Örnek izin günü - bunu düzenleyin"
+    },
+    {
+      "type": "department_preference",
+      "department": "Cardiology",
+      "excludeDates": [],
+      "reason": "Bölüm tercihi - düzenleyin"
+    }
+  ]
+}
