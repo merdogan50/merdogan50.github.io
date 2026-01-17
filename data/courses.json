@@ -2,508 +2,415 @@
   "courses": [
     {
       "id": "c001",
-      "name": "White Coat Ceremony – Beyaz Önlük Giyme Töreni",
-      "blockId": "semiyoloji_1"
+      "name": "ASSESSMENT"
     },
     {
       "id": "c002",
-      "name": "Relationship between patients and doctors: “On being a doctor”",
-      "blockId": "semiyoloji_1"
+      "name": "Abdominal pain and constipation"
     },
     {
       "id": "c003",
-      "name": "History taking",
-      "blockId": "semiyoloji_1"
+      "name": "Acid-Base Disorders"
     },
     {
       "id": "c004",
-      "name": "Patient File Preparation",
-      "blockId": "semiyoloji_1"
+      "name": "Acute Kidney Injury"
     },
     {
       "id": "c005",
-      "name": "Approach to the patient with cardiac signs and symptoms",
-      "blockId": "semiyoloji_1"
+      "name": "Acute diarrhea and food poisoning"
     },
     {
       "id": "c006",
-      "name": "Examination of the head and neck",
-      "blockId": "semiyoloji_1"
+      "name": "Approach to adult dysphagia-surgical evaluation and treatment"
     },
     {
       "id": "c007",
-      "name": "Approach to the patient with pulmonary symptoms and signs",
-      "blockId": "semiyoloji_1"
+      "name": "Approach to jaundice"
     },
     {
       "id": "c008",
-      "name": "Examination of the chest and respiratory system",
-      "blockId": "semiyoloji_1"
+      "name": "Approach to patients with cardiac emergencies"
     },
     {
       "id": "c009",
-      "name": "Examination of the extremities and musculoskeletal system",
-      "blockId": "semiyoloji_1"
+      "name": "Approach to pts with acute chest pain"
     },
     {
       "id": "c010",
-      "name": "Examination of the abdomen",
-      "blockId": "semiyoloji_1"
+      "name": "Approach to pts with cardiometabolic risk factors"
     },
     {
       "id": "c011",
-      "name": "Examination of the cardiovascular system and measurement of blood pressure",
-      "blockId": "semiyoloji_1"
+      "name": "Approach to pts with chronic chest pain"
     },
     {
       "id": "c012",
-      "name": "Tour of wards, departments",
-      "blockId": "semiyoloji_1"
+      "name": "Approach to pts with heart failure"
     },
     {
       "id": "c013",
-      "name": "Bed-side",
-      "blockId": "semiyoloji_1"
+      "name": "Approach to pts with pericardial disease"
     },
     {
       "id": "c014",
-      "name": "Approach to pts with cardiometabolic risk factors",
-      "blockId": "kardiyo_1"
+      "name": "Approach to pts with presyncope/syncope"
     },
     {
       "id": "c015",
-      "name": "Approach to pts with chronic chest pain",
-      "blockId": "kardiyo_1"
+      "name": "Approach to pts with systemic diseases affecting the heart"
     },
     {
       "id": "c016",
-      "name": "Approach to pts with acute chest pain",
-      "blockId": "kardiyo_1"
+      "name": "Approach to pts with tachyarrhythmias and bradyarrhythmias"
     },
     {
       "id": "c017",
-      "name": "Approach to pts with pericardial disease",
-      "blockId": "kardiyo_1"
+      "name": "Approach to pts with thrombocytosis and polycythemia"
     },
     {
       "id": "c018",
-      "name": "Approach to pts with heart failure",
-      "blockId": "kardiyo_1"
+      "name": "Approach to pts with valvular heart diseases"
     },
     {
       "id": "c019",
-      "name": "Professionalism and counseling session",
-      "blockId": "kardiyo_1"
+      "name": "Approach to the Patient with Anemia"
     },
     {
       "id": "c020",
-      "name": "Unknown",
-      "blockId": "kardiyo_1"
+      "name": "Approach to the Patient with Lymphadenopathy (LAP)"
     },
     {
       "id": "c021",
-      "name": "Approach to pts with tachyarrhythmias and bradyarrhythmias",
-      "blockId": "kardiyo_1"
+      "name": "Approach to the Patient with Splenomegaly"
     },
     {
       "id": "c022",
-      "name": "Approach to pts with presyncope/syncope",
-      "blockId": "kardiyo_1"
+      "name": "Approach to the patient with cardiac signs and symptoms"
     },
     {
       "id": "c023",
-      "name": "Approach to pts with valvular heart diseases",
-      "blockId": "kardiyo_1"
+      "name": "Approach to the patient with pancytopenia"
     },
     {
       "id": "c024",
-      "name": "Multidisciplinary learning session",
-      "blockId": "kardiyo_1"
+      "name": "Approach to the patient with pulmonary symptoms and signs"
     },
     {
       "id": "c025",
-      "name": "ENDOCARDITIS",
-      "blockId": "kardiyo_1"
+      "name": "Approach to the patients with Congenital Heart Dis. in Adulthood"
     },
     {
       "id": "c026",
-      "name": "Approach to the patients with Congenital Heart Dis. in Adulthood",
-      "blockId": "kardiyo_2"
+      "name": "Approach to thyroid nodules"
     },
     {
       "id": "c027",
-      "name": "Pulmonary Hypertension",
-      "blockId": "kardiyo_2"
+      "name": "Approach to and management of diabetic patients"
     },
     {
       "id": "c028",
-      "name": "Approach to pts with systemic diseases affecting the heart",
-      "blockId": "kardiyo_2"
+      "name": "Asthma"
     },
     {
       "id": "c029",
-      "name": "Free study time for patient file preparation",
-      "blockId": "kardiyo_2"
+      "name": "Bed-side"
     },
     {
       "id": "c030",
-      "name": "Approach to patients with cardiac emergencies",
-      "blockId": "kardiyo_2"
+      "name": "Bedside – Outpatient Case Discussion"
     },
     {
       "id": "c031",
-      "name": "GROUP 2B",
-      "blockId": "kardiyo_2"
+      "name": "Behçet‘s disease/ FMF"
     },
     {
       "id": "c032",
-      "name": "GROUP 2A",
-      "blockId": "kardiyo_2"
+      "name": "COPD"
     },
     {
       "id": "c033",
-      "name": "Patient File Discussion",
-      "blockId": "kardiyo_2"
+      "name": "Chest Radiology"
     },
     {
       "id": "c034",
-      "name": "Water and Electrolyte Disorders",
-      "blockId": "gogus"
+      "name": "Chronic Kidney Failure"
     },
     {
       "id": "c035",
-      "name": "Acid-Base Disorders",
-      "blockId": "gogus"
+      "name": "Chronic diarrhea"
     },
     {
       "id": "c036",
-      "name": "Chronic Kidney Failure",
-      "blockId": "gogus"
+      "name": "Chronic hepatitis"
     },
     {
       "id": "c037",
-      "name": "Glomerulonephritis",
-      "blockId": "gogus"
+      "name": "Clinical Tutorial (Bedside)"
     },
     {
       "id": "c038",
-      "name": "Acute Kidney Injury",
-      "blockId": "gogus"
+      "name": "Clinical Tutorial /Bedside"
     },
     {
       "id": "c039",
-      "name": "Clinical Tutorial/Bedside",
-      "blockId": "gogus"
+      "name": "Clinical Tutorial/ Bedside"
     },
     {
       "id": "c040",
-      "name": "Diagnostic procedures",
-      "blockId": "gogus"
+      "name": "Clinical Tutorial/Bedside"
     },
     {
       "id": "c041",
-      "name": "On the job Learning Session",
-      "blockId": "gogus"
+      "name": "Complications of cirrhosis"
     },
     {
       "id": "c042",
-      "name": "Clinical Tutorial /Bedside",
-      "blockId": "gogus"
+      "name": "Diabetic emergencies"
     },
     {
       "id": "c043",
-      "name": "Acute diarrhea and food poisoning",
-      "blockId": "gastro"
+      "name": "Diagnostic procedures"
     },
     {
       "id": "c044",
-      "name": "Intestinal/Blood and Tissue Parasites",
-      "blockId": "gastro"
+      "name": "Differential diagnosis of metabolic bone diseases"
     },
     {
       "id": "c045",
-      "name": "Sepsis",
-      "blockId": "gastro"
+      "name": "Dyspepsia and peptic ulcer"
     },
     {
       "id": "c046",
-      "name": "FUO",
-      "blockId": "gastro"
+      "name": "ENDOCARDITIS"
     },
     {
       "id": "c047",
-      "name": "Upper Respiratory Tract Infections and COVID-19",
-      "blockId": "gastro"
+      "name": "Endocrine Emergencies"
     },
     {
       "id": "c048",
-      "name": "Sexually Transmitted Diseases",
-      "blockId": "gastro"
+      "name": "Enteric fever and brucellosis"
     },
     {
       "id": "c049",
-      "name": "Approach to adult dysphagia-surgical evaluation and treatment",
-      "blockId": "gastro"
+      "name": "Examination of the abdomen"
     },
     {
       "id": "c050",
-      "name": "Enteric fever and brucellosis",
-      "blockId": "gastro"
+      "name": "Examination of the cardiovascular system and measurement of blood pressure"
     },
     {
       "id": "c051",
-      "name": "Urinary Tract Infections",
-      "blockId": "gastro"
+      "name": "Examination of the chest and respiratory system"
     },
     {
       "id": "c052",
-      "name": "Meningitis-Meningoencefalitis",
-      "blockId": "gastro"
+      "name": "Examination of the extremities and musculoskeletal system"
     },
     {
       "id": "c053",
-      "name": "Approach to and management of diabetic patients",
-      "blockId": "gastro"
+      "name": "Examination of the head and neck"
     },
     {
       "id": "c054",
-      "name": "Treatment choices for diabetic patients - Oral anti-diabetics",
-      "blockId": "gastro"
+      "name": "FUO"
     },
     {
       "id": "c055",
-      "name": "Diabetic emergencies",
-      "blockId": "gastro"
+      "name": "Free study time"
     },
     {
       "id": "c056",
-      "name": "Pituitary disorders",
-      "blockId": "gastro"
+      "name": "Free study time for patient file preparation"
     },
     {
       "id": "c057",
-      "name": "Approach to thyroid nodules",
-      "blockId": "gastro"
-    },
-    {
-      "id": "c058",
-      "name": "Hypothyroidism",
-      "blockId": "gastro"
-    },
-    {
-      "id": "c059",
-      "name": "Hyperthyroidism",
-      "blockId": "gastro"
+      "name": "Free study time for patient file preperation"
     },
     {
       "id": "c060",
-      "name": "On-the-job learning and assessment session",
-      "blockId": "gastro"
+      "name": "Gastrointestinal hemorrhage"
     },
     {
       "id": "c061",
-      "name": "Management of Diabetes and Thyroid Disorders in Pregnancy",
-      "blockId": "gastro"
+      "name": "Glomerulonephritis"
     },
     {
       "id": "c062",
-      "name": "Differential diagnosis of metabolic bone diseases",
-      "blockId": "gastro"
+      "name": "Group 2A"
     },
     {
       "id": "c063",
-      "name": "Bedside – Outpatient Case Discussion",
-      "blockId": "gastro"
+      "name": "Group 2B"
     },
     {
       "id": "c064",
-      "name": "Endocrine Emergencies",
-      "blockId": "gastro"
+      "name": "History taking"
     },
     {
       "id": "c065",
-      "name": "Introduction to oncology and general principles",
-      "blockId": "gastro"
+      "name": "Hyperthyroidism"
     },
     {
       "id": "c066",
-      "name": "Oncologic emergencies",
-      "blockId": "gastro"
+      "name": "Hypothyroidism"
     },
     {
       "id": "c067",
-      "name": "Vasculitis",
-      "blockId": "gastro"
+      "name": "Inpatient case discussion and interactive differential diagnosis"
     },
     {
       "id": "c068",
-      "name": "Behçet‘s disease/ FMF",
-      "blockId": "gastro"
+      "name": "Interstitial Lung Disease"
     },
     {
       "id": "c069",
-      "name": "SLE/CTD",
-      "blockId": "gastro"
+      "name": "Intestinal/Blood and Tissue Parasites"
     },
     {
       "id": "c070",
-      "name": "Multidisciplinary learning session (Panel)",
-      "blockId": "gastro"
+      "name": "Introduction to oncology and general principles"
     },
     {
       "id": "c071",
-      "name": "Clinical Tutorial (Bedside)",
-      "blockId": "gastro"
+      "name": "Management of Bleeding Disorders"
     },
     {
       "id": "c072",
-      "name": "Asthma",
-      "blockId": "enf_endokrin"
+      "name": "Management of Diabetes and Thyroid Disorders in Pregnancy"
     },
     {
       "id": "c073",
-      "name": "Interstitial Lung Disease",
-      "blockId": "enf_endokrin"
+      "name": "Management of Pleural effusion"
     },
     {
       "id": "c074",
-      "name": "Management of Tbc",
-      "blockId": "enf_endokrin"
+      "name": "Management of Tbc"
     },
     {
       "id": "c075",
-      "name": "Chest Radiology",
-      "blockId": "enf_endokrin"
+      "name": "Meningitis-Meningoencefalitis"
     },
     {
       "id": "c076",
-      "name": "COPD",
-      "blockId": "enf_endokrin"
+      "name": "Multidisciplinary learning session"
     },
     {
       "id": "c077",
-      "name": "Pulmonary embolism",
-      "blockId": "enf_endokrin"
+      "name": "Multidisciplinary learning session (Panel)"
     },
     {
       "id": "c078",
-      "name": "Pneumonia",
-      "blockId": "enf_endokrin"
+      "name": "On the job Learning Session"
     },
     {
       "id": "c079",
-      "name": "Respiratory Failure",
-      "blockId": "enf_endokrin"
+      "name": "On-the-job learning and assessment Session"
     },
     {
       "id": "c080",
-      "name": "Management of Pleural effusion",
-      "blockId": "enf_endokrin"
+      "name": "On-the-job learning and assessment session"
     },
     {
       "id": "c081",
-      "name": "Reflection session/Chest Medicine",
-      "blockId": "enf_endokrin"
+      "name": "Oncologic emergencies"
     },
     {
       "id": "c082",
-      "name": "Free study time for patient file preperation",
-      "blockId": "enf_endokrin"
+      "name": "PROGRAM EVALUATION"
     },
     {
       "id": "c083",
-      "name": "Approach to jaundice",
-      "blockId": "enf_endokrin"
+      "name": "Patient File Discussion"
     },
     {
       "id": "c084",
-      "name": "Gastrointestinal hemorrhage",
-      "blockId": "enf_endokrin"
+      "name": "Patient File Preparation"
     },
     {
       "id": "c085",
-      "name": "Dyspepsia and peptic ulcer",
-      "blockId": "enf_endokrin"
+      "name": "Patient file discussion"
     },
     {
       "id": "c086",
-      "name": "Abdominal pain and constipation",
-      "blockId": "enf_endokrin"
+      "name": "Pituitary disorders"
     },
     {
       "id": "c087",
-      "name": "Chronic diarrhea",
-      "blockId": "enf_endokrin"
+      "name": "Pneumonia"
     },
     {
       "id": "c088",
-      "name": "Chronic hepatitis",
-      "blockId": "enf_endokrin"
+      "name": "Professionalism and Counseling Session"
     },
     {
       "id": "c089",
-      "name": "Complications of cirrhosis",
-      "blockId": "enf_endokrin"
+      "name": "Professionalism and counseling session"
     },
     {
       "id": "c090",
-      "name": "Approach to the Patient with Anemia",
-      "blockId": "enf_endokrin"
+      "name": "Pulmonary Hypertension"
     },
     {
       "id": "c091",
-      "name": "Approach to the Patient with Lymphadenopathy (LAP)",
-      "blockId": "enf_endokrin"
+      "name": "Pulmonary embolism"
     },
     {
       "id": "c092",
-      "name": "Management of Bleeding Disorders",
-      "blockId": "enf_endokrin"
+      "name": "Reflection session/Chest Medicine"
     },
     {
       "id": "c093",
-      "name": "Approach to the patient with pancytopenia",
-      "blockId": "enf_endokrin"
+      "name": "Relationship between patients and doctors: “On being a doctor”"
     },
     {
       "id": "c094",
-      "name": "Approach to pts with thrombocytosis and polycythemia",
-      "blockId": "enf_endokrin"
+      "name": "Respiratory Failure"
     },
     {
       "id": "c095",
-      "name": "Approach to the Patient with Splenomegaly",
-      "blockId": "enf_endokrin"
+      "name": "SLE/CTD"
     },
     {
       "id": "c096",
-      "name": "Transfusion: Indication, complication and practice",
-      "blockId": "enf_endokrin"
+      "name": "Sepsis"
     },
     {
       "id": "c097",
-      "name": "Clinical Tutorial/ Bedside",
-      "blockId": "enf_endokrin"
+      "name": "Sexually Transmitted Diseases"
     },
     {
       "id": "c098",
-      "name": "Free study time",
-      "blockId": "enf_endokrin"
+      "name": "Tour of wards, departments"
     },
     {
       "id": "c099",
-      "name": "Inpatient case discussion and interactive differential diagnosis",
-      "blockId": "enf_endokrin"
+      "name": "Transfusion: Indication, complication and practice"
     },
     {
       "id": "c100",
-      "name": "ASSESSMENT",
-      "blockId": "enf_endokrin"
+      "name": "Treatment choices for diabetic patients - Oral anti-diabetics"
     },
     {
       "id": "c101",
-      "name": "PROGRAM EVALUATION",
-      "blockId": "enf_endokrin"
+      "name": "Upper Respiratory Tract Infections and COVID-19"
+    },
+    {
+      "id": "c102",
+      "name": "Urinary Tract Infections"
+    },
+    {
+      "id": "c103",
+      "name": "Vasculitis"
+    },
+    {
+      "id": "c104",
+      "name": "Water and Electrolyte Disorders"
+    },
+    {
+      "id": "c105",
+      "name": "White Coat Ceremony – Beyaz Önlük Giyme Töreni"
     }
   ]
 }

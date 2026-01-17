@@ -1,6 +1,6 @@
 /* ============================================
-   Course Schedule System v5
-   Multi-Group with A/B Subgroups
+   Course Schedule System v6
+   Fixed Layout + AI Workflow
    ============================================ */
 
 :root {
@@ -26,8 +26,6 @@
     --radius: 8px;
     --radius-lg: 12px;
     --transition: all 0.2s ease;
-    --subgroup-a: #e3f2fd;
-    --subgroup-b: #fff3e0;
 }
 
 * {
@@ -124,11 +122,6 @@ body:not(.admin-mode) .admin-only {
     cursor: pointer;
     transition: var(--transition);
     white-space: nowrap;
-}
-
-.btn-validate {
-    background: var(--success);
-    color: white;
 }
 
 .btn-export {
@@ -361,16 +354,15 @@ body:not(.admin-mode) .admin-only {
     opacity: 0.9;
 }
 
-/* Schedule Table with A/B subgroups */
+/* Schedule Table - Standard Layout */
 .schedule-table {
     width: 100%;
     border-collapse: collapse;
-    table-layout: fixed;
 }
 
 .schedule-table th,
 .schedule-table td {
-    padding: 0.5rem;
+    padding: 0.5rem 0.75rem;
     text-align: left;
     border: 1px solid var(--border-color);
     vertical-align: top;
@@ -383,25 +375,27 @@ body:not(.admin-mode) .admin-only {
     font-weight: 600;
     text-transform: uppercase;
     color: var(--text-secondary);
-    text-align: center;
 }
 
-/* Column widths for A/B view */
+/* Column widths */
 .schedule-table .col-time {
+    width: 80px;
+}
+
+.schedule-table .col-topic {
+    width: auto;
+}
+
+.schedule-table .col-instructors {
+    width: 200px;
+}
+
+.schedule-table .col-type {
     width: 70px;
-    text-align: center;
 }
 
-.schedule-table .col-subgroup {
-    width: calc(45% - 35px);
-}
-
-.schedule-table .col-subgroup-header {
-    background: var(--subgroup-a);
-}
-
-.schedule-table .col-subgroup-header.b {
-    background: var(--subgroup-b);
+.schedule-table .col-location {
+    width: 80px;
 }
 
 .schedule-table .col-actions {
@@ -420,33 +414,46 @@ body:not(.admin-mode) .admin-only {
     padding: 0.5rem 1rem;
 }
 
-/* Subgroup cells */
-.subgroup-cell {
-    padding: 0.5rem;
-}
-
-.subgroup-cell.a {
-    background: var(--subgroup-a);
-}
-
-.subgroup-cell.b {
-    background: var(--subgroup-b);
-}
-
-.subgroup-cell .topic {
+/* Subgroup indicator */
+.subgroup-badge {
+    display: inline-block;
+    padding: 0.125rem 0.375rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.625rem;
     font-weight: 600;
-    margin-bottom: 0.25rem;
+    margin-left: 0.25rem;
 }
 
-.subgroup-cell .instructors {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.25rem;
-    margin-bottom: 0.25rem;
+.subgroup-badge.a {
+    background: #e3f2fd;
+    color: #1565c0;
 }
 
-.subgroup-cell .type-location {
-    font-size: 0.6875rem;
+.subgroup-badge.b {
+    background: #fff3e0;
+    color: #ef6c00;
+}
+
+.cell-time {
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.cell-type {
+    text-transform: capitalize;
+    font-size: 0.75rem;
+}
+
+.cell-type.lecture {
+    color: var(--success);
+}
+
+.cell-type.practice {
+    color: var(--warning);
+}
+
+.cell-location {
+    font-size: 0.75rem;
     color: var(--text-secondary);
 }
 
@@ -458,43 +465,7 @@ body:not(.admin-mode) .admin-only {
     border-radius: var(--radius-sm);
     font-size: 0.6875rem;
     font-weight: 500;
-}
-
-.cell-time {
-    font-weight: 600;
-    color: var(--primary);
-    text-align: center;
-}
-
-.cell-type {
-    text-transform: capitalize;
-    font-size: 0.6875rem;
-}
-
-.cell-type.lecture {
-    color: var(--success);
-}
-
-.cell-type.practice {
-    color: var(--warning);
-}
-
-.location-badge {
-    display: inline-block;
-    padding: 0.125rem 0.375rem;
-    border-radius: var(--radius-sm);
-    font-size: 0.625rem;
-    font-weight: 500;
-}
-
-.location-pendik {
-    background: #cfe2ff;
-    color: #084298;
-}
-
-.location-basibuyuk {
-    background: #d1e7dd;
-    color: #0f5132;
+    margin: 0.125rem;
 }
 
 .edit-btn {
@@ -510,6 +481,16 @@ body:not(.admin-mode) .admin-only {
 .edit-btn:hover {
     background: var(--primary);
     color: white;
+}
+
+/* Holiday row */
+.holiday-row {
+    background: #ffebee !important;
+}
+
+.holiday-row td {
+    color: var(--danger);
+    font-style: italic;
 }
 
 /* Multi-Select */
@@ -724,6 +705,53 @@ body:not(.admin-mode) .admin-only {
     border-radius: var(--radius);
 }
 
+/* AI Workflow */
+.ai-workflow-body {
+    padding: 1rem;
+}
+
+.workflow-steps {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: var(--radius);
+}
+
+.workflow-steps h4 {
+    margin-bottom: 0.5rem;
+    color: var(--primary);
+}
+
+.workflow-steps p {
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.ai-prompt-example {
+    background: #263238;
+    color: #aed581;
+    padding: 0.75rem;
+    border-radius: var(--radius);
+    margin-bottom: 0.75rem;
+}
+
+.ai-prompt-example pre {
+    font-size: 0.75rem;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+#aiJsonInput {
+    width: 100%;
+    font-family: monospace;
+    font-size: 0.75rem;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    margin-bottom: 0.5rem;
+}
+
 /* Import */
 .import-tabs {
     display: flex;
@@ -747,26 +775,6 @@ body:not(.admin-mode) .admin-only {
 
 .import-tab-content {
     padding: 0.75rem;
-}
-
-.format-example {
-    margin: 0.5rem 0;
-}
-
-.example-table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 0.75rem;
-}
-
-.example-table th,
-.example-table td {
-    padding: 0.375rem;
-    border: 1px solid var(--border-color);
-}
-
-.example-table th {
-    background: #f8f9fa;
 }
 
 .file-input {
@@ -801,7 +809,7 @@ body:not(.admin-mode) .admin-only {
 }
 
 .modal-lg {
-    max-width: 650px;
+    max-width: 700px;
 }
 
 .modal-header {

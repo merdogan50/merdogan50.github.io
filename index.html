@@ -23,7 +23,7 @@
             <div class="header-actions">
                 <button id="settingsBtn" class="btn btn-secondary admin-only">⚙️ Settings</button>
                 <button id="blockManagerBtn" class="btn btn-secondary admin-only">📦 Blocks</button>
-                <button id="validateBtn" class="btn btn-validate admin-only">✓ Validate</button>
+                <button id="aiWorkflowBtn" class="btn btn-secondary admin-only">🤖 AI Workflow</button>
                 <button id="exportPdfBtn" class="btn btn-export">📄 PDF</button>
                 <button id="instructorViewBtn" class="btn btn-secondary">👤 My Schedule</button>
             </div>
@@ -36,7 +36,7 @@
             <span>🔐 Admin Mode</span>
             <div class="admin-actions">
                 <button id="importDataBtn" class="btn btn-sm btn-primary">📊 Import Excel</button>
-                <button id="exportDataBtn" class="btn btn-sm btn-secondary">💾 Export</button>
+                <button id="exportDataBtn" class="btn btn-sm btn-secondary">💾 Export JSON</button>
             </div>
         </div>
 
@@ -85,10 +85,6 @@
                 <span class="settings-label">Weeks:</span>
                 <span id="totalWeeksDisplay">14</span>
             </div>
-            <div class="settings-info">
-                <span class="settings-label">Subgroups:</span>
-                <span id="subgroupsDisplay">A, B</span>
-            </div>
             <button id="changeSettingsBtn" class="btn btn-sm btn-primary">Edit</button>
         </div>
 
@@ -99,6 +95,10 @@
                 <select id="weekFilter">
                     <option value="all">All Weeks</option>
                 </select>
+            </div>
+            <div class="filter-group">
+                <label>Date:</label>
+                <input type="date" id="dateFilter">
             </div>
             <div class="filter-group">
                 <label>Block:</label>
@@ -153,11 +153,8 @@
                     <input type="number" id="totalWeeksInput" value="14" min="1" max="20">
                 </div>
                 <div class="form-group">
-                    <label>Has Subgroups (A/B)?</label>
-                    <select id="hasSubgroupsSelect">
-                        <option value="true">Yes</option>
-                        <option value="false">No</option>
-                    </select>
+                    <label>Holidays (comma separated dates, e.g. 2025-10-29):</label>
+                    <input type="text" id="holidaysInput" placeholder="2025-10-29, 2025-04-23">
                 </div>
                 <div class="form-actions">
                     <button type="button" class="btn btn-secondary" onclick="closeSettingsModal()">Cancel</button>
@@ -188,11 +185,45 @@
                     <tbody id="blockTableBody"></tbody>
                 </table>
                 <div class="block-order-form">
-                    <label>New Order (comma separated): </label>
+                    <label>New Order: </label>
                     <input type="text" id="blockOrderInput" placeholder="1,3,2,4,5...">
-                    <button class="btn btn-primary" onclick="applyBlockOrder()">Apply Order</button>
+                    <button class="btn btn-primary" onclick="applyBlockOrder()">Apply</button>
                 </div>
                 <button class="btn btn-sm btn-secondary" onclick="addNewBlock()">+ Add Block</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Workflow Modal -->
+    <div id="aiWorkflowModal" class="modal hidden">
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h3>🤖 AI Workflow - JSON Export/Import</h3>
+                <button class="close-btn" onclick="closeAiWorkflow()">×</button>
+            </div>
+            <div class="ai-workflow-body">
+                <div class="workflow-steps">
+                    <h4>Adım 1: JSON Export</h4>
+                    <p>Mevcut programı AI'a vermek için export edin:</p>
+                    <button class="btn btn-primary" onclick="exportForAi()">📤 Export for AI</button>
+                </div>
+                <div class="workflow-steps">
+                    <h4>Adım 2: AI'a Verin</h4>
+                    <p>JSON'u AI'a verin ve kurallarınızı belirtin:</p>
+                    <div class="ai-prompt-example">
+                        <pre>Bu ders programı JSON'unu düzenle:
+- Prof. X Pazartesi 09:00'da ders vermesin
+- Kardiyoloji bloğu Hafta 3-4'te olsun
+- Pratikler sadece Perşembe-Cuma</pre>
+                    </div>
+                </div>
+                <div class="workflow-steps">
+                    <h4>Adım 3: JSON Import</h4>
+                    <p>AI'ın düzenlediği JSON'u import edin:</p>
+                    <textarea id="aiJsonInput" placeholder="AI'dan aldığınız JSON'u buraya yapıştırın..."
+                        rows="8"></textarea>
+                    <button class="btn btn-primary" onclick="importFromAi()">📥 Import from AI</button>
+                </div>
             </div>
         </div>
     </div>
@@ -220,9 +251,9 @@
                     <div class="form-group">
                         <label>Subgroup:</label>
                         <select id="editSubgroup">
-                            <option value="all">All</option>
-                            <option value="A">A Only</option>
-                            <option value="B">B Only</option>
+                            <option value="all">All Students</option>
+                            <option value="A">Group A Only</option>
+                            <option value="B">Group B Only</option>
                         </select>
                     </div>
                 </div>
@@ -292,9 +323,9 @@
                     <div class="form-group">
                         <label>Subgroup:</label>
                         <select id="addSubgroup">
-                            <option value="all">All</option>
-                            <option value="A">A Only</option>
-                            <option value="B">B Only</option>
+                            <option value="all">All Students</option>
+                            <option value="A">Group A Only</option>
+                            <option value="B">Group B Only</option>
                         </select>
                     </div>
                 </div>
@@ -355,39 +386,13 @@
             </div>
             <div id="importInstructorsTab" class="import-tab-content">
                 <div class="form-group" style="padding:1rem;">
-                    <label>Excel Format:</label>
-                    <div class="format-example">
-                        <table class="example-table">
-                            <tr>
-                                <th>Name</th>
-                                <th>Title</th>
-                                <th>Department</th>
-                            </tr>
-                            <tr>
-                                <td>Ali Vefa</td>
-                                <td>Prof. Dr.</td>
-                                <td>Cardiology</td>
-                            </tr>
-                        </table>
-                    </div>
+                    <label>Excel Format: Name, Title, Department</label>
                     <input type="file" id="instructorFileInput" accept=".xlsx,.xls" class="file-input">
                 </div>
             </div>
             <div id="importCoursesTab" class="import-tab-content hidden">
                 <div class="form-group" style="padding:1rem;">
-                    <label>Excel Format:</label>
-                    <div class="format-example">
-                        <table class="example-table">
-                            <tr>
-                                <th>Name</th>
-                                <th>Block</th>
-                            </tr>
-                            <tr>
-                                <td>Heart Failure</td>
-                                <td>kardiyo_1</td>
-                            </tr>
-                        </table>
-                    </div>
+                    <label>Excel Format: Name, Block</label>
                     <input type="file" id="courseFileInput" accept=".xlsx,.xls" class="file-input">
                 </div>
             </div>

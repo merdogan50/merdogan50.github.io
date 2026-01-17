@@ -1,6 +1,6 @@
 /**
- * Course Schedule System v5
- * Multi-Group with A/B Subgroups
+ * Course Schedule System v6
+ * Standard Layout + AI Workflow + Full JSON Export
  * merdogan50.github.io
  */
 
@@ -25,6 +25,7 @@ let weekDates = [];
 const scheduleContainer = document.getElementById('scheduleContainer');
 const instructorViewContainer = document.getElementById('instructorViewContainer');
 const weekFilter = document.getElementById('weekFilter');
+const dateFilter = document.getElementById('dateFilter');
 const blockFilter = document.getElementById('blockFilter');
 const locationFilter = document.getElementById('locationFilter');
 const instructorSearch = document.getElementById('instructorSearch');
@@ -69,12 +70,12 @@ async function loadAllData() {
 
     // Check localStorage
     const saved = {
-        programs: localStorage.getItem('schedulePrograms_v5'),
-        settings: localStorage.getItem('scheduleSettings_v5'),
-        sessions: localStorage.getItem('scheduleSessions_v5'),
-        blocks: localStorage.getItem('scheduleBlocks_v5'),
-        instructors: localStorage.getItem('scheduleInstructors_v5'),
-        courses: localStorage.getItem('scheduleCourses_v5')
+        programs: localStorage.getItem('schedulePrograms_v6'),
+        settings: localStorage.getItem('scheduleSettings_v6'),
+        sessions: localStorage.getItem('scheduleSessions_v6'),
+        blocks: localStorage.getItem('scheduleBlocks_v6'),
+        instructors: localStorage.getItem('scheduleInstructors_v6'),
+        courses: localStorage.getItem('scheduleCourses_v6')
     };
 
     programsData = saved.programs ? JSON.parse(saved.programs) : programs;
@@ -110,6 +111,7 @@ function calculateWeekDates() {
     const startDate = new Date(currentProgram?.startDate || settingsData?.startDate || '2025-09-01');
     const totalWeeks = currentProgram?.totalWeeks || settingsData?.totalWeeks || 14;
     const weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+    const holidays = currentProgram?.holidays || [];
 
     for (let w = 0; w < totalWeeks; w++) {
         const weekStart = new Date(startDate);
@@ -120,7 +122,13 @@ function calculateWeekDates() {
         const dates = weekDays.map((day, d) => {
             const dayDate = new Date(weekStart);
             dayDate.setDate(weekStart.getDate() + d);
-            return { day, date: formatDateISO(dayDate), display: formatDateDisplay(dayDate) };
+            const dateStr = formatDateISO(dayDate);
+            return {
+                day,
+                date: dateStr,
+                display: formatDateDisplay(dayDate),
+                isHoliday: holidays.includes(dateStr)
+            };
         });
 
         weekDates.push({
@@ -153,7 +161,6 @@ function formatDateDisplay(date) { return `${String(date.getDate()).padStart(2, 
 function updateSettingsDisplay() {
     document.getElementById('startDateDisplay').textContent = currentProgram?.startDate ? formatDateDisplay(new Date(currentProgram.startDate)) : '-';
     document.getElementById('totalWeeksDisplay').textContent = currentProgram?.totalWeeks || 14;
-    document.getElementById('subgroupsDisplay').textContent = currentProgram?.hasSubgroups ? currentProgram.subgroups.join(', ') : 'None';
 }
 
 function populateFilters() {
@@ -178,6 +185,7 @@ function populateFilters() {
 
 function setupEventListeners() {
     weekFilter.addEventListener('change', renderSchedule);
+    dateFilter.addEventListener('change', renderSchedule);
     blockFilter.addEventListener('change', renderSchedule);
     locationFilter.addEventListener('change', renderSchedule);
     instructorSearch.addEventListener('input', debounce(renderSchedule, 300));
@@ -196,7 +204,7 @@ function setupEventListeners() {
     if (isAdminMode) {
         document.getElementById('settingsBtn')?.addEventListener('click', openSettingsModal);
         document.getElementById('blockManagerBtn')?.addEventListener('click', openBlockManager);
-        document.getElementById('validateBtn')?.addEventListener('click', validateSchedule);
+        document.getElementById('aiWorkflowBtn')?.addEventListener('click', openAiWorkflow);
         document.getElementById('addSessionBtn')?.addEventListener('click', openAddModal);
         document.getElementById('changeSettingsBtn')?.addEventListener('click', openSettingsModal);
         document.getElementById('importDataBtn')?.addEventListener('click', openImportModal);
@@ -240,7 +248,7 @@ function handleProgramChange() {
 function createNewProgram() {
     const programId = `${yearSelect.value}-T${termSelect.value}-G${groupSelect.value}`;
     if (programsData.programs.some(p => p.id === programId)) {
-        showError('This program already exists. Select different options.');
+        showError('This program already exists.');
         return;
     }
 
@@ -253,8 +261,7 @@ function createNewProgram() {
         groupName: `Group ${groupSelect.value}`,
         startDate: new Date().toISOString().split('T')[0],
         totalWeeks: 14,
-        hasSubgroups: true,
-        subgroups: ['A', 'B'],
+        holidays: [],
         createdAt: new Date().toISOString().split('T')[0],
         isActive: true
     };
@@ -269,16 +276,16 @@ function createNewProgram() {
     showSuccess(`New program created: ${programId}`);
 }
 
-// ==================== RENDER SCHEDULE (A/B Support) ====================
+// ==================== RENDER SCHEDULE (Standard Layout) ====================
 
 function renderSchedule() {
     if (!sessionsData || !blocksData) return;
 
     const selectedWeek = weekFilter.value;
+    const selectedDate = dateFilter.value;
     const selectedBlock = blockFilter.value;
     const selectedLocation = locationFilter.value;
     const searchTerm = instructorSearch.value.toLowerCase().trim();
-    const hasSubgroups = currentProgram?.hasSubgroups;
 
     scheduleContainer.innerHTML = '';
     const sessionsByWeek = {};
@@ -295,6 +302,7 @@ function renderSchedule() {
 
         if (selectedBlock !== 'all' && session.blockId !== selectedBlock) return;
         if (selectedLocation !== 'all' && session.location !== selectedLocation) return;
+        if (selectedDate && dateInfo.date !== selectedDate) return;
 
         if (searchTerm) {
             const names = getInstructorNames(session.instructorIds);
@@ -313,18 +321,11 @@ function renderSchedule() {
                 date: dateInfo.date,
                 display: dateInfo.display,
                 location: session.location,
-                slots: {}
+                isHoliday: dateInfo.isHoliday,
+                sessions: []
             };
         }
-
-        // Group by time slot
-        const time = session.time || '00:00';
-        if (!sessionsByWeek[weekNumber][dayKey].slots[time]) {
-            sessionsByWeek[weekNumber][dayKey].slots[time] = { A: [], B: [], all: [] };
-        }
-
-        const subgroup = session.subgroup || 'all';
-        sessionsByWeek[weekNumber][dayKey].slots[time][subgroup].push(session);
+        sessionsByWeek[weekNumber][dayKey].sessions.push(session);
     });
 
     const weekNumbers = Object.keys(sessionsByWeek).map(Number).sort((a, b) => a - b);
@@ -348,31 +349,17 @@ function renderSchedule() {
 
         const table = document.createElement('table');
         table.className = 'schedule-table';
-
-        // Headers based on subgroups
-        if (hasSubgroups) {
-            table.innerHTML = `
-                <thead><tr>
-                    <th class="col-time">Time</th>
-                    <th class="col-subgroup col-subgroup-header">Group ${currentProgram.group}A</th>
-                    <th class="col-subgroup col-subgroup-header b">Group ${currentProgram.group}B</th>
-                    ${isAdminMode ? '<th class="col-actions"></th>' : ''}
-                </tr></thead>
-                <tbody></tbody>
-            `;
-        } else {
-            table.innerHTML = `
-                <thead><tr>
-                    <th class="col-time">Time</th>
-                    <th>Lecture/Subject</th>
-                    <th>Lecturers</th>
-                    <th>Type</th>
-                    <th>Location</th>
-                    ${isAdminMode ? '<th class="col-actions"></th>' : ''}
-                </tr></thead>
-                <tbody></tbody>
-            `;
-        }
+        table.innerHTML = `
+            <thead><tr>
+                <th class="col-time">Time</th>
+                <th class="col-topic">Lecture/Subject</th>
+                <th class="col-instructors">Lecturers</th>
+                <th class="col-type">Type</th>
+                <th class="col-location">Location</th>
+                ${isAdminMode ? '<th class="col-actions"></th>' : ''}
+            </tr></thead>
+            <tbody></tbody>
+        `;
 
         const tbody = table.querySelector('tbody');
         const days = Object.values(sessionsByWeek[weekNum]).sort((a, b) => a.date.localeCompare(b.date));
@@ -380,76 +367,23 @@ function renderSchedule() {
         days.forEach(day => {
             // Day header
             const dayRow = document.createElement('tr');
-            dayRow.className = 'day-header';
-            const colSpan = hasSubgroups ? (isAdminMode ? 4 : 3) : (isAdminMode ? 6 : 5);
-            dayRow.innerHTML = `<td colspan="${colSpan}">${day.day} - ${day.display} - ${day.location || ''}</td>`;
+            dayRow.className = 'day-header' + (day.isHoliday ? ' holiday-row' : '');
+            const colSpan = isAdminMode ? 6 : 5;
+            dayRow.innerHTML = `<td colspan="${colSpan}">${day.day} - ${day.display} - ${day.location || ''}${day.isHoliday ? ' 🎄 HOLIDAY' : ''}</td>`;
             tbody.appendChild(dayRow);
 
-            // Time slots
-            const times = Object.keys(day.slots).sort();
-            times.forEach(time => {
-                const slot = day.slots[time];
+            if (day.isHoliday) return;
 
-                if (hasSubgroups) {
-                    tbody.appendChild(createSubgroupRow(time, slot, day.date));
-                } else {
-                    // Non-subgroup: render each session as separate row
-                    [...slot.all, ...slot.A, ...slot.B].forEach(session => {
-                        tbody.appendChild(createSessionRow(session));
-                    });
-                }
+            // Sessions
+            const sortedSessions = day.sessions.sort((a, b) => (a.time || '').localeCompare(b.time || ''));
+            sortedSessions.forEach(session => {
+                tbody.appendChild(createSessionRow(session));
             });
         });
 
         card.appendChild(table);
         scheduleContainer.appendChild(card);
     });
-}
-
-function createSubgroupRow(time, slot, date) {
-    const row = document.createElement('tr');
-
-    // Time cell
-    let html = `<td class="cell-time">${time}</td>`;
-
-    // Group A cell
-    const sessionsA = [...slot.A, ...slot.all.filter(s => s.subgroup === 'all')];
-    html += `<td class="subgroup-cell a">${renderSubgroupContent(sessionsA)}</td>`;
-
-    // Group B cell
-    const sessionsB = [...slot.B, ...slot.all.filter(s => s.subgroup === 'all')];
-    html += `<td class="subgroup-cell b">${renderSubgroupContent(sessionsB)}</td>`;
-
-    // Edit button (for A sessions)
-    if (isAdminMode) {
-        const firstSession = sessionsA[0] || sessionsB[0];
-        html += `<td>${firstSession ? `<button class="edit-btn" onclick="openEditModal('${firstSession.id}')">✏️</button>` : ''}</td>`;
-    }
-
-    row.innerHTML = html;
-    return row;
-}
-
-function renderSubgroupContent(sessions) {
-    if (!sessions.length) return '<span style="color:var(--text-secondary)">-</span>';
-
-    return sessions.map(session => {
-        const course = coursesData?.courses?.find(c => c.id === session.courseId);
-        const courseName = course?.name || session.courseId || '';
-        const instructorNames = getInstructorNames(session.instructorIds);
-        const typeClass = session.type === 'practice' ? 'practice' : 'lecture';
-        const typeLabel = session.type === 'practice' ? 'Practice' : 'Theory';
-        const locationClass = session.location === 'Pendik' ? 'location-pendik' : 'location-basibuyuk';
-
-        return `
-            <div class="topic">${escapeHtml(courseName)}</div>
-            <div class="instructors">${formatInstructorTags(instructorNames)}</div>
-            <div class="type-location">
-                <span class="cell-type ${typeClass}">${typeLabel}</span>
-                <span class="location-badge ${locationClass}">${session.location || ''}</span>
-            </div>
-        `;
-    }).join('<hr style="margin:0.5rem 0;border:none;border-top:1px dashed #ccc;">');
 }
 
 function createSessionRow(session) {
@@ -460,15 +394,21 @@ function createSessionRow(session) {
     const courseName = course?.name || session.courseId || '';
     const instructorNames = getInstructorNames(session.instructorIds);
     const typeClass = session.type === 'practice' ? 'practice' : 'lecture';
-    const typeLabel = session.type === 'practice' ? 'Practice' : 'Theory';
-    const locationClass = session.location === 'Pendik' ? 'location-pendik' : 'location-basibuyuk';
+    const typeLabel = session.type === 'practice' ? 'Practical' : 'Theoretical';
+
+    // Subgroup badge
+    let subgroupBadge = '';
+    if (session.subgroup && session.subgroup !== 'all') {
+        const badgeClass = session.subgroup.toLowerCase();
+        subgroupBadge = `<span class="subgroup-badge ${badgeClass}">${session.subgroup}</span>`;
+    }
 
     row.innerHTML = `
         <td class="cell-time">${session.time || ''}</td>
-        <td>${escapeHtml(courseName)}</td>
+        <td>${escapeHtml(courseName)}${subgroupBadge}</td>
         <td>${formatInstructorTags(instructorNames)}</td>
         <td class="cell-type ${typeClass}">${typeLabel}</td>
-        <td><span class="location-badge ${locationClass}">${session.location || ''}</span></td>
+        <td class="cell-location">${session.location || ''}</td>
         ${isAdminMode ? `<td><button class="edit-btn" onclick="openEditModal('${session.id}')">✏️</button></td>` : ''}
     `;
     return row;
@@ -484,11 +424,12 @@ function getInstructorNames(instructorIds) {
 
 function formatInstructorTags(names) {
     if (!names) return '<span class="instructor-tag">-</span>';
-    return names.split(',').map(n => `<span class="instructor-tag" title="${escapeHtml(n.trim())}">${escapeHtml(n.trim())}</span>`).join('');
+    return names.split(',').map(n => `<span class="instructor-tag">${escapeHtml(n.trim())}</span>`).join('');
 }
 
 function clearFilters() {
     weekFilter.value = 'all';
+    dateFilter.value = '';
     blockFilter.value = 'all';
     locationFilter.value = 'all';
     instructorSearch.value = '';
@@ -534,6 +475,7 @@ function renderInstructorList() {
                 date: dateInfo.display,
                 time: session.time,
                 topic: course?.name || session.courseId,
+                location: session.location,
                 subgroup: session.subgroup
             });
         });
@@ -576,7 +518,7 @@ function renderBlockTable() {
     const tbody = document.getElementById('blockTableBody');
     const sortedBlocks = [...blocksData.blocks].sort((a, b) => a.order - b.order);
 
-    tbody.innerHTML = sortedBlocks.map((block, idx) => `
+    tbody.innerHTML = sortedBlocks.map(block => `
         <tr>
             <td><strong>${block.order}</strong></td>
             <td>${escapeHtml(block.name)}</td>
@@ -589,7 +531,6 @@ function renderBlockTable() {
         </tr>
     `).join('');
 
-    // Set current order in input
     document.getElementById('blockOrderInput').value = sortedBlocks.map(b => b.order).join(',');
 }
 
@@ -602,7 +543,6 @@ function applyBlockOrder() {
         return;
     }
 
-    // Apply new order
     const sortedBlocks = [...blocksData.blocks].sort((a, b) => a.order - b.order);
 
     let currentWeek = 1;
@@ -619,7 +559,7 @@ function applyBlockOrder() {
     renderBlockTable();
     renderSchedule();
     saveToLocalStorage();
-    showSuccess('Block order updated successfully.');
+    showSuccess('Block order updated.');
 }
 
 function addNewBlock() {
@@ -631,8 +571,7 @@ function addNewBlock() {
     const maxWeek = Math.max(...blocksData.blocks.flatMap(b => b.weeks || []), 0);
 
     blocksData.blocks.push({
-        id,
-        name,
+        id, name,
         shortName: name.substring(0, 4),
         weeks: [maxWeek + 1],
         color: `hsl(${Math.random() * 360}, 60%, 50%)`,
@@ -655,9 +594,6 @@ function editBlock(blockId) {
     const newWeeks = prompt('Weeks (comma separated):', block.weeks?.join(','));
     if (newWeeks) block.weeks = newWeeks.split(',').map(n => parseInt(n.trim())).filter(n => !isNaN(n));
 
-    const newColor = prompt('Color (hex):', block.color);
-    if (newColor) block.color = newColor;
-
     renderBlockTable();
     populateFilters();
     renderSchedule();
@@ -665,7 +601,7 @@ function editBlock(blockId) {
 }
 
 function deleteBlock(blockId) {
-    if (!confirm('Delete this block? Sessions in this block will be orphaned.')) return;
+    if (!confirm('Delete this block?')) return;
     blocksData.blocks = blocksData.blocks.filter(b => b.id !== blockId);
     renderBlockTable();
     populateFilters();
@@ -673,12 +609,199 @@ function deleteBlock(blockId) {
     saveToLocalStorage();
 }
 
+// ==================== AI WORKFLOW ====================
+
+function openAiWorkflow() {
+    document.getElementById('aiWorkflowModal').classList.remove('hidden');
+}
+
+function closeAiWorkflow() {
+    document.getElementById('aiWorkflowModal').classList.add('hidden');
+}
+
+function exportForAi() {
+    // Create comprehensive JSON with ALL data
+    const exportData = {
+        _description: "Complete Schedule Data for AI Editing",
+        _instructions: "Edit this JSON and import back. Keep the structure intact.",
+
+        program: {
+            id: currentProgram?.id,
+            academicYear: currentProgram?.academicYear,
+            term: currentProgram?.term,
+            termName: currentProgram?.termName,
+            group: currentProgram?.group,
+            groupName: currentProgram?.groupName,
+            startDate: currentProgram?.startDate,
+            totalWeeks: currentProgram?.totalWeeks,
+            holidays: currentProgram?.holidays || []
+        },
+
+        weekDates: weekDates.map(w => ({
+            weekNumber: w.weekNumber,
+            startDate: w.startDate,
+            endDate: w.endDate,
+            days: w.dates.map(d => ({
+                day: d.day,
+                date: d.date,
+                isHoliday: d.isHoliday
+            }))
+        })),
+
+        blocks: blocksData.blocks.map(b => ({
+            id: b.id,
+            name: b.name,
+            weeks: b.weeks,
+            order: b.order,
+            color: b.color
+        })),
+
+        instructors: instructorsData.instructors.map(i => ({
+            id: i.id,
+            name: i.name,
+            title: i.title || '',
+            department: i.department || ''
+        })),
+
+        courses: coursesData.courses.map(c => ({
+            id: c.id,
+            name: c.name,
+            blockId: c.blockId || ''
+        })),
+
+        sessions: sessionsData.sessions.filter(s => !s.programId || s.programId === currentProgram?.id).map(s => {
+            const dateInfo = getSessionDate(s);
+            const course = coursesData.courses.find(c => c.id === s.courseId);
+            const instNames = (s.instructorIds || []).map(id => {
+                const inst = instructorsData.instructors.find(i => i.id === id);
+                return inst ? `${inst.title || ''} ${inst.name}`.trim() : id;
+            });
+
+            return {
+                id: s.id,
+                blockId: s.blockId,
+                weekOfBlock: s.weekOfBlock || 1,
+                dayOfWeek: s.dayOfWeek,
+                dayName: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'][s.dayOfWeek] || '',
+                date: dateInfo?.date || '',
+                time: s.time,
+                courseId: s.courseId,
+                courseName: course?.name || '',
+                instructorIds: s.instructorIds,
+                instructorNames: instNames,
+                type: s.type,
+                subgroup: s.subgroup || 'all',
+                location: s.location
+            };
+        }),
+
+        settings: {
+            sessionTimes: settingsData.sessionTimes,
+            locations: settingsData.locations,
+            courseTypes: settingsData.courseTypes
+        },
+
+        _aiNotes: {
+            subgroupOptions: ['all', 'A', 'B'],
+            typeOptions: ['lecture', 'practice'],
+            locationOptions: settingsData.locations,
+            dayOfWeekMapping: { 0: 'Monday', 1: 'Tuesday', 2: 'Wednesday', 3: 'Thursday', 4: 'Friday' }
+        }
+    };
+
+    const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `schedule_for_ai_${currentProgram?.id || 'export'}_${new Date().toISOString().slice(0, 10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    showSuccess('JSON exported for AI. Open the file and share with AI.');
+}
+
+function importFromAi() {
+    const jsonText = document.getElementById('aiJsonInput').value.trim();
+    if (!jsonText) {
+        showError('Please paste the JSON from AI.');
+        return;
+    }
+
+    try {
+        const data = JSON.parse(jsonText);
+
+        // Import program settings
+        if (data.program) {
+            const program = programsData.programs.find(p => p.id === data.program.id);
+            if (program) {
+                Object.assign(program, data.program);
+                currentProgram = program;
+            }
+        }
+
+        // Import blocks
+        if (data.blocks) {
+            blocksData.blocks = data.blocks.map(b => ({
+                id: b.id,
+                name: b.name,
+                shortName: (b.name || '').substring(0, 4),
+                weeks: b.weeks,
+                order: b.order,
+                color: b.color || '#607D8B'
+            }));
+        }
+
+        // Import sessions
+        if (data.sessions) {
+            // Remove old program sessions
+            sessionsData.sessions = sessionsData.sessions.filter(s => s.programId && s.programId !== currentProgram?.id);
+
+            // Add new sessions
+            data.sessions.forEach(s => {
+                sessionsData.sessions.push({
+                    id: s.id || `s${Date.now()}_${Math.random().toString(36).substr(2, 5)}`,
+                    programId: currentProgram?.id,
+                    blockId: s.blockId,
+                    weekOfBlock: s.weekOfBlock || 1,
+                    dayOfWeek: s.dayOfWeek,
+                    time: s.time,
+                    courseId: s.courseId,
+                    instructorIds: s.instructorIds || [],
+                    type: s.type,
+                    subgroup: s.subgroup || 'all',
+                    location: s.location
+                });
+            });
+        }
+
+        // Import instructors if provided
+        if (data.instructors) {
+            instructorsData.instructors = data.instructors;
+        }
+
+        // Import courses if provided
+        if (data.courses) {
+            coursesData.courses = data.courses;
+        }
+
+        saveToLocalStorage();
+        calculateWeekDates();
+        populateFilters();
+        renderSchedule();
+        updateSettingsDisplay();
+        closeAiWorkflow();
+        showSuccess('Schedule imported from AI successfully!');
+
+    } catch (err) {
+        showError('Invalid JSON: ' + err.message);
+    }
+}
+
 // ==================== MODALS ====================
 
 function openSettingsModal() {
     document.getElementById('semesterStartDate').value = currentProgram?.startDate || '';
     document.getElementById('totalWeeksInput').value = currentProgram?.totalWeeks || 14;
-    document.getElementById('hasSubgroupsSelect').value = currentProgram?.hasSubgroups ? 'true' : 'false';
+    document.getElementById('holidaysInput').value = (currentProgram?.holidays || []).join(', ');
     document.getElementById('settingsModal').classList.remove('hidden');
 }
 
@@ -692,10 +815,9 @@ function handleSettingsSave(e) {
 
     currentProgram.startDate = document.getElementById('semesterStartDate').value;
     currentProgram.totalWeeks = parseInt(document.getElementById('totalWeeksInput').value);
-    currentProgram.hasSubgroups = document.getElementById('hasSubgroupsSelect').value === 'true';
-    if (currentProgram.hasSubgroups && !currentProgram.subgroups) {
-        currentProgram.subgroups = ['A', 'B'];
-    }
+
+    const holidaysStr = document.getElementById('holidaysInput').value;
+    currentProgram.holidays = holidaysStr ? holidaysStr.split(',').map(d => d.trim()).filter(d => d) : [];
 
     calculateWeekDates();
     populateFilters();
@@ -963,34 +1085,6 @@ function exportAllData() {
     showSuccess('Data exported.');
 }
 
-// ==================== VALIDATION ====================
-
-function validateSchedule() {
-    const issues = [];
-    const slots = {};
-
-    sessionsData?.sessions?.forEach(session => {
-        const dateInfo = getSessionDate(session);
-        if (!dateInfo) return;
-
-        const key = `${dateInfo.date}_${session.time}_${session.subgroup || 'all'}`;
-        (session.instructorIds || []).forEach(instId => {
-            if (!slots[instId]) slots[instId] = {};
-            if (slots[instId][key]) {
-                const inst = instructorsData?.instructors?.find(i => i.id === instId);
-                issues.push({ type: 'error', message: `Conflict: ${inst?.name || instId} - ${dateInfo.display} ${session.time}` });
-            }
-            slots[instId][key] = true;
-        });
-    });
-
-    alertsList.innerHTML = issues.length === 0
-        ? '<div class="alert-item success">✅ No conflicts found.</div>'
-        : issues.map(i => `<div class="alert-item error">❌ ${escapeHtml(i.message)}</div>`).join('');
-
-    alertsPanel.classList.remove('hidden');
-}
-
 function exportToPdf() {
     weekFilter.value = 'all';
     renderSchedule();
@@ -1000,12 +1094,12 @@ function exportToPdf() {
 // ==================== STORAGE & UTILS ====================
 
 function saveToLocalStorage() {
-    localStorage.setItem('schedulePrograms_v5', JSON.stringify(programsData));
-    localStorage.setItem('scheduleSettings_v5', JSON.stringify(settingsData));
-    localStorage.setItem('scheduleSessions_v5', JSON.stringify(sessionsData));
-    localStorage.setItem('scheduleBlocks_v5', JSON.stringify(blocksData));
-    localStorage.setItem('scheduleInstructors_v5', JSON.stringify(instructorsData));
-    localStorage.setItem('scheduleCourses_v5', JSON.stringify(coursesData));
+    localStorage.setItem('schedulePrograms_v6', JSON.stringify(programsData));
+    localStorage.setItem('scheduleSettings_v6', JSON.stringify(settingsData));
+    localStorage.setItem('scheduleSessions_v6', JSON.stringify(sessionsData));
+    localStorage.setItem('scheduleBlocks_v6', JSON.stringify(blocksData));
+    localStorage.setItem('scheduleInstructors_v6', JSON.stringify(instructorsData));
+    localStorage.setItem('scheduleCourses_v6', JSON.stringify(coursesData));
     updateLastUpdate();
 }
 
