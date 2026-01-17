@@ -12,7 +12,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0002",
@@ -26,7 +27,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0003",
@@ -40,7 +42,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0004",
@@ -54,7 +57,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0005",
@@ -68,7 +72,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0006",
@@ -82,7 +87,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0007",
@@ -96,7 +102,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0008",
@@ -110,7 +117,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0009",
@@ -124,7 +132,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0010",
@@ -138,7 +147,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0011",
@@ -152,7 +162,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0012",
@@ -166,7 +177,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0013",
@@ -180,7 +192,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0014",
@@ -194,7 +207,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0015",
@@ -208,7 +222,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0016",
@@ -222,7 +237,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0017",
@@ -236,7 +252,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0018",
@@ -250,7 +267,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0019",
@@ -264,7 +282,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0020",
@@ -278,7 +297,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0021",
@@ -292,7 +312,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0022",
@@ -306,7 +327,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0023",
@@ -320,7 +342,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0024",
@@ -334,7 +357,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0025",
@@ -348,7 +372,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0026",
@@ -362,7 +387,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0027",
@@ -376,7 +402,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0028",
@@ -390,7 +417,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0029",
@@ -404,7 +432,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0030",
@@ -418,7 +447,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0031",
@@ -432,7 +462,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0032",
@@ -446,7 +477,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0033",
@@ -460,7 +492,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0034",
@@ -474,7 +507,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0035",
@@ -488,7 +522,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0036",
@@ -502,7 +537,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0037",
@@ -516,7 +552,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0038",
@@ -530,7 +567,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0039",
@@ -544,7 +582,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0040",
@@ -558,7 +597,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0041",
@@ -572,7 +612,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0042",
@@ -586,7 +627,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0043",
@@ -600,7 +642,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0044",
@@ -614,7 +657,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0045",
@@ -628,7 +672,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0046",
@@ -642,7 +687,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0047",
@@ -656,7 +702,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0048",
@@ -670,7 +717,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0049",
@@ -684,7 +732,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0050",
@@ -698,7 +747,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0051",
@@ -712,7 +762,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0052",
@@ -726,7 +777,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0053",
@@ -740,7 +792,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0054",
@@ -754,7 +807,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0055",
@@ -768,7 +822,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0056",
@@ -782,7 +837,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0057",
@@ -796,7 +852,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0058",
@@ -810,7 +867,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0059",
@@ -824,7 +882,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0060",
@@ -838,7 +897,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0061",
@@ -852,7 +912,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0062",
@@ -866,7 +927,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0063",
@@ -880,7 +942,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0064",
@@ -894,7 +957,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0065",
@@ -908,7 +972,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0066",
@@ -922,7 +987,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0067",
@@ -936,7 +1002,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0068",
@@ -950,7 +1017,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0069",
@@ -964,7 +1032,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0070",
@@ -978,7 +1047,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0071",
@@ -992,7 +1062,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0072",
@@ -1006,7 +1077,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0073",
@@ -1020,7 +1092,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0074",
@@ -1034,7 +1107,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0075",
@@ -1048,7 +1122,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0076",
@@ -1062,7 +1137,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0077",
@@ -1076,7 +1152,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0078",
@@ -1090,7 +1167,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0079",
@@ -1104,7 +1182,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0080",
@@ -1118,7 +1197,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0081",
@@ -1132,7 +1212,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0082",
@@ -1146,7 +1227,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0083",
@@ -1160,7 +1242,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0084",
@@ -1174,7 +1257,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0085",
@@ -1188,7 +1272,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0086",
@@ -1202,7 +1287,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0087",
@@ -1216,7 +1302,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0088",
@@ -1230,7 +1317,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0089",
@@ -1244,7 +1332,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0090",
@@ -1258,7 +1347,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0091",
@@ -1272,7 +1362,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0092",
@@ -1286,7 +1377,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0093",
@@ -1300,7 +1392,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0094",
@@ -1314,7 +1407,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0095",
@@ -1328,7 +1422,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0096",
@@ -1342,7 +1437,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0097",
@@ -1356,7 +1452,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0098",
@@ -1370,7 +1467,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0099",
@@ -1384,7 +1482,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0100",
@@ -1398,7 +1497,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0101",
@@ -1412,7 +1512,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0102",
@@ -1426,7 +1527,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0103",
@@ -1440,7 +1542,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0104",
@@ -1454,7 +1557,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0105",
@@ -1468,7 +1572,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0106",
@@ -1482,7 +1587,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0107",
@@ -1496,7 +1602,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0108",
@@ -1510,7 +1617,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0109",
@@ -1524,7 +1632,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0110",
@@ -1538,7 +1647,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0111",
@@ -1552,7 +1662,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0112",
@@ -1566,7 +1677,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0113",
@@ -1580,7 +1692,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0114",
@@ -1594,7 +1707,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0115",
@@ -1608,7 +1722,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0116",
@@ -1622,7 +1737,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0117",
@@ -1636,7 +1752,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0118",
@@ -1650,7 +1767,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0119",
@@ -1664,7 +1782,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0120",
@@ -1678,7 +1797,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0121",
@@ -1692,7 +1812,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0122",
@@ -1706,7 +1827,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0123",
@@ -1720,7 +1842,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0124",
@@ -1734,7 +1857,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0125",
@@ -1748,7 +1872,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0126",
@@ -1762,7 +1887,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0127",
@@ -1776,7 +1902,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0128",
@@ -1790,7 +1917,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0129",
@@ -1804,7 +1932,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0130",
@@ -1818,7 +1947,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0131",
@@ -1832,7 +1962,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0132",
@@ -1846,7 +1977,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0133",
@@ -1860,7 +1992,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0134",
@@ -1874,7 +2007,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0135",
@@ -1888,7 +2022,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0136",
@@ -1902,7 +2037,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0137",
@@ -1916,7 +2052,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0138",
@@ -1930,7 +2067,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0139",
@@ -1944,7 +2082,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0140",
@@ -1958,7 +2097,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0141",
@@ -1972,7 +2112,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0142",
@@ -1986,7 +2127,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0143",
@@ -2000,7 +2142,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0144",
@@ -2014,7 +2157,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0145",
@@ -2028,7 +2172,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0146",
@@ -2042,7 +2187,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0147",
@@ -2056,7 +2202,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0148",
@@ -2070,7 +2217,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0149",
@@ -2084,7 +2232,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0150",
@@ -2098,7 +2247,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0151",
@@ -2112,7 +2262,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0152",
@@ -2126,7 +2277,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0153",
@@ -2140,7 +2292,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0154",
@@ -2154,7 +2307,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0155",
@@ -2168,7 +2322,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0156",
@@ -2182,7 +2337,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0157",
@@ -2196,7 +2352,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0158",
@@ -2210,7 +2367,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0159",
@@ -2224,7 +2382,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0160",
@@ -2238,7 +2397,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0161",
@@ -2252,7 +2412,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0162",
@@ -2266,7 +2427,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0163",
@@ -2280,7 +2442,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0164",
@@ -2294,7 +2457,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0165",
@@ -2308,7 +2472,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0166",
@@ -2322,7 +2487,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0167",
@@ -2336,7 +2502,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0168",
@@ -2350,7 +2517,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0169",
@@ -2364,7 +2532,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0170",
@@ -2378,7 +2547,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0171",
@@ -2392,7 +2562,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0172",
@@ -2406,7 +2577,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0173",
@@ -2420,7 +2592,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0174",
@@ -2434,7 +2607,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0175",
@@ -2448,7 +2622,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0176",
@@ -2462,7 +2637,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0177",
@@ -2476,7 +2652,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0178",
@@ -2490,7 +2667,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0179",
@@ -2504,7 +2682,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0180",
@@ -2518,7 +2697,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0181",
@@ -2532,7 +2712,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0182",
@@ -2546,7 +2727,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0183",
@@ -2560,7 +2742,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0184",
@@ -2574,7 +2757,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0185",
@@ -2588,7 +2772,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0186",
@@ -2602,7 +2787,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0187",
@@ -2616,7 +2802,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0188",
@@ -2630,7 +2817,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0189",
@@ -2644,7 +2832,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0190",
@@ -2658,7 +2847,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0191",
@@ -2672,7 +2862,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0192",
@@ -2686,7 +2877,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0193",
@@ -2700,7 +2892,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0194",
@@ -2714,7 +2907,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0195",
@@ -2728,7 +2922,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0196",
@@ -2742,7 +2937,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0197",
@@ -2756,7 +2952,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0198",
@@ -2770,7 +2967,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0199",
@@ -2784,7 +2982,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0200",
@@ -2798,7 +2997,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0201",
@@ -2812,7 +3012,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0202",
@@ -2826,7 +3027,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0203",
@@ -2840,7 +3042,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0204",
@@ -2854,7 +3057,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0205",
@@ -2868,7 +3072,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0206",
@@ -2882,7 +3087,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0207",
@@ -2896,7 +3102,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0208",
@@ -2910,7 +3117,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0209",
@@ -2924,7 +3132,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0210",
@@ -2938,7 +3147,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0211",
@@ -2952,7 +3162,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0212",
@@ -2966,7 +3177,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0213",
@@ -2980,7 +3192,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0214",
@@ -2994,7 +3207,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0215",
@@ -3008,7 +3222,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0216",
@@ -3022,7 +3237,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0217",
@@ -3036,7 +3252,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0218",
@@ -3050,7 +3267,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0219",
@@ -3064,7 +3282,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0220",
@@ -3078,7 +3297,8 @@
       ],
       "type": "practice",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0221",
@@ -3092,7 +3312,8 @@
       ],
       "type": "lecture",
       "location": "Başıbüyük",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0222",
@@ -3106,7 +3327,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0223",
@@ -3120,7 +3342,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0224",
@@ -3134,7 +3357,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0225",
@@ -3148,7 +3372,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0226",
@@ -3162,7 +3387,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0227",
@@ -3176,7 +3402,8 @@
       ],
       "type": "practice",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0228",
@@ -3190,7 +3417,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0229",
@@ -3204,7 +3432,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0230",
@@ -3219,7 +3448,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0231",
@@ -3233,7 +3463,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0232",
@@ -3247,7 +3478,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0233",
@@ -3261,7 +3493,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0234",
@@ -3275,7 +3508,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0235",
@@ -3289,7 +3523,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0236",
@@ -3303,7 +3538,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     },
     {
       "id": "s0237",
@@ -3317,7 +3553,8 @@
       ],
       "type": "lecture",
       "location": "Pendik",
-      "subgroup": "all"
+      "subgroup": "all",
+      "programId": "2025-2026-T2-G3"
     }
   ]
 }

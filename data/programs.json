@@ -1,0 +1,44 @@
+{
+    "programs": [
+        {
+            "id": "2025-2026-T2-G3",
+            "academicYear": "2025-2026",
+            "term": 2,
+            "termName": "Term 2 (Feb-Jun)",
+            "group": 3,
+            "groupName": "Group 3",
+            "startDate": "2025-09-01",
+            "totalWeeks": 14,
+            "hasSubgroups": true,
+            "subgroups": [
+                "A",
+                "B"
+            ],
+            "createdAt": "2026-01-17",
+            "isActive": true
+        }
+    ],
+    "academicYears": [
+        "2024-2025",
+        "2025-2026",
+        "2026-2027"
+    ],
+    "terms": [
+        {
+            "id": 1,
+            "name": "Term 1 (Sep-Jan)",
+            "groups": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Term 2 (Feb-Jun)",
+            "groups": [
+                3,
+                4
+            ]
+        }
+    ]
+}
