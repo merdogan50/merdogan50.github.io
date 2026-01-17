@@ -162,10 +162,10 @@ body:not(.admin-mode) .admin-only {
 
 /* Program Selector */
 .program-selector {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
-    padding: 1rem 1.5rem;
+    padding: 1.25rem 1.5rem;
     background: linear-gradient(135deg, #e8f5e9 0%, #c8e6c9 100%);
     border-radius: var(--radius-lg);
     margin-bottom: 1rem;
