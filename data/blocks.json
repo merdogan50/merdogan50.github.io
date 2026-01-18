@@ -2,134 +2,116 @@
   "blocks": [
     {
       "id": "semiyoloji_1",
-      "name": "Semiology 1",
-      "shortName": "Sem-1",
+      "name": "Semiology",
+      "shortName": "Sem",
       "weeks": [
-        1
+        1,
+        2
       ],
       "color": "#4CAF50",
       "order": 1
     },
     {
-      "id": "semiyoloji_2",
-      "name": "Semiology 2",
-      "shortName": "Sem-2",
-      "weeks": [
-        2
-      ],
-      "color": "#66BB6A",
-      "order": 2
-    },
-    {
       "id": "kardiyo_1",
-      "name": "Cardiology 1",
-      "shortName": "Card-1",
+      "name": "Cardiology",
+      "shortName": "Card",
       "weeks": [
-        3
-      ],
-      "color": "#F44336",
-      "order": 3
-    },
-    {
-      "id": "kardiyo_2",
-      "name": "Cardiology 2",
-      "shortName": "Card-2",
-      "weeks": [
+        3,
         4
       ],
-      "color": "#EF5350",
-      "order": 4
-    },
-    {
-      "id": "gogus",
-      "name": "Pulmonology",
-      "shortName": "Pulm",
-      "weeks": [
-        5
-      ],
-      "color": "#2196F3",
-      "order": 5
-    },
-    {
-      "id": "gastro",
-      "name": "Gastroenterology",
-      "shortName": "Gastro",
-      "weeks": [
-        6
-      ],
-      "color": "#FF9800",
-      "order": 6
+      "color": "#F44336",
+      "order": 2
     },
     {
       "id": "nefro",
       "name": "Nephrology",
       "shortName": "Neph",
       "weeks": [
-        7
+        5
       ],
       "color": "#9C27B0",
-      "order": 7
+      "order": 3
     },
     {
-      "id": "ortak_bedside_1",
-      "name": "Common Bedside 1",
-      "shortName": "Bed-1",
+      "id": "enf_endokrin_1",
+      "name": "Endocrine-Infection",
+      "shortName": "End-Inf",
+      "weeks": [
+        6,
+        7
+      ],
+      "color": "#00BCD4",
+      "order": 4
+    },
+    {
+      "id": "onko_romato",
+      "name": "Oncology-Rheumatology",
+      "shortName": "OncoRheum",
       "weeks": [
         8
       ],
-      "color": "#607D8B",
-      "order": 8
+      "color": "#673AB7",
+      "order": 5
     },
     {
-      "id": "enf_endokrin",
-      "name": "Inf-Endocrine",
-      "shortName": "Inf-End",
+      "id": "ortak_bedside",
+      "name": "Common Bedside",
+      "shortName": "Bedside",
       "weeks": [
         9
       ],
-      "color": "#00BCD4",
-      "order": 9
+      "color": "#607D8B",
+      "order": 6
     },
     {
-      "id": "endokrin",
-      "name": "Endocrinology",
-      "shortName": "Endo",
+      "id": "gogus",
+      "name": "Chest Disease",
+      "shortName": "Chest",
       "weeks": [
         10
       ],
-      "color": "#009688",
-      "order": 10
+      "color": "#2196F3",
+      "order": 7
+    },
+    {
+      "id": "gastro",
+      "name": "Gastroenterology",
+      "shortName": "Gastro",
+      "weeks": [
+        11
+      ],
+      "color": "#FF9800",
+      "order": 8
     },
     {
       "id": "hemato",
       "name": "Hematology",
       "shortName": "Hema",
       "weeks": [
-        11
-      ],
-      "color": "#E91E63",
-      "order": 11
-    },
-    {
-      "id": "onko_romato",
-      "name": "Onco-Rheumatology",
-      "shortName": "OncoRheum",
-      "weeks": [
         12
       ],
-      "color": "#673AB7",
-      "order": 12
+      "color": "#E91E63",
+      "order": 9
     },
     {
-      "id": "ortak_bedside_2",
-      "name": "Common Bedside 2",
-      "shortName": "Bed-2",
+      "id": "practice",
+      "name": "Practice",
+      "shortName": "Prac",
       "weeks": [
-        13,
+        13
+      ],
+      "color": "#795548",
+      "order": 10
+    },
+    {
+      "id": "exam",
+      "name": "Exam",
+      "shortName": "Exam",
+      "weeks": [
         14
       ],
-      "color": "#78909C",
-      "order": 13
+      "color": "#424242",
+      "order": 11
     }
   ]
 }

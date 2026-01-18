@@ -244,16 +244,28 @@
                     <div class="form-group">
                         <label>Type:</label>
                         <select id="editType">
-                            <option value="lecture">Theoretical</option>
-                            <option value="practice">Practical</option>
+                            <option value="Lecture">Lecture</option>
+                            <option value="Practice/Bedside">Practice/Bedside</option>
+                            <option value="Clinical Tutorial/Bedside">Clinical Tutorial/Bedside</option>
+                            <option value="Practice">Practice</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label>Subgroup:</label>
-                        <select id="editSubgroup">
-                            <option value="all">All Students</option>
-                            <option value="A">Group A Only</option>
-                            <option value="B">Group B Only</option>
+                        <select id="editSubgroup" multiple>
+                            <option value="all">All</option>
+                            <option value="Group 1">Group 1</option>
+                            <option value="Group 2">Group 2</option>
+                            <option value="Group 3">Group 3</option>
+                            <option value="Group 4">Group 4</option>
+                            <option value="Group 1A">Group 1A</option>
+                            <option value="Group 1B">Group 1B</option>
+                            <option value="Group 2A">Group 2A</option>
+                            <option value="Group 2B">Group 2B</option>
+                            <option value="Group 3A">Group 3A</option>
+                            <option value="Group 3B">Group 3B</option>
+                            <option value="Group 4A">Group 4A</option>
+                            <option value="Group 4B">Group 4B</option>
                         </select>
                     </div>
                 </div>
@@ -262,7 +274,12 @@
                     <label>Lecture/Subject:</label>
                     <div class="multi-select-container">
                         <div id="selectedCourse" class="selected-item-display"></div>
-                        <input type="text" id="courseSearchInput" placeholder="Search courses..." class="search-input">
+                        <div style="display:flex;gap:0.25rem;">
+                            <input type="text" id="courseSearchInput" placeholder="Search or type course name..."
+                                class="search-input" style="flex:1;">
+                            <button type="button" class="btn btn-sm btn-primary" onclick="addCustomCourse('edit')"
+                                style="padding:0.5rem;">+</button>
+                        </div>
                         <div id="courseDropdown" class="dropdown-list hidden"></div>
                     </div>
                 </div>
@@ -271,8 +288,12 @@
                     <label>Lecturers:</label>
                     <div class="multi-select-container">
                         <div id="selectedInstructors" class="selected-instructors"></div>
-                        <input type="text" id="instructorSearchInput" placeholder="Search instructors..."
-                            class="search-input">
+                        <div style="display:flex;gap:0.25rem;">
+                            <input type="text" id="instructorSearchInput"
+                                placeholder="Search or type instructor name..." class="search-input" style="flex:1;">
+                            <button type="button" class="btn btn-sm btn-primary" onclick="addCustomInstructor('edit')"
+                                style="padding:0.5rem;">+</button>
+                        </div>
                         <div id="instructorDropdown" class="dropdown-list hidden"></div>
                     </div>
                 </div>
@@ -322,10 +343,20 @@
                     </div>
                     <div class="form-group">
                         <label>Subgroup:</label>
-                        <select id="addSubgroup">
-                            <option value="all">All Students</option>
-                            <option value="A">Group A Only</option>
-                            <option value="B">Group B Only</option>
+                        <select id="addSubgroup" multiple>
+                            <option value="all">All</option>
+                            <option value="Group 1">Group 1</option>
+                            <option value="Group 2">Group 2</option>
+                            <option value="Group 3">Group 3</option>
+                            <option value="Group 4">Group 4</option>
+                            <option value="Group 1A">Group 1A</option>
+                            <option value="Group 1B">Group 1B</option>
+                            <option value="Group 2A">Group 2A</option>
+                            <option value="Group 2B">Group 2B</option>
+                            <option value="Group 3A">Group 3A</option>
+                            <option value="Group 3B">Group 3B</option>
+                            <option value="Group 4A">Group 4A</option>
+                            <option value="Group 4B">Group 4B</option>
                         </select>
                     </div>
                 </div>
@@ -344,8 +375,10 @@
                     <div class="form-group">
                         <label>Type:</label>
                         <select id="addType">
-                            <option value="lecture">Theoretical</option>
-                            <option value="practice">Practical</option>
+                            <option value="Lecture">Lecture</option>
+                            <option value="Practice/Bedside">Practice/Bedside</option>
+                            <option value="Clinical Tutorial/Bedside">Clinical Tutorial/Bedside</option>
+                            <option value="Practice">Practice</option>
                         </select>
                     </div>
                 </div>
@@ -353,7 +386,12 @@
                     <label>Lecture/Subject:</label>
                     <div class="multi-select-container">
                         <div id="addSelectedCourse" class="selected-item-display"></div>
-                        <input type="text" id="addCourseSearchInput" placeholder="Search..." class="search-input">
+                        <div style="display:flex;gap:0.25rem;">
+                            <input type="text" id="addCourseSearchInput" placeholder="Search or type course name..."
+                                class="search-input" style="flex:1;">
+                            <button type="button" class="btn btn-sm btn-primary" onclick="addCustomCourse('add')"
+                                style="padding:0.5rem;">+</button>
+                        </div>
                         <div id="addCourseDropdown" class="dropdown-list hidden"></div>
                     </div>
                 </div>
@@ -361,7 +399,12 @@
                     <label>Lecturers:</label>
                     <div class="multi-select-container">
                         <div id="addSelectedInstructors" class="selected-instructors"></div>
-                        <input type="text" id="addInstructorSearchInput" placeholder="Search..." class="search-input">
+                        <div style="display:flex;gap:0.25rem;">
+                            <input type="text" id="addInstructorSearchInput"
+                                placeholder="Search or type instructor name..." class="search-input" style="flex:1;">
+                            <button type="button" class="btn btn-sm btn-primary" onclick="addCustomInstructor('add')"
+                                style="padding:0.5rem;">+</button>
+                        </div>
                         <div id="addInstructorDropdown" class="dropdown-list hidden"></div>
                     </div>
                 </div>

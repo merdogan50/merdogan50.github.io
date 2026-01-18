@@ -7,7 +7,7 @@
             "termName": "Term 2 (Feb-Jun)",
             "group": 3,
             "groupName": "Group 3",
-            "startDate": "2025-09-01",
+            "startDate": "2026-02-09",
             "totalWeeks": 14,
             "hasSubgroups": true,
             "subgroups": [
@@ -15,6 +15,40 @@
                 "B"
             ],
             "createdAt": "2026-01-17",
+            "isActive": true
+        },
+        {
+            "id": "2025-2026-T1-G2",
+            "academicYear": "2025-2026",
+            "term": 1,
+            "termName": "Term 1 (Sep-Jan)",
+            "group": 2,
+            "groupName": "Group 2",
+            "startDate": "2025-09-01",
+            "totalWeeks": 14,
+            "hasSubgroups": true,
+            "subgroups": [
+                "A",
+                "B"
+            ],
+            "createdAt": "2026-01-18",
+            "isActive": true
+        },
+        {
+            "id": "2025-2026-T2-G4",
+            "academicYear": "2025-2026",
+            "term": 2,
+            "termName": "Term 2 (Feb-Jun)",
+            "group": 4,
+            "groupName": "Group 4",
+            "startDate": "2026-02-09",
+            "totalWeeks": 14,
+            "hasSubgroups": true,
+            "subgroups": [
+                "A",
+                "B"
+            ],
+            "createdAt": "2026-01-18",
             "isActive": true
         }
     ],

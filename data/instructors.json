@@ -1,774 +1,562 @@
 {
   "instructors": [
     {
-      "id": "i001",
-      "name": "Abdüssamet ÇELEBİ",
-      "title": ""
+      "id": "alper_kepez",
+      "name": "Alper KEPEZ",
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i002",
-      "name": "Abidin GÜNDOĞDU",
-      "title": ""
-    },
-    {
-      "id": "i003",
-      "name": "Ahmet Anıl ŞAHİN",
-      "title": ""
-    },
-    {
-      "id": "i004",
-      "name": "Aida SHİKHALİYEVA",
-      "title": ""
-    },
-    {
-      "id": "i005",
-      "name": "Akın IŞIK",
-      "title": ""
-    },
-    {
-      "id": "i006",
-      "name": "Ali Emre ATICI",
-      "title": ""
-    },
-    {
-      "id": "i007",
-      "name": "Ali Kaan GÜREN",
-      "title": ""
-    },
-    {
-      "id": "i008",
-      "name": "Ali Serdar FAK",
-      "title": ""
-    },
-    {
-      "id": "i009",
+      "id": "altuğ_çi̇nçi̇n",
       "name": "Altuğ ÇİNÇİN",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i010",
-      "name": "Arda BAYAR",
-      "title": ""
-    },
-    {
-      "id": "i011",
+      "id": "arzu_veli̇oğlu",
       "name": "Arzu VELİOĞLU",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i012",
-      "name": "Aslı KARATAŞ",
-      "title": ""
-    },
-    {
-      "id": "i013",
-      "name": "Aslı Nur BAHAR",
-      "title": ""
-    },
-    {
-      "id": "i014",
+      "id": "aslı_tufan_çi̇nçi̇n",
       "name": "Aslı TUFAN ÇİNÇİN",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i015",
-      "name": "Asu Fergün YILMAZ",
-      "title": ""
-    },
-    {
-      "id": "i016",
-      "name": "Ayhan KOL",
-      "title": ""
-    },
-    {
-      "id": "i017",
-      "name": "Ayşegül AVCU",
-      "title": ""
-    },
-    {
-      "id": "i018",
-      "name": "Baha Tolga DEMİRBAŞ",
-      "title": ""
-    },
-    {
-      "id": "i019",
-      "name": "Barış CAN",
-      "title": ""
-    },
-    {
-      "id": "i020",
+      "id": "berrin_ceyhan",
       "name": "Berrin CEYHAN",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i021",
+      "id": "beste_özben",
       "name": "Beste ÖZBEN",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i022",
-      "name": "Beste ÖZBEN SADIÇ",
-      "title": ""
-    },
-    {
-      "id": "i023",
-      "name": "Bilge Ada ÖZCAN",
-      "title": ""
-    },
-    {
-      "id": "i024",
-      "name": "Biochemistry",
-      "title": ""
-    },
-    {
-      "id": "i025",
-      "name": "Buket ERTÜRK ŞENGEL",
-      "title": ""
-    },
-    {
-      "id": "i026",
-      "name": "Burak AKSU",
-      "title": ""
-    },
-    {
-      "id": "i027",
-      "name": "Burak PAÇACI",
-      "title": ""
-    },
-    {
-      "id": "i028",
-      "name": "Burcu ATEŞ",
-      "title": ""
-    },
-    {
-      "id": "i029",
-      "name": "Bülent DEMİRELLİ",
-      "title": ""
-    },
-    {
-      "id": "i030",
+      "id": "bülent_mutlu",
       "name": "Bülent MUTLU",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i031",
-      "name": "Büşra CAN",
-      "title": ""
+      "id": "dilek_yavuz",
+      "name": "Dilek YAVUZ",
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i032",
-      "name": "Canan CİMŞİT",
-      "title": ""
-    },
-    {
-      "id": "i033",
-      "name": "Caner ÇINAR",
-      "title": ""
-    },
-    {
-      "id": "i034",
-      "name": "Cansu UZUNKONAK",
-      "title": ""
-    },
-    {
-      "id": "i035",
-      "name": "Cansu YILDIZ",
-      "title": ""
-    },
-    {
-      "id": "i036",
-      "name": "Cardiology",
-      "title": ""
-    },
-    {
-      "id": "i037",
-      "name": "Cardiovascular Surgery",
-      "title": ""
-    },
-    {
-      "id": "i038",
-      "name": "Ceren GÜREN",
-      "title": ""
-    },
-    {
-      "id": "i039",
-      "name": "Chest Medicine",
-      "title": ""
-    },
-    {
-      "id": "i040",
-      "name": "Chest Surgery",
-      "title": ""
-    },
-    {
-      "id": "i041",
-      "name": "Coşkun  ÖZER  DEMİRTAŞ",
-      "title": ""
-    },
-    {
-      "id": "i042",
-      "name": "Coşkun Özer DEMİRTAŞ",
-      "title": ""
-    },
-    {
-      "id": "i043",
-      "name": "Cumhur YEĞEN",
-      "title": ""
-    },
-    {
-      "id": "i044",
-      "name": "Derya KOCAKAYA",
-      "title": ""
-    },
-    {
-      "id": "i045",
-      "name": "Dietitian",
-      "title": ""
-    },
-    {
-      "id": "i046",
-      "name": "Dilek  BARUTÇU ATAŞ",
-      "title": ""
-    },
-    {
-      "id": "i047",
-      "name": "Dilek BARUTÇU ATAŞ",
-      "title": ""
-    },
-    {
-      "id": "i048",
-      "name": "Dilek GOGAS YAVUZ",
-      "title": ""
-    },
-    {
-      "id": "i049",
-      "name": "Dilek Gogas YAVUZ",
-      "title": ""
-    },
-    {
-      "id": "i050",
-      "name": "Dilek YAĞCI ÇAĞLAYIK",
-      "title": ""
-    },
-    {
-      "id": "i051",
-      "name": "Dilek ÇAĞLAYIK",
-      "title": ""
-    },
-    {
-      "id": "i052",
+      "id": "ebru_aşicioğlu",
       "name": "Ebru AŞICIOĞLU",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i053",
-      "name": "Elif  DEMİRBAŞI",
-      "title": ""
-    },
-    {
-      "id": "i054",
-      "name": "Elif T. TİGEN",
-      "title": ""
-    },
-    {
-      "id": "i055",
+      "id": "elif_ti̇gen",
       "name": "Elif TİGEN",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i056",
-      "name": "Elvan SAYIN",
-      "title": ""
-    },
-    {
-      "id": "i057",
+      "id": "emel_eryüksel",
       "name": "Emel ERYÜKSEL",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i058",
-      "name": "Emine BOZKURTLAR",
-      "title": ""
-    },
-    {
-      "id": "i059",
-      "name": "Emine BOZKURTLAR/ Muhammed HASAN TOPER Pathology",
-      "title": ""
-    },
-    {
-      "id": "i060",
+      "id": "emre_gürel",
       "name": "Emre GÜREL",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i061",
-      "name": "Emre ÇAPAR",
-      "title": ""
-    },
-    {
-      "id": "i062",
-      "name": "Endocrinology",
-      "title": ""
-    },
-    {
-      "id": "i063",
-      "name": "Erdem YALÇINKAYA",
-      "title": ""
-    },
-    {
-      "id": "i064",
-      "name": "Eren İMRE",
-      "title": ""
-    },
-    {
-      "id": "i065",
-      "name": "Erkam KOCAASLAN",
-      "title": ""
-    },
-    {
-      "id": "i066",
-      "name": "Esra Dicle KAYA",
-      "title": ""
-    },
-    {
-      "id": "i067",
-      "name": "Ezgi  ÇOBAN",
-      "title": ""
-    },
-    {
-      "id": "i068",
-      "name": "Ezgi ÇOBAN",
-      "title": ""
-    },
-    {
-      "id": "i069",
-      "name": "Fadime YILMAZ",
-      "title": ""
-    },
-    {
-      "id": "i070",
-      "name": "Fatma  ALİBAZ",
-      "title": ""
-    },
-    {
-      "id": "i071",
+      "id": "fatma_ali̇baz",
       "name": "Fatma ALİBAZ",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i072",
-      "name": "Fatma TEMİZ",
-      "title": ""
+      "id": "güzide_nevsun_i̇nanç",
+      "name": "Güzide Nevsun İNANÇ",
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i073",
-      "name": "Fergün YILMAZ",
-      "title": ""
-    },
-    {
-      "id": "i074",
-      "name": "Gastroenterology",
-      "title": ""
-    },
-    {
-      "id": "i075",
-      "name": "Gen. Surgery",
-      "title": ""
-    },
-    {
-      "id": "i076",
-      "name": "General Surgery",
-      "title": ""
-    },
-    {
-      "id": "i077",
-      "name": "Goncagül HAKLAR",
-      "title": ""
-    },
-    {
-      "id": "i078",
-      "name": "Group 2A",
-      "title": ""
-    },
-    {
-      "id": "i079",
-      "name": "Group 2B",
-      "title": ""
-    },
-    {
-      "id": "i080",
-      "name": "Gökhan TAZEGÜL",
-      "title": ""
-    },
-    {
-      "id": "i082",
-      "name": "Hakkı ARIKAN",
-      "title": ""
-    },
-    {
-      "id": "i083",
+      "id": "halil_ataş",
       "name": "Halil ATAŞ",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i084",
-      "name": "Halit YARDIMCI",
-      "title": ""
+      "id": "hülya_iliksu_gözü",
+      "name": "Hülya ILIKSU GÖZÜ",
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i085",
-      "name": "Haluk Tarık KANİ",
-      "title": ""
-    },
-    {
-      "id": "i086",
-      "name": "Handan KAYA",
-      "title": ""
-    },
-    {
-      "id": "i087",
-      "name": "Haner DİRESKENELİ",
-      "title": ""
-    },
-    {
-      "id": "i088",
-      "name": "Harun ÇOBAN",
-      "title": ""
-    },
-    {
-      "id": "i089",
-      "name": "Haydar Kamil ÇAM/ Yusuf  ŞENOĞLU",
-      "title": ""
-    },
-    {
-      "id": "i090",
-      "name": "Hazal ŞALVA",
-      "title": ""
-    },
-    {
-      "id": "i091",
-      "name": "Hülya GÖZÜ",
-      "title": ""
-    },
-    {
-      "id": "i092",
-      "name": "Hülya KARADAĞ",
-      "title": ""
-    },
-    {
-      "id": "i093",
-      "name": "Hüseyin ARIKAN",
-      "title": ""
-    },
-    {
-      "id": "i094",
-      "name": "Infect Dis.",
-      "title": ""
-    },
-    {
-      "id": "i095",
-      "name": "Infectious Diseases",
-      "title": ""
-    },
-    {
-      "id": "i096",
+      "id": "işık_atagündüz",
       "name": "Işık ATAGÜNDÜZ",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i097",
-      "name": "Koray AK",
-      "title": ""
+      "id": "i̇_hakkı_arikan",
+      "name": "İ. Hakkı ARIKAN",
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i098",
-      "name": "Lütfiye MULAZIMOĞLU",
-      "title": ""
+      "id": "i̇brahim_vedat_bayoğlu",
+      "name": "İbrahim Vedat BAYOĞLU",
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i099",
+      "id": "lütfiye_mülazimoğlu",
       "name": "Lütfiye MÜLAZIMOĞLU",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i100",
-      "name": "Medical Oncology",
-      "title": ""
-    },
-    {
-      "id": "i101",
+      "id": "mehmet_koç",
       "name": "Mehmet KOÇ",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i102",
-      "name": "Mert ÖZDEMİR",
-      "title": ""
-    },
-    {
-      "id": "i104",
-      "name": "Murat DEMİRCİ",
-      "title": ""
-    },
-    {
-      "id": "i105",
-      "name": "Murat SARI",
-      "title": ""
-    },
-    {
-      "id": "i106",
-      "name": "Murat TUĞCU",
-      "title": ""
-    },
-    {
-      "id": "i107",
-      "name": "Mustafa Alperen TUNÇ",
-      "title": ""
-    },
-    {
-      "id": "i108",
-      "name": "Mustafa ERDOĞAN",
-      "title": ""
-    },
-    {
-      "id": "i109",
-      "name": "Mustafa ÜMİT UĞURLU/ Halit YARDIMCI",
-      "title": ""
-    },
-    {
-      "id": "i110",
-      "name": "Nazım DEMİRCAN",
-      "title": ""
-    },
-    {
-      "id": "i111",
-      "name": "Nephrology",
-      "title": ""
-    },
-    {
-      "id": "i112",
-      "name": "Nevsun İNANÇ",
-      "title": ""
-    },
-    {
-      "id": "i113",
+      "id": "neşe_i̇meryüz",
       "name": "Neşe İMERYÜZ",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i114",
+      "id": "nurten_sayar",
       "name": "Nurten SAYAR",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i115",
-      "name": "Oncology Outpatient Clinics",
-      "title": ""
+      "id": "osman_cavit_özdoğan",
+      "name": "Osman Cavit ÖZDOĞAN",
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i116",
-      "name": "Osman KÖSTEK",
-      "title": ""
-    },
-    {
-      "id": "i117",
-      "name": "Osman ÖZDOĞAN",
-      "title": ""
-    },
-    {
-      "id": "i119",
-      "name": "Pamir ATAGÜNDÜZ",
-      "title": ""
-    },
-    {
-      "id": "i120",
-      "name": "Pathology",
-      "title": ""
-    },
-    {
-      "id": "i121",
-      "name": "Program Coordinators",
-      "title": ""
-    },
-    {
-      "id": "i122",
-      "name": "Psychiatry",
-      "title": ""
-    },
-    {
-      "id": "i123",
-      "name": "Pınar EREL",
-      "title": ""
-    },
-    {
-      "id": "i124",
-      "name": "Radiation Oncology",
-      "title": ""
-    },
-    {
-      "id": "i126",
-      "name": "Rana Berru ÖZİNCE",
-      "title": ""
-    },
-    {
-      "id": "i127",
-      "name": "Sait KARAKURT",
-      "title": ""
-    },
-    {
-      "id": "i128",
-      "name": "Semih ÖZEROL",
-      "title": ""
-    },
-    {
-      "id": "i129",
-      "name": "Serhan TUĞLULAR",
-      "title": ""
-    },
-    {
-      "id": "i130",
-      "name": "Sibel ZARALI",
-      "title": ""
-    },
-    {
-      "id": "i131",
-      "name": "Sports Physiology",
-      "title": ""
-    },
-    {
-      "id": "i132",
-      "name": "Tarık KANİ",
-      "title": ""
-    },
-    {
-      "id": "i133",
-      "name": "Tayfur TOPTAŞ",
-      "title": ""
-    },
-    {
-      "id": "i134",
-      "name": "Thoracic Surgery",
-      "title": ""
-    },
-    {
-      "id": "i135",
-      "name": "Tunç LAÇİN",
-      "title": ""
-    },
-    {
-      "id": "i136",
-      "name": "Turgay ÇELİKEL",
-      "title": ""
-    },
-    {
-      "id": "i137",
-      "name": "Uluhan SİLİ",
-      "title": ""
-    },
-    {
-      "id": "i138",
-      "name": "Umut Sabri KASAPOĞLU",
-      "title": ""
-    },
-    {
-      "id": "i139",
-      "name": "Urology",
-      "title": ""
-    },
-    {
-      "id": "i140",
-      "name": "Vedat BAYOĞLU",
-      "title": ""
-    },
-    {
-      "id": "i141",
-      "name": "Yasin YILDIZ",
-      "title": ""
-    },
-    {
-      "id": "i142",
-      "name": "Yağmur Göksoy SOLAK",
-      "title": ""
-    },
-    {
-      "id": "i143",
-      "name": "Yeşim ALAHDAB",
-      "title": ""
-    },
-    {
-      "id": "i144",
-      "name": "Yeşim AĞYOL",
-      "title": ""
-    },
-    {
-      "id": "i145",
-      "name": "Zekaver ODABAŞI",
-      "title": ""
-    },
-    {
-      "id": "i146",
-      "name": "Zekeriya DOĞAN",
-      "title": ""
-    },
-    {
-      "id": "i147",
-      "name": "Zerrin ÖZGEN/ İlknur ÇETİN",
-      "title": ""
-    },
-    {
-      "id": "i148",
-      "name": "Zeynep Beşışık YILMAZ",
-      "title": ""
-    },
-    {
-      "id": "i149",
-      "name": "Zeynep MERCANCI",
-      "title": ""
-    },
-    {
-      "id": "i150",
-      "name": "Çağrı KAFKAS",
-      "title": ""
-    },
-    {
-      "id": "i151",
-      "name": "Ömer YANARTAŞ",
-      "title": ""
-    },
-    {
-      "id": "i152",
-      "name": "Önder ŞİRİKÇİ",
-      "title": ""
-    },
-    {
-      "id": "i153",
-      "name": "Özlem DEMİRCİOĞLU",
-      "title": ""
-    },
-    {
-      "id": "i154",
+      "id": "özlem_üstay",
       "name": "Özlem ÜSTAY",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i155",
+      "id": "özlen_atuğ",
       "name": "Özlen ATUĞ",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i156",
-      "name": "Ümit ÖZTÜRK",
-      "title": ""
+      "id": "pamir_atagündüz",
+      "name": "Pamir ATAGÜNDÜZ",
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i157",
+      "id": "rafi_haner_di̇reskeneli̇",
+      "name": "Rafi Haner DİRESKENELİ",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "sait_karakurt",
+      "name": "Sait KARAKURT",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "şehnaz_olgun_yildizeli̇",
       "name": "Şehnaz OLGUN YILDIZELİ",
-      "title": ""
+      "title": "",
+      "department": ""
     },
     {
-      "id": "i158",
-      "name": "Şehnaz Olgun YILDIZELİ",
-      "title": ""
+      "id": "tayfur_toptaş",
+      "name": "Tayfur TOPTAŞ",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "turgay_çeli̇kel",
+      "name": "Turgay ÇELİKEL",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "uluhan_si̇li̇",
+      "name": "Uluhan SİLİ",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "yeşim_alahdab",
+      "name": "Yeşim ALAHDAB",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "zekaver_odabaşi",
+      "name": "Zekaver ODABAŞI",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "zübeyde_serhan_tuğlular",
+      "name": "Zübeyde Serhan TUĞLULAR",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "asu_fergün_yilmaz",
+      "name": "Asu Fergün YILMAZ",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "buket_ertürk_şengel",
+      "name": "Buket ERTÜRK ŞENGEL",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "coşkun_özer_demi̇rtaş",
+      "name": "Coşkun Özer DEMİRTAŞ",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "derya_kocakaya",
+      "name": "Derya KOCAKAYA",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "dilek_barutçu_ataş",
+      "name": "Dilek BARUTÇU ATAŞ",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "dilek_yağci_çağlayik",
+      "name": "Dilek YAĞCI ÇAĞLAYIK",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "eren_i̇mre",
+      "name": "Eren İMRE",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "gökhan_tazegül",
+      "name": "Gökhan TAZEGÜL",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "haluk_tarık_kani̇",
+      "name": "Haluk Tarık KANİ",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "murat_sari",
+      "name": "Murat SARI",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "murat_tuğcu",
+      "name": "Murat TUĞCU",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "mustafa_erdoğan",
+      "name": "Mustafa ERDOĞAN",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "osman_köstek",
+      "name": "Osman KÖSTEK",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "umut_sabri_kasapoğlu",
+      "name": "Umut Sabri KASAPOĞLU",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "zekeriya_doğan",
+      "name": "Zekeriya DOĞAN",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "nazım_demi̇rcan",
+      "name": "Nazım DEMİRCAN",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "büşra_can",
+      "name": "Büşra CAN",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "caner_çinar",
+      "name": "Caner ÇINAR",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "erdem_yalçinkaya",
+      "name": "Erdem YALÇINKAYA",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "ezgi_çoban",
+      "name": "Ezgi ÇOBAN",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "hüseyin_arikan",
+      "name": "Hüseyin ARIKAN",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "zeynep_mercanci",
+      "name": "Zeynep MERCANCI",
+      "title": "",
+      "department": ""
+    },
+    {
+      "id": "abdüssamet_çelebi̇",
+      "name": "Abdüssamet ÇELEBİ",
+      "title": "",
+      "department": "Medical Oncology"
+    },
+    {
+      "id": "abidin_gündoğdu",
+      "name": "Abidin GÜNDOĞDU",
+      "title": "",
+      "department": "Internal Medicine"
+    },
+    {
+      "id": "aida_shi̇khali̇yeva",
+      "name": "Aida SHİKHALİYEVA",
+      "title": "",
+      "department": "Rheumatology"
+    },
+    {
+      "id": "akın_işik",
+      "name": "Akın IŞIK",
+      "title": "",
+      "department": "Rheumatology"
+    },
+    {
+      "id": "ali_kaan_güren",
+      "name": "Ali Kaan GÜREN",
+      "title": "",
+      "department": "Medical Oncology"
+    },
+    {
+      "id": "arda_bayar",
+      "name": "Arda BAYAR",
+      "title": "",
+      "department": "Hematology"
+    },
+    {
+      "id": "aslı_karataş",
+      "name": "Aslı KARATAŞ",
+      "title": "",
+      "department": "Endocrinology"
+    },
+    {
+      "id": "ayhan_kol",
+      "name": "Ayhan KOL",
+      "title": "",
+      "department": "Cardiology"
+    },
+    {
+      "id": "ayşegül_avcu",
+      "name": "Ayşegül AVCU",
+      "title": "",
+      "department": "Rheumatology"
+    },
+    {
+      "id": "bilge_ada_özcan",
+      "name": "Bilge Ada ÖZCAN",
+      "title": "",
+      "department": "Internal Medicine"
+    },
+    {
+      "id": "burak_paçaci",
+      "name": "Burak PAÇACI",
+      "title": "",
+      "department": "Medical Oncology"
+    },
+    {
+      "id": "bülent_demi̇relli̇",
+      "name": "Bülent DEMİRELLİ",
+      "title": "",
+      "department": "Nephrology"
+    },
+    {
+      "id": "cansu_uzunkonak",
+      "name": "Cansu UZUNKONAK",
+      "title": "",
+      "department": "Nephrology"
+    },
+    {
+      "id": "cansu_yildiz",
+      "name": "Cansu YILDIZ",
+      "title": "",
+      "department": "Pulmonary Medicine"
+    },
+    {
+      "id": "ceren_uzunoğlu_güren",
+      "name": "Ceren UZUNOĞLU GÜREN",
+      "title": "",
+      "department": "Hematology"
+    },
+    {
+      "id": "emre_çapar",
+      "name": "Emre ÇAPAR",
+      "title": "",
+      "department": "Internal Medicine"
+    },
+    {
+      "id": "erkam_kocaaslan",
+      "name": "Erkam KOCAASLAN",
+      "title": "",
+      "department": "Medical Oncology"
+    },
+    {
+      "id": "esra_dicle_kaya",
+      "name": "Esra Dicle KAYA",
+      "title": "",
+      "department": "Geriatrics"
+    },
+    {
+      "id": "fadime_yilmaz",
+      "name": "Fadime YILMAZ",
+      "title": "",
+      "department": "Internal Medicine"
+    },
+    {
+      "id": "fatma_arikan",
+      "name": "Fatma ARIKAN",
+      "title": "",
+      "department": "Hematology"
+    },
+    {
+      "id": "fatma_temi̇z",
+      "name": "Fatma TEMİZ",
+      "title": "",
+      "department": "Hematology"
+    },
+    {
+      "id": "harun_çoban",
+      "name": "Harun ÇOBAN",
+      "title": "",
+      "department": "Nephrology"
+    },
+    {
+      "id": "hazal_şalva",
+      "name": "Hazal ŞALVA",
+      "title": "",
+      "department": "Endocrinology"
+    },
+    {
+      "id": "hülya_karadağ",
+      "name": "Hülya KARADAĞ",
+      "title": "",
+      "department": "Nephrology"
+    },
+    {
+      "id": "murat_demi̇rci̇",
+      "name": "Murat DEMİRCİ",
+      "title": "",
+      "department": "Cardiology"
+    },
+    {
+      "id": "mustafa_alperen_tunç",
+      "name": "Mustafa Alperen TUNÇ",
+      "title": "",
+      "department": "Medical Oncology"
+    },
+    {
+      "id": "pınar_erel",
+      "name": "Pınar EREL",
+      "title": "",
+      "department": "Medical Oncology"
+    },
+    {
+      "id": "rana_berru_özi̇nce",
+      "name": "Rana Berru ÖZİNCE",
+      "title": "",
+      "department": "Hematology"
+    },
+    {
+      "id": "semih_özerol",
+      "name": "Semih ÖZEROL",
+      "title": "",
+      "department": "Hematology"
+    },
+    {
+      "id": "sibel_zarali",
+      "name": "Sibel ZARALI",
+      "title": "",
+      "department": "Rheumatology"
+    },
+    {
+      "id": "yasin_yildiz",
+      "name": "Yasin YILDIZ",
+      "title": "",
+      "department": "Geriatrics"
+    },
+    {
+      "id": "yağmur_göksoy_solak",
+      "name": "Yağmur Göksoy SOLAK",
+      "title": "",
+      "department": "Endocrinology"
+    },
+    {
+      "id": "yeşim_ağyol",
+      "name": "Yeşim AĞYOL",
+      "title": "",
+      "department": "Medical Oncology"
+    },
+    {
+      "id": "zeynep_rümeysa_beşişik_yilmaz",
+      "name": "Zeynep Rümeysa BEŞIŞIK YILMAZ",
+      "title": "",
+      "department": "Geriatrics"
+    },
+    {
+      "id": "ümit_öztürk",
+      "name": "Ümit ÖZTÜRK",
+      "title": "",
+      "department": "Cardiology"
     }
   ]
 }

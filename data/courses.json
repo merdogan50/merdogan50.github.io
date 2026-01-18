@@ -2,415 +2,528 @@
   "courses": [
     {
       "id": "c001",
-      "name": "ASSESSMENT"
+      "name": "ASSESSMENT",
+      "blockId": "exam"
     },
     {
       "id": "c002",
-      "name": "Abdominal pain and constipation"
+      "name": "Abdominal pain and constipation",
+      "blockId": "gastro"
     },
     {
       "id": "c003",
-      "name": "Acid-Base Disorders"
+      "name": "Acid-Base Disorders",
+      "blockId": "nefro"
     },
     {
       "id": "c004",
-      "name": "Acute Kidney Injury"
+      "name": "Acute Kidney Injury",
+      "blockId": "nefro"
     },
     {
       "id": "c005",
-      "name": "Acute diarrhea and food poisoning"
+      "name": "Acute diarrhea and food poisoning",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c006",
-      "name": "Approach to adult dysphagia-surgical evaluation and treatment"
+      "name": "Approach to adult dysphagia-surgical evaluation and treatment",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c007",
-      "name": "Approach to jaundice"
+      "name": "Approach to jaundice",
+      "blockId": "gastro"
     },
     {
       "id": "c008",
-      "name": "Approach to patients with cardiac emergencies"
+      "name": "Approach to patients with cardiac emergencies",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c009",
-      "name": "Approach to pts with acute chest pain"
+      "name": "Approach to pts with acute chest pain",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c010",
-      "name": "Approach to pts with cardiometabolic risk factors"
+      "name": "Approach to pts with cardiometabolic risk factors",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c011",
-      "name": "Approach to pts with chronic chest pain"
+      "name": "Approach to pts with chronic chest pain",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c012",
-      "name": "Approach to pts with heart failure"
+      "name": "Approach to pts with heart failure",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c013",
-      "name": "Approach to pts with pericardial disease"
+      "name": "Approach to pts with pericardial disease",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c014",
-      "name": "Approach to pts with presyncope/syncope"
+      "name": "Approach to pts with presyncope/syncope",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c015",
-      "name": "Approach to pts with systemic diseases affecting the heart"
+      "name": "Approach to pts with systemic diseases affecting the heart",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c016",
-      "name": "Approach to pts with tachyarrhythmias and bradyarrhythmias"
+      "name": "Approach to pts with tachyarrhythmias and bradyarrhythmias",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c017",
-      "name": "Approach to pts with thrombocytosis and polycythemia"
+      "name": "Approach to pts with thrombocytosis and polycythemia",
+      "blockId": "hemato"
     },
     {
       "id": "c018",
-      "name": "Approach to pts with valvular heart diseases"
+      "name": "Approach to pts with valvular heart diseases",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c019",
-      "name": "Approach to the Patient with Anemia"
+      "name": "Approach to the Patient with Anemia",
+      "blockId": "hemato"
     },
     {
       "id": "c020",
-      "name": "Approach to the Patient with Lymphadenopathy (LAP)"
+      "name": "Approach to the Patient with Lymphadenopathy (LAP)",
+      "blockId": "hemato"
     },
     {
       "id": "c021",
-      "name": "Approach to the Patient with Splenomegaly"
+      "name": "Approach to the Patient with Splenomegaly",
+      "blockId": "hemato"
     },
     {
       "id": "c022",
-      "name": "Approach to the patient with cardiac signs and symptoms"
+      "name": "Approach to the patient with cardiac signs and symptoms",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c023",
-      "name": "Approach to the patient with pancytopenia"
+      "name": "Approach to the patient with pancytopenia",
+      "blockId": "hemato"
     },
     {
       "id": "c024",
-      "name": "Approach to the patient with pulmonary symptoms and signs"
+      "name": "Approach to the patient with pulmonary symptoms and signs",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c025",
-      "name": "Approach to the patients with Congenital Heart Dis. in Adulthood"
+      "name": "Approach to the patients with Congenital Heart Dis. in Adulthood",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c026",
-      "name": "Approach to thyroid nodules"
+      "name": "Approach to thyroid nodules",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c027",
-      "name": "Approach to and management of diabetic patients"
+      "name": "Approach to\u00a0and management of\u00a0diabetic patients",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c028",
-      "name": "Asthma"
+      "name": "Asthma",
+      "blockId": "gogus"
     },
     {
       "id": "c029",
-      "name": "Bed-side"
+      "name": "Bed-side",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c030",
-      "name": "Bedside – Outpatient Case Discussion"
+      "name": "Bedside \u2013 Outpatient Case Discussion",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c031",
-      "name": "Behçet‘s disease/ FMF"
+      "name": "Beh\u00e7et\u2018s disease/ FMF",
+      "blockId": "onko_romato"
     },
     {
       "id": "c032",
-      "name": "COPD"
+      "name": "COPD",
+      "blockId": "gogus"
     },
     {
       "id": "c033",
-      "name": "Chest Radiology"
+      "name": "Chest Radiology",
+      "blockId": "gogus"
     },
     {
       "id": "c034",
-      "name": "Chronic Kidney Failure"
+      "name": "Chronic Kidney Failure",
+      "blockId": "nefro"
     },
     {
       "id": "c035",
-      "name": "Chronic diarrhea"
+      "name": "Chronic diarrhea",
+      "blockId": "gastro"
     },
     {
       "id": "c036",
-      "name": "Chronic hepatitis"
+      "name": "Chronic hepatitis",
+      "blockId": "gastro"
     },
     {
       "id": "c037",
-      "name": "Clinical Tutorial (Bedside)"
+      "name": "Clinical Tutorial (Bedside)",
+      "blockId": "onko_romato"
     },
     {
       "id": "c038",
-      "name": "Clinical Tutorial /Bedside"
+      "name": "Clinical Tutorial /Bedside",
+      "blockId": "nefro"
     },
     {
       "id": "c039",
-      "name": "Clinical Tutorial/ Bedside"
+      "name": "Clinical Tutorial/ Bedside",
+      "blockId": "hemato"
     },
     {
       "id": "c040",
-      "name": "Clinical Tutorial/Bedside"
+      "name": "Clinical Tutorial/Bedside",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c041",
-      "name": "Complications of cirrhosis"
+      "name": "Complications of cirrhosis",
+      "blockId": "gastro"
     },
     {
       "id": "c042",
-      "name": "Diabetic emergencies"
+      "name": "Diabetic emergencies",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c043",
-      "name": "Diagnostic procedures"
+      "name": "Diagnostic procedures",
+      "blockId": "gogus"
     },
     {
       "id": "c044",
-      "name": "Differential diagnosis of metabolic bone diseases"
+      "name": "Differential diagnosis of metabolic bone diseases",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c045",
-      "name": "Dyspepsia and peptic ulcer"
+      "name": "Dyspepsia and peptic ulcer",
+      "blockId": "gastro"
     },
     {
       "id": "c046",
-      "name": "ENDOCARDITIS"
+      "name": "ENDOCARDITIS",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c047",
-      "name": "Endocrine Emergencies"
+      "name": "Endocrine Emergencies",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c048",
-      "name": "Enteric fever and brucellosis"
+      "name": "Enteric fever and brucellosis",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c049",
-      "name": "Examination of the abdomen"
+      "name": "Examination of the abdomen",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c050",
-      "name": "Examination of the cardiovascular system and measurement of blood pressure"
+      "name": "Examination of the cardiovascular system and measurement of blood pressure",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c051",
-      "name": "Examination of the chest and respiratory system"
+      "name": "Examination of the chest and respiratory system",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c052",
-      "name": "Examination of the extremities and musculoskeletal system"
+      "name": "Examination of the extremities and musculoskeletal system",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c053",
-      "name": "Examination of the head and neck"
+      "name": "Examination of the head and neck",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c054",
-      "name": "FUO"
+      "name": "FUO",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c055",
-      "name": "Free study time"
+      "name": "Free study time",
+      "blockId": "hemato"
     },
     {
       "id": "c056",
-      "name": "Free study time for patient file preparation"
+      "name": "Free study time for patient file preparation",
+      "blockId": "onko_romato"
     },
     {
       "id": "c057",
-      "name": "Free study time for patient file preperation"
-    },
-    {
-      "id": "c060",
-      "name": "Gastrointestinal hemorrhage"
-    },
-    {
-      "id": "c061",
-      "name": "Glomerulonephritis"
+      "name": "Free study time for patient file preperation",
+      "blockId": "gogus"
     },
     {
       "id": "c062",
-      "name": "Group 2A"
+      "name": "Group 2A",
+      "blockId": "gogus"
     },
     {
       "id": "c063",
-      "name": "Group 2B"
+      "name": "Group 2B",
+      "blockId": "gogus"
+    },
+    {
+      "id": "c060",
+      "name": "Gastrointestinal hemorrhage",
+      "blockId": "gastro"
+    },
+    {
+      "id": "c061",
+      "name": "Glomerulonephritis",
+      "blockId": "nefro"
+    },
+    {
+      "id": "c062",
+      "name": "Group 2A",
+      "blockId": "gogus"
+    },
+    {
+      "id": "c063",
+      "name": "Group 2B",
+      "blockId": "gogus"
     },
     {
       "id": "c064",
-      "name": "History taking"
+      "name": "History taking",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c065",
-      "name": "Hyperthyroidism"
+      "name": "Hyperthyroidism",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c066",
-      "name": "Hypothyroidism"
+      "name": "Hypothyroidism",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c067",
-      "name": "Inpatient case discussion and interactive differential diagnosis"
+      "name": "Inpatient case discussion and interactive differential diagnosis",
+      "blockId": "ortak_bedside"
     },
     {
       "id": "c068",
-      "name": "Interstitial Lung Disease"
+      "name": "Interstitial Lung Disease",
+      "blockId": "gogus"
     },
     {
       "id": "c069",
-      "name": "Intestinal/Blood and Tissue Parasites"
+      "name": "Intestinal/Blood and Tissue Parasites",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c070",
-      "name": "Introduction to oncology and general principles"
+      "name": "Introduction to oncology and general principles",
+      "blockId": "onko_romato"
     },
     {
       "id": "c071",
-      "name": "Management of Bleeding Disorders"
+      "name": "Management of Bleeding Disorders",
+      "blockId": "hemato"
     },
     {
       "id": "c072",
-      "name": "Management of Diabetes and Thyroid Disorders in Pregnancy"
+      "name": "Management of Diabetes and Thyroid Disorders in Pregnancy",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c073",
-      "name": "Management of Pleural effusion"
+      "name": "Management of Pleural effusion",
+      "blockId": "gogus"
     },
     {
       "id": "c074",
-      "name": "Management of Tbc"
+      "name": "Management of Tbc",
+      "blockId": "gogus"
     },
     {
       "id": "c075",
-      "name": "Meningitis-Meningoencefalitis"
+      "name": "Meningitis-Meningoencefalitis",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c076",
-      "name": "Multidisciplinary learning session"
+      "name": "Multidisciplinary learning session",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c077",
-      "name": "Multidisciplinary learning session (Panel)"
+      "name": "Multidisciplinary learning session (Panel)",
+      "blockId": "onko_romato"
     },
     {
       "id": "c078",
-      "name": "On the job Learning Session"
-    },
-    {
-      "id": "c079",
-      "name": "On-the-job learning and assessment Session"
+      "name": "On the job Learning Session",
+      "blockId": "nefro"
     },
     {
       "id": "c080",
-      "name": "On-the-job learning and assessment session"
+      "name": "On-the-job learning and assessment session",
+      "blockId": "enf_endokrin_1"
+    },
+    {
+      "id": "c080",
+      "name": "On-the-job learning and assessment session",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c081",
-      "name": "Oncologic emergencies"
+      "name": "Oncologic emergencies",
+      "blockId": "onko_romato"
     },
     {
       "id": "c082",
-      "name": "PROGRAM EVALUATION"
-    },
-    {
-      "id": "c083",
-      "name": "Patient File Discussion"
-    },
-    {
-      "id": "c084",
-      "name": "Patient File Preparation"
+      "name": "PROGRAM EVALUATION",
+      "blockId": "exam"
     },
     {
       "id": "c085",
-      "name": "Patient file discussion"
+      "name": "Patient file discussion",
+      "blockId": "onko_romato"
+    },
+    {
+      "id": "c084",
+      "name": "Patient File Preparation",
+      "blockId": "semiyoloji_1"
+    },
+    {
+      "id": "c085",
+      "name": "Patient file discussion",
+      "blockId": "onko_romato"
     },
     {
       "id": "c086",
-      "name": "Pituitary disorders"
+      "name": "Pituitary disorders",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c087",
-      "name": "Pneumonia"
-    },
-    {
-      "id": "c088",
-      "name": "Professionalism and Counseling Session"
+      "name": "Pneumonia",
+      "blockId": "gogus"
     },
     {
       "id": "c089",
-      "name": "Professionalism and counseling session"
+      "name": "Professionalism and counseling session",
+      "blockId": "gogus"
+    },
+    {
+      "id": "c089",
+      "name": "Professionalism and counseling session",
+      "blockId": "gogus"
     },
     {
       "id": "c090",
-      "name": "Pulmonary Hypertension"
+      "name": "Pulmonary Hypertension",
+      "blockId": "kardiyo_1"
     },
     {
       "id": "c091",
-      "name": "Pulmonary embolism"
+      "name": "Pulmonary embolism",
+      "blockId": "gogus"
     },
     {
       "id": "c092",
-      "name": "Reflection session/Chest Medicine"
+      "name": "Reflection session/Chest Medicine",
+      "blockId": "gogus"
     },
     {
       "id": "c093",
-      "name": "Relationship between patients and doctors: “On being a doctor”"
+      "name": "Relationship between patients and doctors: \u201cOn being a doctor\u201d",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c094",
-      "name": "Respiratory Failure"
+      "name": "Respiratory Failure",
+      "blockId": "gogus"
     },
     {
       "id": "c095",
-      "name": "SLE/CTD"
+      "name": "SLE/CTD",
+      "blockId": "onko_romato"
     },
     {
       "id": "c096",
-      "name": "Sepsis"
+      "name": "Sepsis",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c097",
-      "name": "Sexually Transmitted Diseases"
+      "name": "Sexually Transmitted Diseases",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c098",
-      "name": "Tour of wards, departments"
+      "name": "Tour of wards, departments",
+      "blockId": "semiyoloji_1"
     },
     {
       "id": "c099",
-      "name": "Transfusion: Indication, complication and practice"
+      "name": "Transfusion: Indication, complication and practice",
+      "blockId": "hemato"
     },
     {
       "id": "c100",
-      "name": "Treatment choices for diabetic patients - Oral anti-diabetics"
+      "name": "Treatment choices for diabetic patients -\u00a0Oral anti-diabetics",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c101",
-      "name": "Upper Respiratory Tract Infections and COVID-19"
+      "name": "Upper Respiratory Tract Infections and COVID-19",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c102",
-      "name": "Urinary Tract Infections"
+      "name": "Urinary Tract Infections",
+      "blockId": "enf_endokrin_1"
     },
     {
       "id": "c103",
-      "name": "Vasculitis"
+      "name": "Vasculitis",
+      "blockId": "onko_romato"
     },
     {
       "id": "c104",
-      "name": "Water and Electrolyte Disorders"
+      "name": "Water and Electrolyte Disorders",
+      "blockId": "nefro"
     },
     {
       "id": "c105",
-      "name": "White Coat Ceremony – Beyaz Önlük Giyme Töreni"
+      "name": "White Coat Ceremony \u2013 Beyaz \u00d6nl\u00fck Giyme T\u00f6reni",
+      "blockId": "semiyoloji_1"
     }
   ]
 }

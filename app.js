@@ -48,6 +48,7 @@ async function init() {
         setupProgramSelector();
         calculateWeekDates();
         populateFilters();
+        populateTimeSlots();
         renderSchedule();
         setupEventListeners();
         updateSettingsDisplay();
@@ -59,23 +60,24 @@ async function init() {
 }
 
 async function loadAllData() {
+    const cacheBuster = `?v=${Date.now()}`;
     const [programs, settings, sessions, instructors, courses, blocks] = await Promise.all([
-        fetch('data/programs.json').then(r => r.json()),
-        fetch('data/settings.json').then(r => r.json()),
-        fetch('data/sessions.json').then(r => r.json()),
-        fetch('data/instructors.json').then(r => r.json()),
-        fetch('data/courses.json').then(r => r.json()),
-        fetch('data/blocks.json').then(r => r.json())
+        fetch('data/programs.json' + cacheBuster).then(r => r.json()),
+        fetch('data/settings.json' + cacheBuster).then(r => r.json()),
+        fetch('data/sessions.json' + cacheBuster).then(r => r.json()),
+        fetch('data/instructors.json' + cacheBuster).then(r => r.json()),
+        fetch('data/courses.json' + cacheBuster).then(r => r.json()),
+        fetch('data/blocks.json' + cacheBuster).then(r => r.json())
     ]);
 
     // Check localStorage
     const saved = {
-        programs: localStorage.getItem('schedulePrograms_v6'),
-        settings: localStorage.getItem('scheduleSettings_v6'),
-        sessions: localStorage.getItem('scheduleSessions_v6'),
-        blocks: localStorage.getItem('scheduleBlocks_v6'),
-        instructors: localStorage.getItem('scheduleInstructors_v6'),
-        courses: localStorage.getItem('scheduleCourses_v6')
+        programs: localStorage.getItem('schedulePrograms_v7'),
+        settings: localStorage.getItem('scheduleSettings_v7'),
+        sessions: localStorage.getItem('scheduleSessions_v7'),
+        blocks: localStorage.getItem('scheduleBlocks_v7'),
+        instructors: localStorage.getItem('scheduleInstructors_v7'),
+        courses: localStorage.getItem('scheduleCourses_v7')
     };
 
     programsData = saved.programs ? JSON.parse(saved.programs) : programs;
@@ -173,11 +175,24 @@ function populateFilters() {
     blocksData?.blocks?.forEach(block => {
         blockFilter.innerHTML += `<option value="${block.id}">${block.name}</option>`;
     });
+}
 
-    ['editTime', 'addTime'].forEach(id => {
+function populateTimeSlots() {
+    const selects = ['editTime', 'addTime'];
+    selects.forEach(id => {
         const select = document.getElementById(id);
         if (!select) return;
-        select.innerHTML = (settingsData?.sessionTimes || []).map(t => `<option value="${t}">${t}</option>`).join('');
+
+        // Get unique times from all sessions
+        const allTimes = new Set();
+        sessionsData?.sessions?.forEach(s => {
+            if (s.time) allTimes.add(s.time);
+        });
+        settingsData?.sessionTimes?.forEach(t => allTimes.add(t));
+
+        // Sort times
+        const sortedTimes = Array.from(allTimes).sort();
+        select.innerHTML = sortedTimes.map(t => `<option value="${t}">${t}</option>`).join('');
     });
 }
 
@@ -391,10 +406,19 @@ function createSessionRow(session) {
     row.dataset.sessionId = session.id;
 
     const course = coursesData?.courses?.find(c => c.id === session.courseId);
-    const courseName = course?.name || session.courseId || '';
+    const courseName = session.courseName || course?.name || session.courseId || '';
     const instructorNames = getInstructorNames(session.instructorIds);
-    const typeClass = session.type === 'practice' ? 'practice' : 'lecture';
-    const typeLabel = session.type === 'practice' ? 'Practical' : 'Theoretical';
+    // Map session type to display label
+    const typeMap = {
+        'Lecture': 'Lecture',
+        'Practice/Bedside': 'Practice/Bedside',
+        'Clinical Tutorial/Bedside': 'Clinical Tutorial/Bedside',
+        'Practice': 'Practice',
+        'practice': 'Practice',
+        'lecture': 'Lecture'
+    };
+    const typeLabel = typeMap[session.type] || session.type || 'Lecture';
+    const typeClass = session.type?.toLowerCase().includes('practice') || session.type?.toLowerCase().includes('bedside') ? 'practice' : 'lecture';
 
     // Subgroup badge
     let subgroupBadge = '';
@@ -418,7 +442,7 @@ function getInstructorNames(instructorIds) {
     if (!instructorIds || !instructorsData) return '';
     return instructorIds.map(id => {
         const inst = instructorsData.instructors.find(i => i.id === id);
-        return inst ? `${inst.title || ''} ${inst.name}`.trim() : id;
+        return inst ? inst.name : id;  // Only show name, no title
     }).join(', ');
 }
 
@@ -518,14 +542,30 @@ function renderBlockTable() {
     const tbody = document.getElementById('blockTableBody');
     const sortedBlocks = [...blocksData.blocks].sort((a, b) => a.order - b.order);
 
-    tbody.innerHTML = sortedBlocks.map(block => `
+    tbody.innerHTML = sortedBlocks.map((block, index) => `
         <tr>
-            <td><strong>${block.order}</strong></td>
-            <td>${escapeHtml(block.name)}</td>
-            <td>Week ${block.weeks?.join(', ') || '-'}</td>
+            <td>
+                <div style="display:flex;gap:0.25rem;align-items:center;">
+                    <strong>${block.order}</strong>
+                    <div style="display:flex;flex-direction:column;gap:0.1rem;">
+                        ${index > 0 ? `<button class="btn-arrow" onclick="moveBlockUp('${block.id}')" title="Move up">▲</button>` : '<span style="width:20px"></span>'}
+                        ${index < sortedBlocks.length - 1 ? `<button class="btn-arrow" onclick="moveBlockDown('${block.id}')" title="Move down">▼</button>` : '<span style="width:20px"></span>'}
+                    </div>
+                </div>
+            </td>
+            <td>
+                <input type="text" value="${escapeHtml(block.name)}" 
+                    onchange="updateBlockName('${block.id}', this.value)"
+                    style="width:100%;padding:0.25rem;border:1px solid #ddd;border-radius:4px;">
+            </td>
+            <td>
+                <input type="text" value="${block.weeks?.join(', ') || ''}" 
+                    onchange="updateBlockWeeks('${block.id}', this.value)"
+                    placeholder="e.g. 1, 2, 3"
+                    style="width:100%;padding:0.25rem;border:1px solid #ddd;border-radius:4px;">
+            </td>
             <td><span class="color-swatch" style="background:${block.color}"></span></td>
             <td>
-                <button class="btn btn-sm btn-secondary" onclick="editBlock('${block.id}')">Edit</button>
                 <button class="btn btn-sm btn-danger" onclick="deleteBlock('${block.id}')">×</button>
             </td>
         </tr>
@@ -584,20 +624,75 @@ function addNewBlock() {
     showSuccess(`Block "${name}" added.`);
 }
 
-function editBlock(blockId) {
+function moveBlockUp(blockId) {
+    const sortedBlocks = [...blocksData.blocks].sort((a, b) => a.order - b.order);
+    const index = sortedBlocks.findIndex(b => b.id === blockId);
+
+    if (index > 0) {
+        // Swap orders
+        const temp = sortedBlocks[index].order;
+        sortedBlocks[index].order = sortedBlocks[index - 1].order;
+        sortedBlocks[index - 1].order = temp;
+
+        // Recalculate weeks based on new order
+        recalculateBlockWeeks();
+        renderBlockTable();
+        renderSchedule();
+        saveToLocalStorage();
+        showSuccess('Block moved up');
+    }
+}
+
+function moveBlockDown(blockId) {
+    const sortedBlocks = [...blocksData.blocks].sort((a, b) => a.order - b.order);
+    const index = sortedBlocks.findIndex(b => b.id === blockId);
+
+    if (index < sortedBlocks.length - 1) {
+        // Swap orders
+        const temp = sortedBlocks[index].order;
+        sortedBlocks[index].order = sortedBlocks[index + 1].order;
+        sortedBlocks[index + 1].order = temp;
+
+        // Recalculate weeks based on new order
+        recalculateBlockWeeks();
+        renderBlockTable();
+        renderSchedule();
+        saveToLocalStorage();
+        showSuccess('Block moved down');
+    }
+}
+
+function updateBlockName(blockId, newName) {
     const block = blocksData.blocks.find(b => b.id === blockId);
-    if (!block) return;
+    if (block && newName.trim()) {
+        block.name = newName.trim();
+        saveToLocalStorage();
+        showSuccess('Block name updated');
+    }
+}
 
-    const newName = prompt('Block name:', block.name);
-    if (newName) block.name = newName;
+function updateBlockWeeks(blockId, weeksStr) {
+    const block = blocksData.blocks.find(b => b.id === blockId);
+    if (block) {
+        const weeks = weeksStr.split(',').map(n => parseInt(n.trim())).filter(n => !isNaN(n));
+        if (weeks.length > 0) {
+            block.weeks = weeks;
+            renderSchedule();
+            saveToLocalStorage();
+            showSuccess('Block weeks updated');
+        }
+    }
+}
 
-    const newWeeks = prompt('Weeks (comma separated):', block.weeks?.join(','));
-    if (newWeeks) block.weeks = newWeeks.split(',').map(n => parseInt(n.trim())).filter(n => !isNaN(n));
+function recalculateBlockWeeks() {
+    const sortedBlocks = [...blocksData.blocks].sort((a, b) => a.order - b.order);
+    let currentWeek = 1;
 
-    renderBlockTable();
-    populateFilters();
-    renderSchedule();
-    saveToLocalStorage();
+    sortedBlocks.forEach(block => {
+        const weekCount = block.weeks?.length || 1;
+        block.weeks = Array.from({ length: weekCount }, (_, w) => currentWeek + w);
+        currentWeek += weekCount;
+    });
 }
 
 function deleteBlock(blockId) {
@@ -836,13 +931,24 @@ function openEditModal(sessionId) {
     currentEditSession = session;
     document.getElementById('editTime').value = session.time || '';
     document.getElementById('editType').value = session.type || 'lecture';
-    document.getElementById('editSubgroup').value = session.subgroup || 'all';
+    // Handle subgroup - may be single value or array
+    const subgroupSelect = document.getElementById('editSubgroup');
+    const subgroupValue = session.subgroup || 'all';
+    Array.from(subgroupSelect.options).forEach(opt => {
+        opt.selected = (subgroupValue === opt.value) || (Array.isArray(subgroupValue) && subgroupValue.includes(opt.value));
+    });
     document.getElementById('editLocation').value = session.location || 'Pendik';
 
-    selectedCourse = coursesData?.courses?.find(c => c.id === session.courseId);
-    document.getElementById('selectedCourse').innerHTML = selectedCourse
-        ? `<span class="selected-tag">${selectedCourse.name} <button type="button" onclick="clearCourse('edit')">×</button></span>`
-        : '';
+    // Use session.courseName if available, otherwise look up by courseId
+    if (session.courseName) {
+        selectedCourse = { id: session.courseId || '', name: session.courseName };
+        document.getElementById('selectedCourse').innerHTML = `<span class="selected-tag">${session.courseName} <button type="button" onclick="clearCourse('edit')">×</button></span>`;
+    } else {
+        selectedCourse = coursesData?.courses?.find(c => c.id === session.courseId);
+        document.getElementById('selectedCourse').innerHTML = selectedCourse
+            ? `<span class="selected-tag">${selectedCourse.name} <button type="button" onclick="clearCourse('edit')">×</button></span>`
+            : '';
+    }
 
     selectedInstructors = (session.instructorIds || []).map(id => {
         const inst = instructorsData?.instructors?.find(i => i.id === id);
@@ -868,9 +974,12 @@ function handleEditSubmit(e) {
 
     currentEditSession.time = document.getElementById('editTime').value;
     currentEditSession.type = document.getElementById('editType').value;
-    currentEditSession.subgroup = document.getElementById('editSubgroup').value;
+    const editSubgroupSelect = document.getElementById('editSubgroup');
+    const selectedSubgroups = Array.from(editSubgroupSelect.selectedOptions).map(opt => opt.value);
+    currentEditSession.subgroup = selectedSubgroups.length === 1 ? selectedSubgroups[0] : selectedSubgroups;
     currentEditSession.location = document.getElementById('editLocation').value;
-    currentEditSession.courseId = selectedCourse?.id || currentEditSession.courseId;
+    currentEditSession.courseId = selectedCourse?.id || '';
+    currentEditSession.courseName = selectedCourse?.name || '';
     currentEditSession.instructorIds = selectedInstructors.map(i => i.id);
 
     saveToLocalStorage();
@@ -920,7 +1029,11 @@ function handleAddSubmit(e) {
         instructorIds: addSelectedInstructors.map(i => i.id),
         type: document.getElementById('addType').value,
         location: document.getElementById('addLocation').value,
-        subgroup: document.getElementById('addSubgroup').value
+        subgroup: (() => {
+            const addSubgroupSelect = document.getElementById('addSubgroup');
+            const selected = Array.from(addSubgroupSelect.selectedOptions).map(opt => opt.value);
+            return selected.length === 1 ? selected[0] : selected;
+        })()
     };
 
     sessionsData.sessions.push(newSession);
@@ -1016,6 +1129,88 @@ function removeInstructor(instId, mode) {
     else { addSelectedInstructors = addSelectedInstructors.filter(i => i.id !== instId); renderSelectedInstructors('addSelectedInstructors', 'add'); }
 }
 
+function addCustomCourse(mode) {
+    const inputId = mode === 'edit' ? 'courseSearchInput' : 'addCourseSearchInput';
+    const input = document.getElementById(inputId);
+    const courseName = input.value.trim();
+
+    if (!courseName) {
+        showError('Please enter a course name');
+        return;
+    }
+
+    // Check if course already exists
+    let course = coursesData?.courses?.find(c => c.name.toLowerCase() === courseName.toLowerCase());
+
+    // If not, create a new custom course
+    if (!course) {
+        const newId = `c_custom_${Date.now()}`;
+        course = {
+            id: newId,
+            name: courseName,
+            blockId: ''
+        };
+        if (!coursesData) coursesData = { courses: [] };
+        coursesData.courses.push(course);
+        saveToLocalStorage();
+    }
+
+    // Set as selected course
+    if (mode === 'edit') {
+        selectedCourse = course;
+        document.getElementById('selectedCourse').innerHTML = `<span class="selected-tag">${course.name} <button type="button" onclick="clearCourse('edit')">×</button></span>`;
+    } else {
+        addSelectedCourse = course;
+        document.getElementById('addSelectedCourse').innerHTML = `<span class="selected-tag">${course.name} <button type="button" onclick="clearCourse('add')">×</button></span>`;
+    }
+
+    input.value = '';
+    showSuccess(`Course "${courseName}" added`);
+}
+
+function addCustomInstructor(mode) {
+    const inputId = mode === 'edit' ? 'instructorSearchInput' : 'addInstructorSearchInput';
+    const input = document.getElementById(inputId);
+    const instructorName = input.value.trim();
+
+    if (!instructorName) {
+        showError('Please enter an instructor name');
+        return;
+    }
+
+    // Check if instructor already exists
+    let instructor = instructorsData?.instructors?.find(i => i.name.toLowerCase() === instructorName.toLowerCase());
+
+    // If not, create a new custom instructor
+    if (!instructor) {
+        const newId = `i_custom_${Date.now()}`;
+        instructor = {
+            id: newId,
+            name: instructorName,
+            title: '',
+            department: ''
+        };
+        if (!instructorsData) instructorsData = { instructors: [] };
+        instructorsData.instructors.push(instructor);
+        saveToLocalStorage();
+    }
+
+    // Add to selected instructors
+    const currentList = mode === 'edit' ? selectedInstructors : addSelectedInstructors;
+    if (!currentList.some(i => i.id === instructor.id)) {
+        if (mode === 'edit') {
+            selectedInstructors.push(instructor);
+            renderSelectedInstructors('selectedInstructors', 'edit');
+        } else {
+            addSelectedInstructors.push(instructor);
+            renderSelectedInstructors('addSelectedInstructors', 'add');
+        }
+    }
+
+    input.value = '';
+    showSuccess(`Instructor "${instructorName}" added`);
+}
+
 // ==================== IMPORT / EXPORT ====================
 
 function openImportModal() { document.getElementById('importModal').classList.remove('hidden'); }
@@ -1094,12 +1289,12 @@ function exportToPdf() {
 // ==================== STORAGE & UTILS ====================
 
 function saveToLocalStorage() {
-    localStorage.setItem('schedulePrograms_v6', JSON.stringify(programsData));
-    localStorage.setItem('scheduleSettings_v6', JSON.stringify(settingsData));
-    localStorage.setItem('scheduleSessions_v6', JSON.stringify(sessionsData));
-    localStorage.setItem('scheduleBlocks_v6', JSON.stringify(blocksData));
-    localStorage.setItem('scheduleInstructors_v6', JSON.stringify(instructorsData));
-    localStorage.setItem('scheduleCourses_v6', JSON.stringify(coursesData));
+    localStorage.setItem('schedulePrograms_v7', JSON.stringify(programsData));
+    localStorage.setItem('scheduleSettings_v7', JSON.stringify(settingsData));
+    localStorage.setItem('scheduleSessions_v7', JSON.stringify(sessionsData));
+    localStorage.setItem('scheduleBlocks_v7', JSON.stringify(blocksData));
+    localStorage.setItem('scheduleInstructors_v7', JSON.stringify(instructorsData));
+    localStorage.setItem('scheduleCourses_v7', JSON.stringify(coursesData));
     updateLastUpdate();
 }
 
